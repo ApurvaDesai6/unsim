@@ -4,6 +4,7 @@ import path from "path";
 import type { AnalyzedResolution, Committee, CountryProfile, PolicyDimensions, CountryVote, VoteResult, PositionFactor } from "@/types";
 import { getCommitteeConfig, isP5, isSCMember } from "@/engines/committees";
 import { buildFeatureVector, predictWithModel } from "@/engines/trained-model";
+import { predictVoteFromGraph } from "@/lib/knowledge-graph";
 
 interface TopicRates { yesRate: number; noRate: number; abstainRate: number; sampleSize: number }
 interface SimilarCountry { country: string; similarity: number; shared: number }
@@ -99,7 +100,18 @@ function simulate(
       peerSignal,
     });
 
-    const probs = predictWithModel(features);
+    const modelProbs = predictWithModel(features);
+
+    // Ensemble: combine trained model (60%) with graph retrieval (40%)
+    const graphPred = predictVoteFromGraph(country.iso3, matchedIssue);
+    const ENSEMBLE_MODEL_WEIGHT = graphPred.method === "direct-history" ? 0.4 : 0.7;
+    const ENSEMBLE_GRAPH_WEIGHT = 1 - ENSEMBLE_MODEL_WEIGHT;
+
+    const probs = {
+      yes: ENSEMBLE_MODEL_WEIGHT * modelProbs.yes + ENSEMBLE_GRAPH_WEIGHT * graphPred.yes,
+      no: ENSEMBLE_MODEL_WEIGHT * modelProbs.no + ENSEMBLE_GRAPH_WEIGHT * graphPred.no,
+      abstain: ENSEMBLE_MODEL_WEIGHT * modelProbs.abstain + ENSEMBLE_GRAPH_WEIGHT * graphPred.abstain,
+    };
 
     let vote: "Yes" | "No" | "Abstain";
     if (probs.yes >= probs.no && probs.yes >= probs.abstain) vote = "Yes";
