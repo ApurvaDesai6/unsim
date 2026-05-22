@@ -7,6 +7,7 @@ import Hemicycle from "@/components/viz/Hemicycle";
 import VoteTally from "@/components/viz/VoteTally";
 import PlaybackControls from "@/components/viz/PlaybackControls";
 import { getCommitteeConfig } from "@/engines/committees";
+import Timeline from "@/components/viz/Timeline";
 
 interface ResolutionClause {
   id: string;
@@ -47,6 +48,10 @@ function SimulationView() {
   const [activeTab, setActiveTab] = useState<"clauses" | "factors" | "blocs">("clauses");
   const [highlightBloc, setHighlightBloc] = useState<string | null>(null);
   const [isResimulating, setIsResimulating] = useState(false);
+  const [timelineData, setTimelineData] = useState<unknown[] | null>(null);
+  const [timelineLoading, setTimelineLoading] = useState(false);
+  const [selectedYear, setSelectedYear] = useState<number | null>(null);
+  const [showTimeline, setShowTimeline] = useState(false);
 
   const rafRef = useRef<number | null>(null);
   const effectiveCommittee = useRef<Committee>(committee);
@@ -125,6 +130,27 @@ function SimulationView() {
     }
     setAnalyzedResolution(updatedAnalyzed);
   }, [resolution, analyzedResolution]);
+
+  // Fetch temporal timeline
+  const fetchTimeline = useCallback(async () => {
+    if (!analyzedResolution) return;
+    setTimelineLoading(true);
+    setShowTimeline(true);
+    try {
+      const years = Array.from({ length: 23 }, (_, i) => 1985 + i * 2); // 1985-2029, every 2 years
+      const res = await fetch("/api/simulate/temporal", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ resolution: analyzedResolution, years }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setTimelineData(data.timeline);
+      }
+    } finally {
+      setTimelineLoading(false);
+    }
+  }, [analyzedResolution]);
 
   // Fetch country relationships when selected
   useEffect(() => {
@@ -436,6 +462,26 @@ function SimulationView() {
                 onCountryHover={() => {}}
               />
             </div>
+          )}
+
+          {/* Timeline toggle + temporal sim */}
+          {phase === "complete" && !showTimeline && (
+            <button
+              onClick={fetchTimeline}
+              className="w-full py-2 rounded-lg border border-[var(--color-border)] text-sm text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
+            >
+              ⏱ Time Travel — see how this resolution would fare in different eras
+            </button>
+          )}
+          {showTimeline && (
+            <Timeline
+              data={timelineData as any}
+              baseYear={2019}
+              baseTotals={voteResult?.totals || null}
+              isLoading={timelineLoading}
+              onYearSelect={setSelectedYear}
+              selectedYear={selectedYear}
+            />
           )}
 
           {/* Playback */}
