@@ -284,13 +284,49 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Explore Section */}
+      <section className="border-t border-[var(--color-border)] bg-white">
+        <div className="max-w-4xl mx-auto px-6 py-16">
+          <div className="text-[13px] font-medium text-[var(--color-muted)] tracking-tight mb-2">
+            03 · Explore the data
+          </div>
+          <h2
+            className="text-3xl md:text-4xl font-semibold tracking-tight leading-[1.1] mb-4"
+            style={{ fontFamily: "var(--font-serif)" }}
+          >
+            Knowledge Graph Explorer
+          </h2>
+          <p className="text-[var(--color-muted)] mb-8 max-w-2xl">
+            Visualize the network of alliances, rivalries, and voting patterns between all 193 UN member states.
+            Built from 870,000+ real recorded votes spanning 75 years of General Assembly history.
+          </p>
+          <div className="flex gap-4">
+            <a
+              href="/explore"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[var(--color-ink)] text-white text-sm font-medium hover:bg-[var(--color-ink)]/90 transition-colors"
+            >
+              Open Graph Explorer
+              <span className="text-base">→</span>
+            </a>
+            <a
+              href="/methodology"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[var(--color-border)] text-sm font-medium text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
+            >
+              Methodology & Validation
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer className="border-t border-[var(--color-border)] bg-white">
+      <footer className="border-t border-[var(--color-border)] bg-[var(--color-bg)]">
         <div className="max-w-4xl mx-auto px-6 py-8 flex items-center justify-between text-xs text-[var(--color-muted)]">
           <span>UNSim — Educational Simulation Platform</span>
-          <span>
-            Data: UN Digital Library, Voeten Ideal Points, V-Dem v14
-          </span>
+          <div className="flex gap-4">
+            <a href="/explore" className="hover:text-[var(--color-ink)] transition-colors">Explorer</a>
+            <a href="/methodology" className="hover:text-[var(--color-ink)] transition-colors">Methodology</a>
+          </div>
+          <span>Data: Voeten/Harvard Dataverse, V-Dem v14</span>
         </div>
       </footer>
     </main>
