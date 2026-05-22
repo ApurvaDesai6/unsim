@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import ForceGraph, { type GraphNodeDatum, type GraphEdgeDatum } from "@/components/viz/ForceGraph";
 
 interface CountryData {
   iso3: string;
