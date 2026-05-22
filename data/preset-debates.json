@@ -1,0 +1,662 @@
+{
+  "climate-treaty": {
+    "rounds": [
+      {
+        "round": 1,
+        "speeches": [
+          {
+            "iso3": "USA",
+            "countryName": "United States",
+            "position": "No",
+            "speech": "Mr. President, my delegation has carefully studied the draft Convention on Climate Accountability and Atmospheric Restoration. While the United States remains firmly committed to addressing climate change, as demonstrated by our renewed participation in the Paris Agreement and our Inflation Reduction Act investing over 370 billion dollars in clean energy, we cannot support a resolution that imposes binding emissions targets without adequate recognition of differentiated national circumstances.\n\nThe proposed 45 percent reduction below 2019 levels by 2035 represents an arbitrary target disconnected from economic reality. Our modeling indicates this would require the premature shutdown of critical energy infrastructure, jeopardizing energy security for millions of Americans and destabilizing global energy markets. Furthermore, the International Climate Accountability Mechanism as described would constitute an unprecedented intrusion into domestic regulatory sovereignty through satellite-based surveillance systems operating without consent.\n\nMy delegation also notes with concern that the Loss and Damage Fund contribution mechanism in operative clause 3 effectively establishes a regime of historical liability without agreed methodology for attribution. The United States has consistently maintained that climate finance should be forward-looking and voluntary. We urge delegations to pursue achievable, nationally determined pathways rather than top-down mandates that risk non-compliance and ultimately undermine the climate regime itself.",
+            "keyPoints": ["Binding targets disconnected from economic reality", "Satellite monitoring constitutes sovereignty intrusion", "Loss and Damage Fund creates retroactive liability regime"],
+            "rhetorical_strategy": "economic-cost"
+          },
+          {
+            "iso3": "CHN",
+            "countryName": "China",
+            "position": "Abstain",
+            "speech": "Mr. President, the Chinese delegation acknowledges the urgency of the climate crisis and reaffirms our commitment to achieving carbon neutrality before 2060. China is the world's largest investor in renewable energy, having deployed more solar capacity than all other nations combined. We approach this resolution with constructive intent but also with necessary caution.\n\nWe note that operative clause 1 applies uniform reduction targets to all Parties without adequately operationalizing the principle of common but differentiated responsibilities enshrined in the UNFCCC and reaffirmed in the Paris Agreement. Developing countries that are still in the process of industrialization cannot be held to the same timeline as nations that have accumulated atmospheric carbon over two centuries. The draft text in its current form risks perpetuating climate injustice under the guise of universality.\n\nChina supports the establishment of robust climate finance mechanisms and welcomes the 200 billion dollar annual commitment in operative clause 4. However, we have concerns regarding the verification mechanism in operative clause 2, which grants inspection authority that may conflict with principles of state sovereignty. We call upon the sponsors to revise the text to explicitly incorporate differentiation timelines for developing nations and to ensure that monitoring mechanisms operate on the basis of mutual consent and cooperation rather than unilateral surveillance.",
+            "keyPoints": ["Common but differentiated responsibilities not operationalized", "Uniform targets perpetuate climate injustice", "Verification must be consent-based, not surveillance"],
+            "rhetorical_strategy": "equity-framing"
+          },
+          {
+            "iso3": "IND",
+            "countryName": "India",
+            "position": "Abstain",
+            "speech": "Mr. President, India speaks on behalf of its 1.4 billion citizens, many of whom remain among the most vulnerable to the devastating impacts of climate change. We have witnessed unprecedented heatwaves, erratic monsoons, and glacial lake outbursts that threaten the lives and livelihoods of hundreds of millions. India does not question the science, nor do we question the urgency.\n\nHowever, my delegation must voice serious reservations about operative clauses 1 and 5. India's per capita emissions remain a fraction of those of developed nations. Requiring a 45 percent reduction from 2019 levels by 2035 would effectively cap our development trajectory at a point where 300 million Indians still lack reliable electricity access. The phase-out of fossil fuel subsidies within five years, as proposed in operative clause 5, would devastate our agricultural sector where subsidized energy sustains food security for the world's largest population.\n\nIndia has consistently demonstrated climate ambition, with our National Solar Mission, our 500 gigawatt renewable energy target by 2030, and our leadership in the International Solar Alliance. We support a strengthened climate regime but insist that it must be built on the foundation of equity. Climate action cannot come at the cost of condemning developing nations to perpetual poverty. We request that the sponsors incorporate explicit differentiation in timelines and provide binding financial commitments proportional to historical emissions.",
+            "keyPoints": ["Per capita emissions far below developed nations", "Fossil fuel subsidy phase-out threatens food security", "Climate action must not perpetuate poverty"],
+            "rhetorical_strategy": "development-equity"
+          },
+          {
+            "iso3": "FRA",
+            "countryName": "France",
+            "position": "Yes",
+            "speech": "Monsieur le President, la France takes the floor as a nation that has placed climate action at the heart of its foreign policy since the historic Paris Agreement adopted under our presidency in 2015. The scientific consensus is unambiguous: without transformative action within this decade, we will breach the 1.5 degree threshold with catastrophic consequences for all humanity.\n\nFrance strongly supports this resolution. The binding framework in operative clause 1 represents the logical evolution of our collective commitments. The Paris Agreement established the architecture; this Convention provides the enforcement mechanism that experience has shown to be necessary. Seven years of voluntary nationally determined contributions have proven insufficient to bend the emissions curve. We must now move from aspiration to obligation.\n\nFrance welcomes the International Climate Accountability Mechanism. Transparency and verification are not threats to sovereignty but rather guarantees of collective trust. We recall that similar mechanisms have underpinned successful multilateral regimes from the IAEA safeguards to the OPCW verification protocols. My delegation does acknowledge the legitimate concerns of developing nations regarding differentiation and calls upon the sponsors to consider an amendment establishing tiered timelines while maintaining the overall ambition level. France is prepared to increase its climate finance contributions and calls upon all developed nations to meet and exceed the 200 billion dollar commitment.",
+            "keyPoints": ["Paris voluntary approach proven insufficient", "Verification mechanisms standard in multilateral regimes", "Supports tiered timelines amendment for developing nations"],
+            "rhetorical_strategy": "historical-precedent"
+          },
+          {
+            "iso3": "NGA",
+            "countryName": "Nigeria",
+            "position": "Yes",
+            "speech": "Mr. President, Nigeria speaks on behalf of the African Group in expressing our deep concern that while Africa contributes less than four percent of global greenhouse gas emissions, our continent bears a disproportionate burden of climate impacts. The Sahel is expanding southward, Lake Chad has shrunk by ninety percent, and our coastal cities face existential flooding risks. Climate change is not a future threat for Africa; it is a present emergency.\n\nThe African Group strongly supports the ambition of this resolution, particularly the establishment of the Loss and Damage Fund in operative clause 3 and the 200 billion dollar annual climate finance commitment in operative clause 4. These provisions begin to address the profound injustice of a crisis not of our making. For decades, developing nations have called for climate justice; this resolution provides the first meaningful mechanism for accountability.\n\nHowever, we wish to place on record that the 200 billion figure, while welcome, remains far below the estimated adaptation needs of developing countries, which the UNEP Adaptation Gap Report places at 340 billion dollars annually by 2030. Nigeria calls upon the sponsors to strengthen operative clause 4 with a clear escalation pathway. The African Group will support this resolution as a critical step forward, while insisting that implementation must respect the principle that those who have polluted most must pay most.",
+            "keyPoints": ["Africa contributes 4% of emissions but bears disproportionate impact", "Loss and Damage Fund provides first accountability mechanism", "200 billion falls short of actual adaptation needs"],
+            "rhetorical_strategy": "climate-justice"
+          },
+          {
+            "iso3": "MHL",
+            "countryName": "Marshall Islands",
+            "position": "Yes",
+            "speech": "Mr. President, I speak today not merely as a representative of the Republic of the Marshall Islands, but as a witness to the slow drowning of my nation. The Marshall Islands sits barely two meters above sea level. For us, the 1.5 degree target is not an aspiration. It is a survival threshold. Every fraction of a degree above it represents not statistics but homes lost, atolls submerged, and a culture stretching back three thousand years erased from the map.\n\nMy delegation finds it unconscionable that in 2026 we are still debating whether emissions targets should be binding. The Alliance of Small Island States has called for binding commitments since 1990. Thirty-six years of voluntary frameworks have brought us to the brink of existential crisis. The Marshall Islands does not have the luxury of another decade of incrementalism. We needed this resolution yesterday.\n\nWe support every operative clause without reservation. To those delegations that raise concerns about sovereignty and economic costs, I say this: there is no sovereignty on a submerged island. There is no economy on an uninhabitable atoll. The Marshall Islands calls upon all delegations to vote in favour and to recognize that for small island developing states, this vote is not about policy preferences. It is about our right to exist. We did not cause this crisis, yet we are asked to perish in it. Let this Assembly demonstrate that the United Nations system can still protect the most vulnerable among us.",
+            "keyPoints": ["1.5 degrees is survival threshold, not aspiration", "36 years of voluntary frameworks brought us to brink", "No sovereignty on a submerged island"],
+            "rhetorical_strategy": "existential-urgency"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "speeches": [
+          {
+            "iso3": "RUS",
+            "countryName": "Russian Federation",
+            "position": "No",
+            "speech": "Mr. President, the Russian Federation takes note of the passionate interventions in the first round of debate. However, passion must not substitute for rigorous analysis of what this resolution would actually require of the international community. Russia's position is clear: we reject any framework that establishes supranational authority over domestic energy policy.\n\nThe satellite-based monitoring system proposed in operative clause 2 represents nothing less than a global surveillance architecture operating under the guise of environmental protection. The Russian Federation will not consent to having its territory monitored by mechanisms controlled by a select group of states. Furthermore, the timeline for fossil fuel subsidy elimination in operative clause 5 would devastate the economies of energy-exporting nations, many of which are developing countries themselves.\n\nRussia contributes significantly to global carbon absorption through our vast boreal forests, yet this resolution contains no credible mechanism for accounting for carbon sinks. We call upon delegations to reject this maximalist approach and instead strengthen existing frameworks under the UNFCCC where decisions are taken by consensus rather than imposed by majority vote.",
+            "keyPoints": ["Rejects supranational authority over energy policy", "Monitoring system is surveillance under environmental guise", "No accounting for carbon sinks in current text"],
+            "rhetorical_strategy": "sovereignty-defense"
+          },
+          {
+            "iso3": "BRA",
+            "countryName": "Brazil",
+            "position": "Yes",
+            "speech": "Mr. President, Brazil approaches this resolution as both a developing nation with legitimate development aspirations and as the custodian of the world's largest tropical rainforest. We have listened carefully to arguments on all sides and believe that on balance, this resolution advances the cause of climate justice while acknowledging the need for further refinement.\n\nBrazil supports the resolution's core framework, particularly the Loss and Damage mechanism and climate finance commitments. As a nation that has invested heavily in renewable energy, with over 80 percent of our electricity from clean sources, Brazil demonstrates that development and decarbonization need not be mutually exclusive. However, we echo the concerns of China and India regarding differentiation.\n\nBrazil proposes that during implementation, the binding targets in operative clause 1 be interpreted through the lens of cumulative historical emissions, with carbon budget allocations reflecting each nation's fair share. We also call for explicit recognition that avoided deforestation and ecosystem preservation constitute measurable contributions to global mitigation efforts. Brazil will vote Yes, with the understanding that the implementation framework must incorporate these principles of equity.",
+            "keyPoints": ["Development and decarbonization not mutually exclusive", "Targets should reflect cumulative historical emissions", "Avoided deforestation must count as mitigation"],
+            "rhetorical_strategy": "constructive-bridge"
+          },
+          {
+            "iso3": "SAU",
+            "countryName": "Saudi Arabia",
+            "position": "No",
+            "speech": "Mr. President, the Kingdom of Saudi Arabia rejects the premise that fossil fuels are inherently incompatible with climate action. Saudi Arabia is investing over 180 billion dollars in our Vision 2030 diversification strategy, including the NEOM green hydrogen project and our Middle East Green Initiative. We are committed to a circular carbon economy approach that recognizes all solutions including carbon capture, utilization, and storage.\n\nOperative clause 5, which demands the phase-out of fossil fuel subsidies within five years, represents a direct assault on the economic sovereignty of energy-producing nations and would destabilize global energy markets at a time of unprecedented geopolitical uncertainty. Furthermore, the rigid 45 percent reduction target fails to account for the role of natural gas as a transition fuel and the potential of CCUS technologies to decarbonize existing infrastructure.\n\nSaudi Arabia calls upon this Assembly to adopt a technology-neutral approach that does not prejudge which solutions nations choose to meet their climate obligations. The Kingdom cannot support a resolution that effectively criminalizes our primary economic activity without providing a realistic pathway for economic transition. We note that many developing nations depend on affordable energy imports; this resolution would raise energy costs globally, with the poorest nations bearing the greatest burden.",
+            "keyPoints": ["Circular carbon economy approach with CCUS is viable", "Subsidy phase-out assaults economic sovereignty of producers", "Technology-neutral approach required"],
+            "rhetorical_strategy": "economic-sovereignty"
+          },
+          {
+            "iso3": "DEU",
+            "countryName": "Germany",
+            "position": "Yes",
+            "speech": "Mr. President, Germany aligns itself fully with the statement of France and wishes to add that our own experience with the Energiewende demonstrates that ambitious climate targets, while challenging, are achievable and can drive economic innovation. Germany's renewable energy sector now employs over 300,000 workers, and our economy has grown by 25 percent since 1990 while reducing emissions by over 40 percent.\n\nTo those delegations that frame this resolution as a choice between climate and development, Germany responds that the true economic threat lies in inaction. The European Green Deal, supported by over one trillion euros in investment, shows that climate policy is industrial policy. We urge hesitant delegations to view this resolution not as a constraint but as a framework for the greatest economic transformation opportunity of our time.\n\nGermany supports the differentiation concerns raised by developing nations and proposes that during negotiations on implementation modalities, explicit tiered timelines be established with developed nations achieving the 45 percent target by 2033 and developing nations by 2037, with adequate financial and technological support. Germany is prepared to champion increased climate finance contributions within the European Union.",
+            "keyPoints": ["Energiewende proves ambitious targets drive innovation", "Inaction is the true economic threat", "Proposes tiered timelines: developed 2033, developing 2037"],
+            "rhetorical_strategy": "proof-by-example"
+          },
+          {
+            "iso3": "KEN",
+            "countryName": "Kenya",
+            "position": "Yes",
+            "speech": "Mr. President, Kenya takes the floor as a nation that generates over 90 percent of its electricity from renewable sources yet remains among the most climate-vulnerable countries on Earth. The cruel irony of climate change is that those who have contributed least to the problem suffer its consequences most acutely. Lake Turkana is shrinking. Our pastoralist communities face unprecedented drought cycles. The cost of climate adaptation is consuming an ever-growing share of our national budget.\n\nKenya strongly supports this resolution and particularly welcomes the binding nature of the emissions targets. The voluntary approach has failed Africa. Between 2015 and 2025, global emissions continued to rise while our adaptation needs grew exponentially. Kenya rejects the argument that binding targets are too ambitious; what is truly unacceptable is asking vulnerable nations to wait another decade for major emitters to honor their commitments.\n\nWe also wish to respond to the legitimate concerns about differentiation. Kenya supports a framework where the ambition is universal but the timelines are differentiated. What we cannot accept is the dilution of ambition itself. The science is clear: every tonne of emissions matters. Kenya will vote Yes and calls upon all nations, particularly the major emitters, to demonstrate the political courage that this moment demands.",
+            "keyPoints": ["90% renewable electricity yet highly climate-vulnerable", "Voluntary approach has failed Africa", "Supports universal ambition with differentiated timelines"],
+            "rhetorical_strategy": "moral-authority"
+          },
+          {
+            "iso3": "IND",
+            "countryName": "India",
+            "position": "Abstain",
+            "speech": "Mr. President, India returns to the floor having listened with great attention to the arguments presented in both rounds of debate. We are moved by the interventions of small island states and African nations, and we reaffirm our solidarity with the most vulnerable. India's own vulnerability to climate change requires no elaboration.\n\nHowever, after careful deliberation, India must maintain its position of abstention. While we welcome the constructive proposals for differentiated timelines offered by France and Germany, these remain proposals rather than binding textual commitments in the resolution before us. India cannot vote in favour of a text that, as currently drafted, applies uniform binding targets without explicit legal differentiation for developing nations still lifting hundreds of millions from poverty.\n\nIndia wishes to signal clearly that our abstention is not opposition. It is a call for revision. Should the sponsors incorporate explicit differentiation with a delayed compliance timeline for developing nations with per capita emissions below a defined threshold, and should the climate finance commitments be made legally binding rather than hortatory, India would be prepared to reconsider its position. We remain constructively engaged and urge the sponsors to pursue amendments that would enable consensus.",
+            "keyPoints": ["Abstention is a call for revision, not opposition", "Needs explicit legal differentiation in text", "Would support if per capita threshold differentiation added"],
+            "rhetorical_strategy": "conditional-engagement"
+          }
+        ]
+      }
+    ]
+  },
+  "ai-governance": {
+    "rounds": [
+      {
+        "round": 1,
+        "speeches": [
+          {
+            "iso3": "USA",
+            "countryName": "United States",
+            "position": "No",
+            "speech": "Mr. President, the United States recognizes that artificial intelligence governance is among the defining challenges of our era. We have engaged constructively in the Secretary-General's AI Advisory Body and supported General Assembly resolution 78/265. However, the current draft resolution proposes a governance architecture that we believe would be counterproductive to the very goals it seeks to achieve.\n\nThe establishment of a new specialized agency with binding standard-setting authority and inspection powers, as proposed in operative clauses 1 through 3, would create a bureaucratic structure fundamentally ill-suited to the pace of AI development. Technology governance requires agility and technical expertise that centralized intergovernmental bodies historically cannot provide. Moreover, the inspection regime proposed would require access to proprietary systems constituting billions of dollars in private investment, raising serious intellectual property concerns.\n\nThe United States favours a multi-stakeholder approach building on existing institutions such as the OECD AI Principles, the Global Partnership on AI, and the AI Safety Institutes network. We believe that voluntary commitments, interoperability of national frameworks, and capacity building represent a more effective path than premature binding regulation. The moratorium provision in operative clause 6 is particularly concerning, as it could stifle beneficial AI research based on speculative risk assessments. We urge delegations to support an alternative approach that promotes innovation while managing genuine risks.",
+            "keyPoints": ["Centralized body cannot match pace of AI development", "Inspection regime raises intellectual property concerns", "Multi-stakeholder voluntary approach more effective"],
+            "rhetorical_strategy": "innovation-preservation"
+          },
+          {
+            "iso3": "CHN",
+            "countryName": "China",
+            "position": "Abstain",
+            "speech": "Mr. President, China is a leading developer of artificial intelligence and recognizes both the transformative potential and the risks of these technologies. China has enacted comprehensive domestic AI regulations including our Interim Measures for the Management of Generative AI Services and our Global AI Governance Initiative. We approach international governance from a position of both capability and responsibility.\n\nChina supports the principle of establishing international AI governance mechanisms. However, we have significant concerns about the specific architecture proposed. The inspection authority in operative clause 3, granting access to AI development facilities upon reasonable suspicion, establishes a precedent that could be weaponized for purposes unrelated to safety, including industrial espionage. China insists that any governance mechanism must operate on the basis of mutual respect, sovereign equality, and non-interference in internal affairs.\n\nFurthermore, we note that the resolution's definition of frontier AI systems exceeding defined capability thresholds raises fundamental questions about who sets these thresholds and through what process. China calls for a governance framework that is inclusive, respects technological sovereignty, and does not create artificial barriers that perpetuate the digital divide. We are prepared to engage constructively in further negotiations but cannot support the current text without substantial revisions to the inspection and enforcement provisions.",
+            "keyPoints": ["Inspection authority could enable industrial espionage", "Threshold definitions raise sovereignty concerns", "Framework must not perpetuate digital divide"],
+            "rhetorical_strategy": "sovereignty-technical"
+          },
+          {
+            "iso3": "IND",
+            "countryName": "India",
+            "position": "Yes",
+            "speech": "Mr. President, India approaches AI governance as a nation with both significant AI capabilities and over a billion citizens who stand to benefit from or be harmed by these technologies. Our Digital India initiative and our AI for All strategy reflect our commitment to harnessing AI for inclusive development. It is precisely because we understand AI's potential that we recognize the need for guardrails.\n\nIndia supports the establishment of the International Agency for Artificial Intelligence. The argument that governance stifles innovation is contradicted by the experience of every successful technology transition. Aviation, nuclear energy, telecommunications all thrived within international regulatory frameworks. The question is not whether to govern AI but how to do so equitably.\n\nWe particularly welcome operative clause 5 regarding technology transfer to developing countries. AI risks creating a new form of colonialism where a handful of technology companies in a few nations determine the technological trajectory of all humanity. India insists that any governance framework must include mandatory provisions for capacity building, technology sharing, and ensuring that developing nations have genuine voice in standard-setting processes. We call upon the sponsors to strengthen the technology transfer provisions and to ensure that the IAAI's governance structure provides equitable representation. With these understandings, India will support this resolution.",
+            "keyPoints": ["Successful technologies have always thrived within regulation", "AI risks new form of technological colonialism", "Governance structure must ensure equitable representation"],
+            "rhetorical_strategy": "inclusive-governance"
+          },
+          {
+            "iso3": "GBR",
+            "countryName": "United Kingdom",
+            "position": "Abstain",
+            "speech": "Mr. President, the United Kingdom hosted the first AI Safety Summit at Bletchley Park in 2023 and has been at the forefront of international AI governance discussions. We established our AI Safety Institute as a model for technical evaluation of frontier AI systems. The UK is deeply committed to ensuring AI safety while fostering responsible innovation.\n\nWe share the resolution's objective of effective international AI governance but have reservations about the proposed mechanism. The UK believes that governance must be technically informed and proportionate. A specialized agency modeled on twentieth-century institutions may not be fit for purpose in governing a technology that evolves at unprecedented speed. We note that the IAEA analogy, while superficially appealing, does not account for the fundamentally different characteristics of AI, which is diffuse, dual-use, and rapidly democratizing.\n\nThe UK proposes an alternative architecture based on a networked approach: linking national AI Safety Institutes through shared evaluation protocols, mutual recognition agreements, and joint research programs. This would achieve the safety objectives without the rigidity of a centralized agency. We are not prepared to vote against a resolution that addresses legitimate safety concerns, but nor can we endorse an institutional design we believe to be suboptimal. The UK will therefore abstain while remaining committed to advancing workable AI governance through all available channels.",
+            "keyPoints": ["Twentieth-century institutional models unfit for AI speed", "IAEA analogy fails due to AI's diffuse nature", "Proposes networked Safety Institutes approach instead"],
+            "rhetorical_strategy": "alternative-proposal"
+          },
+          {
+            "iso3": "BRA",
+            "countryName": "Brazil",
+            "position": "Yes",
+            "speech": "Mr. President, Brazil speaks as the voice of a region where artificial intelligence is being deployed at scale before governance frameworks can keep pace. Algorithmic systems are already making decisions about credit, employment, and criminal justice affecting millions of Latin Americans, often without transparency or accountability. For the Global South, AI governance is not a future concern. It is an urgent present necessity.\n\nBrazil strongly supports the establishment of the IAAI. We reject the narrative that international governance inevitably stifles innovation. What stifles innovation in developing countries is the absence of a level playing field, the concentration of AI capabilities in a few corporate entities, and the lack of access to compute infrastructure and training data. The technology transfer provisions in operative clause 5 begin to address this imbalance.\n\nBrazil calls upon all delegations to recognize that ungoverned AI poses risks not only of a technical nature but of a geopolitical one. Without international norms, we risk a race to the bottom in safety standards. Brazil will vote in favour and urges the Assembly to demonstrate that multilateralism can respond to emerging technological challenges with the same determination it has shown in addressing nuclear proliferation and climate change.",
+            "keyPoints": ["AI already affecting millions without governance", "Concentrated capabilities create unfair playing field", "Ungoverned AI risks race to bottom in safety"],
+            "rhetorical_strategy": "global-south-urgency"
+          },
+          {
+            "iso3": "SGP",
+            "countryName": "Singapore",
+            "position": "Yes",
+            "speech": "Mr. President, Singapore takes the floor as a small nation that has positioned itself at the intersection of technology and governance. Our Model AI Governance Framework, now in its third iteration, has been adopted as a reference by numerous jurisdictions. We bring to this debate the perspective of a country that proves responsible governance and technological leadership are complementary, not contradictory.\n\nSingapore supports the resolution's core objective while urging practical refinements. We believe the IAAI must be designed with three principles: technical competence, operational agility, and inclusive governance. The agency must recruit genuine AI expertise, not only diplomats. Its standard-setting must be iterative and responsive to technological change. And its governing council must include voices from all regions, including small states that are often most affected by standards they had no role in shaping.\n\nSingapore particularly supports operative clause 4 requiring national AI governance bodies. International governance cannot function without domestic institutional capacity. We offer our own experience in building such capacity as a resource for other nations. Singapore will vote Yes, with the expectation that the implementation phase will incorporate the pragmatic, technically-grounded approach that effective AI governance demands.",
+            "keyPoints": ["Responsible governance and tech leadership are complementary", "IAAI needs technical competence, agility, inclusivity", "International governance requires domestic institutional capacity"],
+            "rhetorical_strategy": "pragmatic-middle"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "speeches": [
+          {
+            "iso3": "RUS",
+            "countryName": "Russian Federation",
+            "position": "No",
+            "speech": "Mr. President, the Russian Federation cannot support a resolution that would establish yet another Western-dominated international body with intrusive enforcement powers. Let us be direct about what is being proposed: an agency with the authority to inspect sovereign facilities, set binding standards, and effectively determine which nations may develop advanced AI systems and which may not.\n\nRussia notes that the nations most enthusiastic about this resolution are those that currently lag in AI development and seek to constrain those who lead. This is not governance; it is strategic containment dressed in the language of safety. The inspection regime in operative clause 3 is particularly unacceptable. No sovereign nation should grant external bodies access to facilities developing technologies of strategic national importance.\n\nRussia supports international cooperation on AI safety through voluntary mechanisms and bilateral agreements between capable states. We support information sharing on AI risks and collaborative research on alignment. However, we fundamentally reject the premise that a single international agency should exercise authority over the AI development programs of sovereign states. Russia votes No and calls upon all delegations that value technological sovereignty to do the same.",
+            "keyPoints": ["IAAI would be Western-dominated enforcement body", "Resolution is strategic containment disguised as safety", "Supports voluntary cooperation, rejects binding authority"],
+            "rhetorical_strategy": "strategic-framing"
+          },
+          {
+            "iso3": "BRA",
+            "countryName": "Brazil",
+            "position": "Yes",
+            "speech": "Mr. President, Brazil returns to the floor to address the sovereignty arguments raised by some delegations. We understand these concerns. As a nation that has itself experienced the consequences of asymmetric international regimes, Brazil does not dismiss sovereignty arguments lightly.\n\nHowever, we must distinguish between sovereignty as a principle and sovereignty as a shield for inaction. The same sovereignty arguments were deployed against climate governance, against nuclear non-proliferation, against human rights mechanisms. In each case, the international community concluded that certain risks transcend national boundaries and require collective responses. AI is such a risk.\n\nBrazil also wishes to respond to the characterization of this resolution as constraining innovation. The opposite is true for developing nations. Without international governance, the AI landscape will be dominated by unregulated corporate actors whose decisions affect billions without accountability. The IAAI provides developing countries with a seat at the table that the current market-driven order denies them. Brazil reaffirms its Yes vote and calls upon all G77 nations to support a framework that amplifies rather than diminishes our collective voice in shaping the AI future.",
+            "keyPoints": ["Sovereignty cannot shield inaction on transnational risks", "Without governance, unregulated corporates dominate", "IAAI gives developing nations a seat at the table"],
+            "rhetorical_strategy": "sovereignty-rebuttal"
+          },
+          {
+            "iso3": "IRN",
+            "countryName": "Iran",
+            "position": "No",
+            "speech": "Mr. President, the Islamic Republic of Iran has studied this resolution with great care. While we support the principle of inclusive AI governance, we cannot endorse a framework that replicates the discriminatory patterns of existing international regimes. History teaches us that inspection mechanisms, regardless of their stated purpose, are invariably weaponized against nations that resist Western hegemony.\n\nThe IAEA, frequently cited as a model for the proposed IAAI, has demonstrated precisely the selectivity and politicization that Iran warns against. The same nations that possess the most advanced AI systems would dominate the IAAI's technical bodies and define what constitutes a safety violation. This is not governance; it is the institutionalization of technological apartheid.\n\nIran supports technology transfer and capacity building for developing nations. We support information sharing and voluntary cooperation on AI safety. However, we reject any mechanism that would grant external bodies authority to inspect our facilities, access our data, or restrict our technological development based on standards we had no meaningful role in setting. Iran calls upon the Non-Aligned Movement to carefully consider whether this resolution serves our collective interests or merely entrenches existing power asymmetries in a new domain.",
+            "keyPoints": ["Inspection mechanisms historically weaponized selectively", "Dominant AI nations would control standards definition", "Replicates technological apartheid of existing regimes"],
+            "rhetorical_strategy": "anti-hegemonic"
+          },
+          {
+            "iso3": "JPN",
+            "countryName": "Japan",
+            "position": "Yes",
+            "speech": "Mr. President, Japan, as the host of the G7 Hiroshima AI Process and a leading AI-developing nation, takes the floor to support this resolution while acknowledging the legitimate concerns raised. Japan believes that effective international AI governance is both achievable and necessary, and that the perfect should not be the enemy of the good.\n\nJapan has demonstrated through our own regulatory approach that governance need not be the antithesis of innovation. Our Comprehensive Strategy for AI Technology promotes both development and responsible deployment. At the international level, we have championed interoperable governance frameworks that respect diverse national approaches while establishing common safety floors.\n\nTo delegations concerned about institutional rigidity, Japan notes that operative clause 1 establishes the agency but leaves its detailed governance arrangements to subsequent negotiation. To those concerned about inspection powers, Japan notes that operative clause 3 includes the qualifier of reasonable suspicion, which implies due process protections that can be elaborated in implementation. Japan votes Yes on the understanding that the implementation phase will be inclusive, technically informed, and respectful of the concerns raised. We commit to working constructively with all delegations to ensure the IAAI is fit for purpose.",
+            "keyPoints": ["G7 Hiroshima AI Process shows governance-innovation compatibility", "Implementation phase can address inspection concerns", "Common safety floors with diverse national approaches"],
+            "rhetorical_strategy": "bridge-building"
+          },
+          {
+            "iso3": "ZAF",
+            "countryName": "South Africa",
+            "position": "Yes",
+            "speech": "Mr. President, South Africa speaks from the perspective of a continent that is simultaneously the least developed in AI capabilities and the most vulnerable to its ungoverned deployment. African nations are already subject to AI systems deployed by foreign entities for surveillance, credit scoring, and resource extraction decisions, with no meaningful consent or oversight.\n\nThe African Union's Continental AI Strategy makes clear that Africa needs not only capacity building but also voice in global governance. The current vacuum of international AI regulation is not neutrality; it is a power structure that privileges those who develop and deploy AI over those who are subjected to it. South Africa supports the IAAI as a mechanism to democratize AI governance.\n\nWe wish to emphasize operative clause 5 on technology transfer. This must not be cosmetic. South Africa calls for binding commitments to share not merely applications but foundational capabilities, compute access, and training resources. Without genuine technology transfer, the IAAI risks becoming another institution where developing nations are governed without governing. South Africa votes Yes and calls upon the sponsors to ensure that the agency's structure reflects the diversity of those it will affect.",
+            "keyPoints": ["Africa subjected to foreign AI with no consent or oversight", "Governance vacuum privileges developers over subjects", "Technology transfer must include foundational capabilities"],
+            "rhetorical_strategy": "power-asymmetry"
+          },
+          {
+            "iso3": "GBR",
+            "countryName": "United Kingdom",
+            "position": "Yes",
+            "speech": "Mr. President, the United Kingdom returns to the floor to announce a shift in our position. Having consulted extensively with delegations across all regional groups during the recess, and having reviewed the constructive proposals made during debate, the UK has concluded that the importance of establishing an international AI governance framework outweighs our reservations about its specific design.\n\nWe have heard the powerful testimony of developing nations about the urgency of governance. We acknowledge that our preferred networked approach, while theoretically optimal, lacks the institutional weight and developing-country inclusion that a formal UN agency would provide. The UK does not wish its pursuit of procedural perfection to block progress on a matter of genuine international concern.\n\nThe United Kingdom will vote Yes, with the firm expectation that we will be fully engaged in negotiating the IAAI's governance arrangements, operational protocols, and inspection procedures. We will advocate for technical competence, operational agility, and strong due process protections within the agency. The UK calls upon other hesitant delegations to join us in constructive engagement rather than opposition, and to shape this institution from within rather than critique it from without.",
+            "keyPoints": ["Shifted from Abstain after consulting developing nations", "Networked approach lacks institutional weight for inclusion", "Will shape institution from within rather than oppose"],
+            "rhetorical_strategy": "position-reversal"
+          }
+        ]
+      }
+    ]
+  },
+  "nuclear-ban": {
+    "rounds": [
+      {
+        "round": 1,
+        "speeches": [
+          {
+            "iso3": "USA",
+            "countryName": "United States",
+            "position": "No",
+            "speech": "Mr. President, the United States remains committed to the ultimate goal of a world without nuclear weapons, as articulated by President Obama in Prague and reaffirmed in our Nuclear Posture Review. However, we must be candid: this resolution, while aspirational in its objectives, is fundamentally disconnected from strategic reality and would, if implemented as written, destabilize the very security architecture that has prevented great power conflict for eight decades.\n\nThe fifteen-year timeline for complete elimination in operative clause 1 is not merely ambitious; it is technically infeasible and strategically dangerous. Dismantlement of nuclear weapons requires specialized infrastructure, environmental remediation, and verification capabilities that do not yet exist at the required scale. More critically, in the current security environment, with ongoing conflicts, deteriorating arms control architecture, and proliferation risks, unilateral disarmament signals invite rather than prevent aggression.\n\nThe United States has reduced its nuclear arsenal by over 85 percent from Cold War peaks through negotiated, verifiable bilateral agreements. This proven approach, built on mutual verification and strategic stability, is the only credible path to further reductions. We urge delegations to support the strengthening of the NPT review process and the resumption of bilateral strategic stability dialogues rather than this unimplementable resolution that risks undermining the credibility of the disarmament enterprise itself.",
+            "keyPoints": ["15-year elimination timeline technically infeasible", "Unilateral disarmament invites aggression in current environment", "Bilateral verified reductions are only credible path"],
+            "rhetorical_strategy": "strategic-stability"
+          },
+          {
+            "iso3": "CHN",
+            "countryName": "China",
+            "position": "Abstain",
+            "speech": "Mr. President, China maintains the smallest nuclear arsenal among the P5 and has consistently adhered to a policy of no-first-use and unconditional negative security assurances to non-nuclear-weapon states. China's nuclear posture is purely defensive, maintaining a minimum deterrent to prevent nuclear coercion and blackmail.\n\nChina supports the ultimate objective of complete nuclear disarmament and has long called upon the states with the largest arsenals to take the lead in verifiable reductions. However, we must be honest about the security conditions required for elimination. As long as nuclear weapons exist and as long as extended deterrence arrangements project nuclear risk across the globe, no responsible state can disarm unilaterally.\n\nChina notes that this resolution requires equal timelines for all nuclear-weapon states regardless of arsenal size. This ignores the fundamental asymmetry in nuclear postures. A nation with 300 warheads and a no-first-use policy cannot be treated identically to nations with thousands of warheads and first-use doctrines. China calls for an approach that requires the largest arsenals to reduce first, creating conditions of security that enable smaller arsenals to follow. We will abstain on this resolution while reaffirming our commitment to the complete prohibition and thorough destruction of nuclear weapons under appropriate conditions.",
+            "keyPoints": ["Smallest P5 arsenal with no-first-use policy", "Largest arsenals must reduce first to create conditions", "Equal timelines ignore fundamental posture asymmetries"],
+            "rhetorical_strategy": "differentiated-disarmament"
+          },
+          {
+            "iso3": "IND",
+            "countryName": "India",
+            "position": "Abstain",
+            "speech": "Mr. President, India has consistently supported the goal of a nuclear-weapon-free world. The Rajiv Gandhi Action Plan of 1988 proposed precisely what this resolution seeks: a time-bound framework for universal nuclear disarmament. That visionary proposal was rejected by the nuclear powers of the time. India notes with some irony that the nations that rejected comprehensive disarmament in 1988 now lead in opposing similar proposals.\n\nIndia's nuclear capability was developed reluctantly, in response to an evolving security environment and the failure of the international community to provide credible security guarantees. India maintains a policy of credible minimum deterrence and no-first-use. We remain open to nuclear disarmament in a universal, non-discriminatory, and verifiable manner.\n\nHowever, India cannot support this specific resolution for several reasons. First, the reference to the NPT in the preamble is problematic for India, which has never acceded to what we consider a discriminatory treaty. Second, the security guarantees in operative clause 4, routed through a Security Council controlled by nuclear-weapon states, provide inadequate assurance. India will abstain while reaffirming our commitment to global disarmament and calling for a framework that does not predicate universal goals on an inherently discriminatory treaty architecture.",
+            "keyPoints": ["Rajiv Gandhi Plan of 1988 prefigured this resolution", "NPT references problematic for non-signatory India", "Security guarantees through veto-holder SC are inadequate"],
+            "rhetorical_strategy": "discriminatory-architecture"
+          },
+          {
+            "iso3": "FRA",
+            "countryName": "France",
+            "position": "No",
+            "speech": "Mr. President, France's nuclear deterrent has served as the ultimate guarantee of our national survival and as the foundation of European security for over six decades. France has demonstrated tangible commitment to disarmament: we irreversibly dismantled our Pacific testing sites, reduced our arsenal to below 300 warheads, and eliminated our ground-based missile component. These were unilateral actions taken in good faith.\n\nHowever, France cannot support a resolution that demands the elimination of our deterrent in the absence of the strategic conditions that would make such a step responsible. Nuclear deterrence has prevented great power war since 1945. The proposition that we should dismantle this proven security architecture based on faith that all actors will comply is not idealism; it is recklessness.\n\nThe verification challenge alone is insurmountable within the proposed timeline. How does one verify the complete absence of nuclear weapons in states that may retain clandestine capabilities? The history of non-proliferation is replete with cases of covert programs evading detection for decades. France favours a step-by-step approach: CTBT entry into force, FMCT negotiation, further bilateral reductions between the United States and Russia, and only then, multilateral disarmament negotiations when conditions permit. We vote No not because we reject the goal, but because we reject the path.",
+            "keyPoints": ["Nuclear deterrence prevented great power war since 1945", "Complete verification is insurmountable within timeline", "Step-by-step approach: CTBT, FMCT, bilateral then multilateral"],
+            "rhetorical_strategy": "step-by-step-realism"
+          },
+          {
+            "iso3": "MEX",
+            "countryName": "Mexico",
+            "position": "Yes",
+            "speech": "Mr. President, Mexico speaks as a proud champion of nuclear disarmament, from the Treaty of Tlatelolco that established the first nuclear-weapon-free zone in a populated area, to our leadership in negotiating the Treaty on the Prohibition of Nuclear Weapons. For Mexico, nuclear disarmament is not utopian aspiration; it is a legal obligation that nuclear-weapon states have evaded for over fifty years.\n\nLet us be clear about what the opponents of this resolution are saying: that 12,000 nuclear warheads capable of destroying civilization multiple times over represent security rather than the ultimate threat to human survival. That the indefinite perpetuation of a system of nuclear apartheid, where five states claim the right to threaten humanity's existence while all others are prohibited from this privilege, is somehow an acceptable status quo.\n\nMexico rejects the argument that conditions are not right for disarmament. Conditions will never be right if nuclear-weapon states perpetually define readiness by reference to threats that their own arsenals help generate. The step-by-step approach has been the excuse for inaction since 1970. Mexico calls upon all non-nuclear-weapon states, which constitute the overwhelming majority of this Assembly, to vote Yes and demonstrate that the era of nuclear blackmail must end. The TPNW has established the normative foundation; this Convention provides the operational framework.",
+            "keyPoints": ["Nuclear states evaded disarmament obligation for 50 years", "Nuclear apartheid is unacceptable status quo", "Step-by-step has been excuse for inaction since 1970"],
+            "rhetorical_strategy": "legal-obligation"
+          },
+          {
+            "iso3": "FJI",
+            "countryName": "Fiji",
+            "position": "Yes",
+            "speech": "Mr. President, Fiji speaks on behalf of the Pacific Islands Forum, a region that knows the horror of nuclear weapons not from textbooks but from lived experience. For decades, our ocean was used as a testing ground for nuclear weapons by colonial powers. The people of the Marshall Islands, French Polynesia, and Kiribati continue to suffer the health consequences of over 300 nuclear tests conducted in our waters and on our atolls.\n\nThe Pacific was declared a Nuclear Free Zone under the Treaty of Rarotonga in 1985. We made our choice. We chose life over deterrence, security over the bomb. And our region has been at peace. The nuclear powers told us then that deterrence was necessary for security. Forty years later, we remain at peace without nuclear weapons, while nuclear-armed states teeter on the brink of confrontation.\n\nFiji and the Pacific Islands reject absolutely the argument that nuclear weapons provide security. They provide only the capacity for annihilation. Our region demands that this Assembly exercise its responsibility under the Charter to maintain international peace. The General Assembly must not be held hostage by the nuclear-armed few. We call for an overwhelming vote in favour, sending an unambiguous signal that the international community will no longer tolerate the threat of nuclear extinction held over all humanity.",
+            "keyPoints": ["Pacific suffered 300+ nuclear tests by colonial powers", "Nuclear Free Zone since 1985 with sustained peace", "Nuclear weapons provide annihilation capacity, not security"],
+            "rhetorical_strategy": "lived-testimony"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "speeches": [
+          {
+            "iso3": "RUS",
+            "countryName": "Russian Federation",
+            "position": "No",
+            "speech": "Mr. President, the Russian Federation has been direct in its position throughout these negotiations. Russia possesses nuclear weapons because the security environment requires it. The expansion of NATO to our borders, the deployment of strategic missile defense systems, and the development of conventional precision strike capabilities by certain states all demonstrate that the threats to Russian security are real and growing.\n\nThis resolution asks Russia to eliminate its nuclear deterrent, the ultimate guarantee of our sovereignty, while providing no credible alternative security framework. The security guarantees in operative clause 4 are routed through the Security Council, where Russia's own veto is the only reliable protection against hostile collective action. The irony is not lost on my delegation.\n\nRussia has engaged in every bilateral arms control agreement from SALT to New START. We have reduced our arsenal by over 80 percent from Soviet-era peaks. But bilateral, negotiated, verifiable reductions between the two largest nuclear powers is fundamentally different from a multilateral diktat demanding complete elimination on an arbitrary timeline. Russia votes No and will continue to maintain its nuclear deterrent as long as nuclear weapons exist and as long as threats to our security persist.",
+            "keyPoints": ["Security environment requires nuclear deterrent", "SC security guarantees depend on Russian veto itself", "Bilateral negotiated reductions differ from multilateral diktat"],
+            "rhetorical_strategy": "security-imperative"
+          },
+          {
+            "iso3": "BRA",
+            "countryName": "Brazil",
+            "position": "Yes",
+            "speech": "Mr. President, Brazil voluntarily renounced nuclear weapons through our 1988 Constitution and through our bilateral agreement with Argentina establishing the ABACC mutual inspection agency. We made this choice not from weakness but from the conviction that our security is better served by a rules-based international order than by the capacity for mass destruction.\n\nBrazil notes the arguments of nuclear-weapon states about strategic stability and step-by-step approaches. We have heard these arguments for fifty-six years since the NPT entered into force. In that time, not a single nuclear weapon has been eliminated through the NPT framework. The step that was promised as the next logical step has never been taken. At some point, the international community must acknowledge that incrementalism is itself the strategy of those who intend never to disarm.\n\nBrazil strongly supports this resolution as the most comprehensive disarmament framework ever placed before this Assembly. We acknowledge the verification challenges and call for robust implementation mechanisms. But the argument that we cannot disarm because verification is difficult is circular: it is precisely the absence of a mandate that prevents investment in verification technology. Give us the mandate, and the technical solutions will follow. Brazil votes Yes and urges all TPNW signatories to demonstrate solidarity.",
+            "keyPoints": ["Voluntarily renounced nukes from conviction, not weakness", "56 years of incrementalism produced zero elimination", "Absence of mandate prevents investment in verification tech"],
+            "rhetorical_strategy": "incrementalism-critique"
+          },
+          {
+            "iso3": "SAU",
+            "countryName": "Saudi Arabia",
+            "position": "Yes",
+            "speech": "Mr. President, the Kingdom of Saudi Arabia supports the total elimination of nuclear weapons and all other weapons of mass destruction from the Middle East and globally. We have long advocated for a nuclear-weapon-free zone in the Middle East, a goal frustrated by certain states that refuse to submit their programs to international safeguards.\n\nSaudi Arabia votes in favour of this resolution with the clear expectation that it will be applied universally and without discrimination. All states possessing nuclear weapons, whether recognized by the NPT or not, must be brought within its scope. There can be no exceptions, no special arrangements, and no ambiguity about which states are covered.\n\nThe Kingdom also wishes to emphasize the security guarantees in operative clause 4. For non-nuclear-weapon states in volatile regions, the decision to forgo nuclear weapons was predicated on assurances of collective security. When those assurances prove hollow, as they have in multiple recent conflicts, the incentive structure for proliferation strengthens. This resolution must be accompanied by genuine, enforceable security guarantees that make nuclear weapons genuinely unnecessary for national defense. Saudi Arabia votes Yes.",
+            "keyPoints": ["Supports WMD-free zone in Middle East without exceptions", "All possessor states must be covered without discrimination", "Hollow security guarantees incentivize proliferation"],
+            "rhetorical_strategy": "universality-demand"
+          },
+          {
+            "iso3": "DEU",
+            "countryName": "Germany",
+            "position": "Abstain",
+            "speech": "Mr. President, Germany finds itself in a difficult position on this resolution. As a nation that has renounced nuclear weapons and is party to the NPT as a non-nuclear-weapon state, Germany shares the goal of a nuclear-weapon-free world. The humanitarian consequences of nuclear weapons use are unacceptable under any circumstance.\n\nHowever, Germany must also acknowledge the reality of our security environment. NATO's nuclear deterrence posture has contributed to the security that has enabled European prosperity and the longest period of peace in our continent's modern history. Germany participates in NATO's nuclear sharing arrangements as a matter of alliance solidarity and collective defense.\n\nGermany is therefore unable to vote Yes on a resolution that would require the immediate dismantlement of the extended deterrence arrangements upon which our security currently depends, without a credible alternative security architecture in place. Neither can we vote No against the objective of nuclear elimination. Germany will abstain, while strongly advocating for renewed arms control dialogues, risk reduction measures, and the conditions that would eventually make this resolution's objectives achievable. We call upon all nuclear-weapon states to resume serious disarmament negotiations.",
+            "keyPoints": ["Shares goal but acknowledges NATO deterrence reality", "Cannot require dismantling extended deterrence without alternative", "Advocates renewed arms control dialogues and risk reduction"],
+            "rhetorical_strategy": "alliance-constraint"
+          },
+          {
+            "iso3": "NGA",
+            "countryName": "Nigeria",
+            "position": "Yes",
+            "speech": "Mr. President, Nigeria speaks on behalf of the African Group. Africa declared itself a nuclear-weapon-free zone through the Treaty of Pelindaba in 1996. The entire African continent, fifty-four nations representing 1.4 billion people, has renounced nuclear weapons. Yet we live under the shadow of arsenals maintained by nations far from our shores, arsenals whose use would cause catastrophic humanitarian consequences regardless of the target.\n\nThe African Group strongly supports this resolution. We are frankly tired of hearing that conditions are not right for disarmament. When has the international community ever judged conditions to be right for disarmament? The nuclear-weapon states always identify new threats, new instabilities, new reasons to postpone. Meanwhile, billions are spent on modernizing weapons of extinction while hundreds of millions lack basic necessities.\n\nAfrica calls upon this Assembly to exercise its moral authority. The General Assembly has repeatedly affirmed the illegality of the threat or use of nuclear weapons. This resolution provides the framework to make that legal determination operationally meaningful. Nigeria, on behalf of the African Group, votes Yes and calls for an overwhelming majority that leaves no doubt about the will of the international community.",
+            "keyPoints": ["54 African nations renounced nukes yet live under threat", "Conditions never judged right in 50+ years of postponement", "Modernization billions spent while billions lack necessities"],
+            "rhetorical_strategy": "moral-majority"
+          },
+          {
+            "iso3": "CHN",
+            "countryName": "China",
+            "position": "Abstain",
+            "speech": "Mr. President, China returns to the floor to reaffirm its position. We have listened carefully to the arguments on both sides and remain convinced that while the resolution's objective is correct, its approach is premature given current security conditions.\n\nChina wishes to reiterate three points. First, we call upon the United States and Russia, which together possess over 90 percent of global nuclear warheads, to reduce their arsenals to levels comparable with other nuclear-weapon states before multilateral negotiations can meaningfully proceed. Second, China reaffirms its unconditional commitment to no-first-use and calls upon all nuclear-weapon states to adopt the same policy immediately, as a concrete risk-reduction step. Third, China supports the negotiation of a Fissile Material Cut-off Treaty as a practical step toward eventual elimination.\n\nChina's abstention should not be interpreted as opposition to disarmament. It reflects our assessment that the preconditions for universal elimination, particularly US-Russia reductions to minimum deterrence levels and the resolution of regional security conflicts, have not been met. China will vote for elimination when the conditions it has described are achieved. Until then, we maintain our minimum deterrent while working constructively toward the goal we all share.",
+            "keyPoints": ["US and Russia must reduce 90% of warheads first", "All nuclear states should adopt no-first-use immediately", "Preconditions for elimination not yet met"],
+            "rhetorical_strategy": "conditional-sequencing"
+          }
+        ]
+      }
+    ]
+  },
+  "sc-reform": {
+    "rounds": [
+      {
+        "round": 1,
+        "speeches": [
+          {
+            "iso3": "USA",
+            "countryName": "United States",
+            "position": "Abstain",
+            "speech": "Mr. President, the United States has long acknowledged that the Security Council's composition should evolve to better reflect contemporary geopolitical realities. We supported Japan's candidacy for permanent membership and have expressed openness to African representation. However, the specific proposal before us raises serious concerns that prevent our full endorsement.\n\nThe modification of the veto in operative clause 3, requiring two concurrent negative votes, would fundamentally alter the character of an institution designed to ensure that major powers remain invested in collective security. The veto, whatever its imperfections, reflects the reality that enforcement of international peace requires the cooperation of those states with the capacity to project power. Diluting this mechanism risks creating mandates that cannot be implemented, ultimately weakening rather than strengthening the Council.\n\nThe United States is prepared to discuss expansion of the Council in both permanent and non-permanent categories, and to consider mechanisms for greater accountability in the exercise of the veto, such as the requirement to explain votes. However, we cannot endorse a proposal that restructures the veto mechanism itself. We will abstain to signal our openness to reform while registering our reservation on this specific provision.",
+            "keyPoints": ["Veto ensures major powers remain invested in system", "Supports expansion but not veto restructuring", "Diluted veto risks unimplementable mandates"],
+            "rhetorical_strategy": "institutional-preservation"
+          },
+          {
+            "iso3": "CHN",
+            "countryName": "China",
+            "position": "No",
+            "speech": "Mr. President, China approaches Security Council reform with the view that any changes must enhance rather than diminish the Council's effectiveness and authority. China supports the principle of equitable geographical representation and has long advocated for increased representation of developing countries, particularly from Africa and Latin America.\n\nHowever, the current proposal is unacceptable to China for several reasons. First, the allocation of seats in operative clause 2 does not adequately reflect the interests and contributions of Asia-Pacific nations. Two seats for the Asia-Pacific group, of which one may go to a nation that China has legitimate concerns about, is insufficient given that this group represents over half the world's population. Second, the veto modification in operative clause 3 represents a fundamental alteration to the Charter that undermines the stability of the international order.\n\nChina has always maintained that Security Council reform should be conducted through patient consultation and consensus rather than imposed through majority vote. The requirement in operative clause 5 that amendments require ratification by all current permanent members ensures that this resolution cannot be implemented without our consent. China votes No to register our opposition to the current formulation while remaining committed to reform through appropriate consultative processes.",
+            "keyPoints": ["Two Asia-Pacific seats insufficient for half world population", "Veto modification undermines international order stability", "Reform must proceed through consensus, not majority vote"],
+            "rhetorical_strategy": "procedural-consensus"
+          },
+          {
+            "iso3": "IND",
+            "countryName": "India",
+            "position": "Yes",
+            "speech": "Mr. President, India's candidacy for permanent membership in an expanded Security Council is grounded in objective criteria that no reasonable analysis can dismiss. India is the world's most populous nation, the fifth largest economy, a founding member of the United Nations, and the largest contributor of troops to UN peacekeeping operations throughout history. The exclusion of India from the Council's permanent membership is an anachronism that damages the Council's legitimacy.\n\nIndia strongly supports this resolution. The allocation of two seats to Asia-Pacific in operative clause 2 provides the pathway for India's inclusion, reflecting the undeniable reality that no Security Council can claim to represent the contemporary world while excluding 1.4 billion Indians. We note that the Council's composition, frozen in 1945, reflects the post-colonial settlement of eighty years ago rather than the multipolar reality of today.\n\nIndia also welcomes the veto modification in operative clause 3. The single-state veto has repeatedly paralyzed the Council on matters of grave concern, from humanitarian crises to aggression against sovereign states. The requirement of two concurrent vetoes represents a reasonable reform that maintains the principle of great power consultation while reducing the capacity of a single state to obstruct collective action. India votes Yes and calls upon all nations that believe in a democratic international order to do the same.",
+            "keyPoints": ["Largest population, fifth economy, top peacekeeper excluded", "Council composition frozen in 1945 colonial settlement", "Two-veto threshold reduces single-state obstruction"],
+            "rhetorical_strategy": "merit-based-candidacy"
+          },
+          {
+            "iso3": "FRA",
+            "countryName": "France",
+            "position": "Abstain",
+            "speech": "Mr. President, France has consistently supported Security Council reform, including the creation of new permanent seats for countries that have the capacity and willingness to assume global responsibilities. We support Germany and Japan as candidates for permanent membership. We also support permanent African representation as a matter of historical justice.\n\nHowever, France has significant reservations about the veto modification proposed in operative clause 3. While France has voluntarily pledged not to exercise its veto in cases of mass atrocity, through the Franco-Mexican Political Declaration, this is a voluntary commitment that we encourage others to adopt. Mandating structural changes to the veto through Charter amendment is a different matter entirely.\n\nFrance notes that the resolution in operative clause 5 acknowledges that implementation requires ratification by all current permanent members. This is not merely a procedural requirement; it reflects the reality that Security Council reform requires the buy-in of those whose cooperation is essential for the Council to function. France will abstain to signal support for the expansion objective while registering concerns about the veto provisions. We urge the sponsors to consider a two-phase approach: first, expansion of membership; then, once new members are integrated, consideration of procedural reforms including veto accountability.",
+            "keyPoints": ["Supports new seats for Germany, Japan, and Africa", "Voluntary veto restraint differs from structural amendment", "Proposes two-phase: expansion first, procedural reform second"],
+            "rhetorical_strategy": "phased-reform"
+          },
+          {
+            "iso3": "NGA",
+            "countryName": "Nigeria",
+            "position": "Yes",
+            "speech": "Mr. President, Nigeria speaks on behalf of the African Group and reaffirms the Ezulwini Consensus and the Sirte Declaration, which represent Africa's unified position on Security Council reform. Africa demands no less than two permanent seats with full veto powers and five non-permanent seats. The current composition, in which 1.4 billion Africans have no permanent representation, constitutes the most glaring democratic deficit in the international system.\n\nThe African Group supports this resolution as a significant step toward correcting an eight-decade injustice. We note, however, that the allocation of two permanent seats to Africa is the absolute minimum acceptable to our Group. Furthermore, Africa's position remains that new permanent members must enjoy the same prerogatives as existing permanent members, including the veto, or alternatively, that the veto be abolished entirely.\n\nThe operative clause 3 modification, while not the abolition Africa has called for, represents meaningful progress in constraining an instrument that has been wielded repeatedly to shield aggressors and block humanitarian intervention in African crises. Nigeria calls upon all African nations to vote in favour and urges other regional groups to demonstrate solidarity with the principle of equitable representation. Eight decades without African permanent representation is eight decades too many.",
+            "keyPoints": ["Ezulwini Consensus demands 2 permanent seats with veto", "No permanent representation for 1.4 billion Africans", "Veto repeatedly shielded aggressors in African crises"],
+            "rhetorical_strategy": "historical-injustice"
+          },
+          {
+            "iso3": "TTO",
+            "countryName": "Trinidad and Tobago",
+            "position": "Yes",
+            "speech": "Mr. President, Trinidad and Tobago takes the floor on behalf of the Caribbean Community, CARICOM. Small island developing states have a direct stake in Security Council reform. The Council increasingly addresses issues central to our survival, from climate security to maritime disputes, yet our voices are systematically marginalized in its deliberations.\n\nCARICOM strongly supports this resolution. The allocation of one permanent seat to Latin America and the Caribbean in operative clause 2 addresses a region of over 650 million people that has never held permanent representation. We call upon GRULAC member states to engage constructively in determining how this seat should be filled, whether through a single permanent member or a rotating arrangement within the group.\n\nCARICOM also strongly supports the veto accountability provision in operative clause 4. Small states have repeatedly witnessed the veto paralyze the Council on matters of existential concern to our members, including climate-related security threats. The requirement to justify veto use before the General Assembly introduces a measure of democratic accountability to an otherwise unchecked power. CARICOM votes Yes and urges all small states and middle powers to seize this historic opportunity to reshape the architecture of global governance.",
+            "keyPoints": ["CARICOM: 650 million in region never held permanent seat", "Supports single or rotating GRULAC permanent representation", "Veto accountability essential for small state interests"],
+            "rhetorical_strategy": "small-state-solidarity"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "speeches": [
+          {
+            "iso3": "RUS",
+            "countryName": "Russian Federation",
+            "position": "No",
+            "speech": "Mr. President, Russia has observed with interest the interventions in this debate. Let us be straightforward: the Russian Federation will not consent to any modification of the veto. The veto is not a privilege; it is the structural guarantee that ensures major powers remain within the UN system rather than operating outside it. Remove this guarantee, and you risk the departure of those states whose participation is essential for the Council to function.\n\nRussia notes the historical context that is conveniently omitted from this debate. The veto exists because the League of Nations failed precisely when major powers could be outvoted on matters touching their vital interests. The architects of the UN Charter learned this lesson. Those who now seek to unlearn it do so at the peril of the entire system.\n\nRegarding expansion, Russia is not opposed in principle to additional seats. However, we note that every proposed candidate is controversial within its own region. Until there is genuine regional consensus on which nations should occupy new permanent seats, expansion will generate more conflict than it resolves. Russia votes No on this resolution and calls upon all delegations to pursue reform through the intergovernmental negotiation process established by decision 62/557, rather than through prescriptive General Assembly resolutions.",
+            "keyPoints": ["Veto ensures major powers stay within UN system", "League of Nations failed when powers could be outvoted", "Regional candidates all controversial within their groups"],
+            "rhetorical_strategy": "systemic-warning"
+          },
+          {
+            "iso3": "BRA",
+            "countryName": "Brazil",
+            "position": "Yes",
+            "speech": "Mr. President, Brazil is a natural candidate for a permanent seat representing Latin America and the Caribbean. As the largest country in the region by population, territory, and economic output, and as a consistent contributor to UN peacekeeping and multilateral diplomacy, Brazil brings both the capability and the commitment required of permanent membership.\n\nBrazil strongly supports this resolution. We wish to address directly the argument that reform should wait for regional consensus on candidates. This argument is a delay tactic. Perfect consensus has never been a prerequisite for action in the United Nations. What is required is the political will to act, and that will is demonstrated by the overwhelming majority of member states that support reform in principle.\n\nBrazil also supports the veto modification as a balanced reform. The two-veto requirement preserves great power prerogative while eliminating the most egregious abuse: a single state blocking action supported by all others. Brazil calls upon all GRULAC nations to vote in favour and to engage constructively in subsequent negotiations on how regional representation will be organized. The question is no longer whether to reform, but how. This resolution provides a credible and achievable framework.",
+            "keyPoints": ["Largest GRULAC nation with peacekeeping commitment", "Waiting for consensus is a delay tactic", "Two-veto requirement eliminates single-state blocking"],
+            "rhetorical_strategy": "candidacy-assertion"
+          },
+          {
+            "iso3": "PAK",
+            "countryName": "Pakistan",
+            "position": "No",
+            "speech": "Mr. President, Pakistan supports Security Council reform in principle but cannot support this specific resolution. Our concern is straightforward: the allocation of two seats to Asia-Pacific without specifying the selection criteria would likely result in a composition that does not reflect the diversity and balance required within our region.\n\nPakistan has long advocated for reform based on the principle that new permanent members should represent regions, not simply the largest or most powerful states within those regions. A permanent seat for any single Asia-Pacific nation that does not enjoy the unanimous support of its regional group would create an imbalanced Council and exacerbate rather than resolve regional tensions.\n\nPakistan proposes instead a model of semi-permanent seats with longer terms and the possibility of re-election, which would provide continuity without the permanence that creates new hierarchies. We also support the accountability mechanisms in operative clause 4 and the veto modification in operative clause 3. Our opposition is directed solely at the allocation mechanism which, in its current form, would elevate certain nations to permanent status over the objections of their regional peers. Pakistan votes No and calls for a more inclusive formulation.",
+            "keyPoints": ["New seats should represent regions, not dominant states", "Single-nation permanence creates new hierarchies", "Proposes semi-permanent seats with re-election possibility"],
+            "rhetorical_strategy": "regional-balance"
+          },
+          {
+            "iso3": "JPN",
+            "countryName": "Japan",
+            "position": "Yes",
+            "speech": "Mr. President, Japan is the second-largest financial contributor to the United Nations and one of the most frequent non-permanent members of the Security Council, having served eleven terms. Japan has demonstrated sustained commitment to international peace through our constitution's renunciation of war, our development assistance, and our support for UN peacekeeping.\n\nJapan strongly supports this resolution. The allocation of two seats to Asia-Pacific reflects the simple reality that a region containing 60 percent of the world's population deserves proportional representation. Japan's candidacy is based on the principle of capacity and commitment: permanent members must have both the resources to contribute to global security and the demonstrated track record of doing so.\n\nJapan wishes to address the veto modification directly. As a nation that has experienced the consequences of Security Council paralysis, Japan welcomes any mechanism that reduces the likelihood of inaction in the face of aggression or humanitarian crisis. The two-veto requirement represents a pragmatic reform that maintains the principle of great power consensus while raising the threshold for obstruction. Japan votes Yes and urges all G4 partners and their supporters to maintain unity in this historic vote.",
+            "keyPoints": ["Second-largest UN contributor with 11 SC terms", "Asia-Pacific with 60% of population deserves proportional seats", "Veto reform reduces inaction during crises"],
+            "rhetorical_strategy": "contribution-merit"
+          },
+          {
+            "iso3": "ETH",
+            "countryName": "Ethiopia",
+            "position": "Yes",
+            "speech": "Mr. President, Ethiopia, as the seat of the African Union and one of only two African nations never colonized, speaks in strong support of this resolution. Africa's demand for permanent representation is not charity; it is the correction of a founding injustice. In 1945, the majority of African nations were under colonial rule and excluded from the creation of an institution that has since made decisions profoundly affecting their futures.\n\nThe African Group's Ezulwini Consensus is clear: two permanent seats with veto rights, or the abolition of the veto entirely. This resolution provides two seats; the question of veto rights for new members must be addressed in implementation. Ethiopia calls upon the sponsors to clarify that new permanent members shall enjoy the same rights and privileges as existing permanent members, including any modified veto arrangement.\n\nEthiopia also notes that the Council's inability to address conflicts in Africa, whether in Libya, Sudan, or elsewhere, is directly linked to the exercise of the veto by members with competing interests on our continent. The modification in operative clause 3 would make it more difficult for a single external power to block action on African security matters. This alone justifies Africa's enthusiastic support. Ethiopia votes Yes on behalf of our belief that African agency in global governance is long overdue.",
+            "keyPoints": ["Founding injustice: most Africans colonized in 1945", "New members must have same rights including veto", "Single-power veto blocks action on African security"],
+            "rhetorical_strategy": "decolonization-justice"
+          },
+          {
+            "iso3": "USA",
+            "countryName": "United States",
+            "position": "Abstain",
+            "speech": "Mr. President, the United States returns to the floor having consulted with our partners. We wish to reiterate that the United States supports an expanded Security Council that includes permanent representation for Africa, reflects the rising role of Asian powers, and ensures Latin American and Caribbean voice at the highest level.\n\nOur abstention today should not be read as opposition to reform. It reflects a single, specific reservation: the veto modification in operative clause 3. The United States has demonstrated willingness to constrain our own veto use, as evidenced by our support for the Code of Conduct regarding Security Council action against genocide, crimes against humanity, and war crimes. We support accountability mechanisms. However, structural modification of the veto through Charter amendment crosses a qualitative threshold.\n\nThe United States signals to the Assembly that on a resolution confined to expansion of seats and accountability mechanisms, without veto restructuring, we would be prepared to vote Yes. We urge the sponsors to consider a bifurcated approach in future negotiations: one resolution on membership expansion, another on procedural reforms. This would enable the broadest possible coalition and the greatest chance of achieving the ratifications required for Charter amendment. The United States abstains with constructive intent.",
+            "keyPoints": ["Supports expansion for Africa, Asia, GRULAC", "Abstention due solely to veto restructuring clause", "Would vote Yes on expansion-only resolution"],
+            "rhetorical_strategy": "conditional-support"
+          }
+        ]
+      }
+    ]
+  },
+  "cyber-norms": {
+    "rounds": [
+      {
+        "round": 1,
+        "speeches": [
+          {
+            "iso3": "USA",
+            "countryName": "United States",
+            "position": "Yes",
+            "speech": "Mr. President, the United States has been at the forefront of efforts to establish responsible state behaviour in cyberspace since the first GGE report in 2010. The escalating pattern of state-sponsored cyber operations targeting civilian critical infrastructure, including hospitals, water treatment facilities, and energy grids, represents a clear and present threat to international peace and security.\n\nThe United States supports this resolution. The norms articulated in operative clauses 1 and 2 reflect principles already affirmed by consensus in the 2015 GGE report and endorsed by the General Assembly. What this resolution adds is the enforcement mechanism that experience has shown to be necessary. Voluntary norms, accepted in principle and violated in practice, serve only to demonstrate the inadequacy of normative frameworks without consequences.\n\nThe International Cyber Attribution Panel proposed in operative clause 3 addresses the core challenge of the cyber domain: plausible deniability. State-sponsored actors routinely hide behind criminal proxies and false flags. An authoritative, technically competent attribution body would eliminate the ambiguity that enables aggressive behaviour. The United States is prepared to subject its own cyber operations to the scrutiny of such a panel and calls upon all responsible states to do the same. Transparency is not vulnerability; it is the foundation of deterrence.",
+            "keyPoints": ["Voluntary norms accepted in principle, violated in practice", "Attribution panel eliminates plausible deniability", "Prepared to subject US operations to panel scrutiny"],
+            "rhetorical_strategy": "norm-enforcement"
+          },
+          {
+            "iso3": "CHN",
+            "countryName": "China",
+            "position": "No",
+            "speech": "Mr. President, China supports the principle of responsible state behaviour in cyberspace and has been an active participant in both the GGE and the Open-Ended Working Group. However, this resolution, tabled in the Security Council, represents an attempt to weaponize cyber governance for geopolitical purposes, and China cannot support it.\n\nOur objections are fundamental. First, the International Cyber Attribution Panel in operative clause 3 would be dominated by states with the most advanced signals intelligence capabilities, those very states most active in offensive cyber operations. The panel would inevitably become a tool for selective attribution, naming adversaries while shielding allies. China notes that the most extensive cyber espionage program ever revealed was conducted not by the states typically accused but by the intelligence agencies of the resolution's primary sponsors.\n\nSecond, the sanctions mechanism in operative clause 4 is unprecedented and dangerous. Applying Article 41 sanctions based on cyber attribution, which is inherently uncertain and politically contestable, creates a pathway for coercion masked as accountability. China calls instead for a universal, legally binding instrument negotiated through the OEWG process that applies equally to all states, including those with the most advanced offensive capabilities. We vote No.",
+            "keyPoints": ["Attribution panel would be tool for selective naming", "Sponsors conduct most extensive cyber espionage", "Sanctions based on uncertain attribution enable coercion"],
+            "rhetorical_strategy": "selective-accountability"
+          },
+          {
+            "iso3": "IND",
+            "countryName": "India",
+            "position": "Abstain",
+            "speech": "Mr. President, India has been a victim of numerous state-sponsored cyber operations targeting our critical infrastructure, financial systems, and democratic processes. We have a direct interest in establishing norms that constrain malicious cyber activity. At the same time, India has concerns about the specific governance mechanisms proposed in this resolution.\n\nIndia supports the normative framework in operative clauses 1 and 2. The principle that state-sponsored cyber operations against civilian critical infrastructure constitute a threat to international peace is beyond dispute. However, the attribution mechanism in operative clause 3 raises significant concerns. Cyber attribution is technically complex and inherently uncertain. An attribution panel that operates with less than absolute technical rigor risks becoming a political instrument.\n\nIndia also notes that this resolution is tabled in the Security Council where the veto applies, meaning that certain states could shield themselves or their allies from attribution findings while subjecting adversaries to sanctions. This structural asymmetry undermines the resolution's credibility. India would support a similar normative framework negotiated in the General Assembly or through the OEWG with universal application and without the veto shield. We abstain on this text while supporting its underlying principles.",
+            "keyPoints": ["Victim of state cyber operations but concerns on mechanism", "Attribution technically complex and inherently uncertain", "SC veto creates asymmetry shielding some from findings"],
+            "rhetorical_strategy": "principled-reservation"
+          },
+          {
+            "iso3": "FRA",
+            "countryName": "France",
+            "position": "Yes",
+            "speech": "Mr. President, France considers the protection of civilian critical infrastructure from state-sponsored cyber operations to be one of the defining security challenges of our era. The attack on the French hospital system in 2024, attributed to state-linked actors, demonstrated that cyber operations can directly endanger human life. This is not hypothetical; it is present reality.\n\nFrance strongly supports this resolution. We particularly welcome the affirmation in the preamble that international humanitarian law applies to cyber operations. This is not new law; it is the application of existing legal principles to a new domain. States that conduct cyber operations against hospitals, water systems, and power grids during armed conflict are violating the laws of war, and must be held accountable.\n\nRegarding the attribution panel, France notes that national attribution has already become standard practice among responsible states. France has publicly attributed cyber operations when evidence supported such assessment. An international panel operating with technical rigor and political independence would enhance credibility and reduce the politicization of attribution. France supports the resolution and calls upon all Council members to demonstrate that the Security Council can adapt to twenty-first century threats.",
+            "keyPoints": ["Hospital cyber attack demonstrated direct threat to life", "IHL applies to cyber operations - existing law, new domain", "International attribution enhances credibility over national"],
+            "rhetorical_strategy": "humanitarian-law"
+          },
+          {
+            "iso3": "BRA",
+            "countryName": "Brazil",
+            "position": "Yes",
+            "speech": "Mr. President, Brazil has been one of the most active voices in the Open-Ended Working Group on ICTs in the context of international security. We have consistently advocated for a rules-based approach to cyberspace that protects all states equally, particularly those with less developed cyber defence capabilities.\n\nBrazil supports this resolution with one important caveat. The revelations of 2013 demonstrated that mass surveillance of foreign governments and populations by allied intelligence agencies is as much a violation of sovereignty as a destructive cyber attack. Any framework for responsible state behaviour in cyberspace must ultimately address the full spectrum of harmful activities, not only those that damage infrastructure.\n\nThat said, the protection of civilian critical infrastructure is an appropriate starting point. Brazil, which has experienced cyber operations targeting our electoral infrastructure and state petroleum company, understands the urgency. We support the attribution panel and the graduated sanctions framework as mechanisms that, if designed with genuine political independence and technical competence, could deter the most egregious violations. Brazil votes Yes and calls for the panel's mandate to be interpreted broadly to encompass espionage against critical infrastructure, not only destructive operations.",
+            "keyPoints": ["Mass surveillance equally violates sovereignty", "Experienced attacks on electoral and petroleum infrastructure", "Panel mandate should cover espionage, not only destruction"],
+            "rhetorical_strategy": "comprehensive-scope"
+          },
+          {
+            "iso3": "EST",
+            "countryName": "Estonia",
+            "position": "Yes",
+            "speech": "Mr. President, Estonia speaks from direct experience. In 2007, our nation endured a coordinated cyber campaign that targeted government, banking, media, and telecommunications simultaneously. Our digital infrastructure, upon which our e-government model depends, was subjected to an assault designed to paralyze our state. Estonia learned in 2007 what this resolution seeks to prevent from becoming routine.\n\nSince then, Estonia has been at the forefront of international cyber governance. We host the NATO Cooperative Cyber Defence Centre of Excellence and have contributed extensively to the Tallinn Manual process clarifying international law's application to cyberspace. We can state with authority that the norms in this resolution are both legally sound and operationally necessary.\n\nEstonia strongly supports the attribution panel. Attribution is not impossible; it is politically inconvenient for aggressors. Technical forensics, combined with signals intelligence and contextual analysis, have proven repeatedly capable of identifying state-sponsored actors with high confidence. What has been lacking is not capability but the political will to act on attributions. This resolution provides the institutional framework for that will. Estonia votes Yes and calls upon all states that have experienced state-sponsored cyber operations to join in demanding accountability.",
+            "keyPoints": ["2007 cyber assault paralyzed government and banking", "Attribution not impossible, just politically inconvenient", "Technical forensics can identify actors with high confidence"],
+            "rhetorical_strategy": "experiential-authority"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "speeches": [
+          {
+            "iso3": "RUS",
+            "countryName": "Russian Federation",
+            "position": "No",
+            "speech": "Mr. President, the Russian Federation categorically rejects this resolution as a transparent attempt to establish a Western-controlled cyber enforcement mechanism under Security Council authority. Russia notes with irony that the states most vocal about cyber norms are those whose intelligence agencies have been documented conducting the most extensive signals intelligence operations in human history.\n\nRussia has consistently advocated for an international information security treaty negotiated through the United Nations with universal participation. We have tabled draft conventions dating back to 1998. These proposals were rejected by the very states now sponsoring this resolution, because a universal treaty would constrain their own activities equally. The selective enforcement mechanism proposed here is designed to apply pressure asymmetrically.\n\nThe attribution panel concept is fundamentally flawed. Cyber attribution is not a technical problem; it is a political problem. False flag operations are routine. Evidence can be planted. And a panel composed of experts from states with advanced offensive capabilities will inevitably reflect their biases. Russia proposes instead a universal ICT security treaty with equal obligations, negotiated in the OEWG, without selective enforcement through the Security Council. We exercise our right of veto if this resolution proceeds to a vote.",
+            "keyPoints": ["Western-controlled enforcement applied asymmetrically", "Has proposed universal treaties since 1998, rejected by sponsors", "Threatens veto, calls attribution fundamentally political"],
+            "rhetorical_strategy": "counter-narrative"
+          },
+          {
+            "iso3": "BRA",
+            "countryName": "Brazil",
+            "position": "Yes",
+            "speech": "Mr. President, Brazil returns to address the veto threat issued by the Russian Federation. It is precisely this type of scenario that demonstrates the paralysis of the Security Council on emerging threats. A state accused of conducting aggressive cyber operations exercises its veto to prevent the establishment of accountability mechanisms. The circularity is self-evident.\n\nBrazil reaffirms its support for this resolution while acknowledging that the veto threat may render it operationally ineffective. We call upon the sponsors to prepare a parallel track: should the Council be paralyzed, the General Assembly can and should establish a similar normative framework under its own authority, including an attribution mechanism operating with moral rather than enforcement authority.\n\nThe Uniting for Peace precedent demonstrates that Council paralysis need not equate to UN paralysis. Brazil also calls upon states that abstained in the first round due to concerns about Council dynamics to reconsider. A strong affirmative vote, even if vetoed, sends an unambiguous normative signal. The international community must demonstrate that state-sponsored attacks on hospitals and water systems are unacceptable, regardless of whether a single veto prevents formal enforcement.",
+            "keyPoints": ["Veto circularity: accused state blocks accountability", "Proposes GA parallel track if Council paralyzed", "Strong vote even if vetoed sends normative signal"],
+            "rhetorical_strategy": "institutional-workaround"
+          },
+          {
+            "iso3": "IRN",
+            "countryName": "Iran",
+            "position": "No",
+            "speech": "Mr. President, the Islamic Republic of Iran has been the target of some of the most sophisticated state-sponsored cyber operations in history, including attacks on our nuclear facilities and our petroleum infrastructure. We know from direct experience the damage that cyber weapons can cause. Yet we cannot support this resolution.\n\nOur opposition is not to the norms. Iran supports the protection of civilian infrastructure from cyber operations. Our opposition is to the selective enforcement framework. The state that conducted the most destructive cyber operation in history, targeting Iran's nuclear facilities in an acknowledged act of sabotage, is not only a sponsor of this resolution but would sit on the attribution panel. The state that compromised the personal devices of world leaders is a co-sponsor. This is not governance; it is institutional capture.\n\nIran insists that any cyber governance framework must be universal in application, free from Security Council veto dynamics, and must equally address offensive cyber capabilities maintained by all states without exception. Until such a framework exists, Iran rejects selective mechanisms that would constrain the cyber capabilities of targeted nations while immunizing those of the powerful. We vote No.",
+            "keyPoints": ["Target of most destructive cyber operation (Stuxnet)", "Attackers would sit on attribution panel they sponsor", "Demands universal framework free from veto dynamics"],
+            "rhetorical_strategy": "victimhood-reversal"
+          },
+          {
+            "iso3": "DEU",
+            "countryName": "Germany",
+            "position": "Yes",
+            "speech": "Mr. President, Germany supports this resolution as a critical step in establishing enforceable norms for state behaviour in cyberspace. As a nation whose Bundestag was compromised by a state-sponsored cyber operation in 2015, and whose critical infrastructure faces daily intrusion attempts, Germany has direct national interest in an effective deterrence framework.\n\nGermany wishes to address the argument that attribution is inherently unreliable and therefore cannot serve as a basis for enforcement. This argument does not withstand scrutiny. Multiple states have demonstrated the capacity for technically rigorous attribution with high confidence. The Bundestag hack, the NotPetya attack, the SolarWinds campaign, all were attributed with high confidence through national and collaborative technical analysis. An international panel with access to multiple intelligence streams would achieve even greater reliability.\n\nGermany acknowledges that this resolution may face the veto. If so, we join Brazil in calling for a General Assembly framework. But we urge all Council members to recognize that the protection of hospitals, water systems, and power grids from cyber attack is a humanitarian imperative, not a geopolitical game. Germany votes Yes.",
+            "keyPoints": ["Bundestag compromised in 2015 state cyber operation", "Multiple high-confidence attributions prove reliability", "Protection of hospitals is humanitarian imperative"],
+            "rhetorical_strategy": "evidence-based"
+          },
+          {
+            "iso3": "GHA",
+            "countryName": "Ghana",
+            "position": "Yes",
+            "speech": "Mr. President, Ghana takes the floor as a nation that is rapidly digitizing its economy and public services. Our digitization makes us vulnerable. Developing nations with less mature cyber defence capabilities are disproportionately affected by state-sponsored cyber operations, yet we have the least capacity to attribute and respond to such attacks.\n\nGhana supports this resolution precisely because the attribution panel would provide a capability that most nations cannot develop individually. Currently, only a handful of states possess the technical intelligence necessary for confident attribution. This means most victims, particularly in Africa, cannot identify their attackers, much less seek accountability. An international mechanism levels this playing field.\n\nGhana also supports operative clause 5 on national CERT establishment and international information sharing. Capacity building is essential. We call upon the sponsors to ensure that the resolution's implementation includes dedicated resources for helping developing nations build cyber defence capabilities. Protection of civilian infrastructure from cyber attack should not be a privilege of the technically advanced. Ghana votes Yes.",
+            "keyPoints": ["Developing nations most vulnerable, least able to attribute", "International panel levels playing field for victims", "Capacity building essential for equitable protection"],
+            "rhetorical_strategy": "capacity-gap"
+          },
+          {
+            "iso3": "IND",
+            "countryName": "India",
+            "position": "Yes",
+            "speech": "Mr. President, India returns to the floor to announce a change in our position. Having reflected on the arguments presented, and in light of the constructive proposals regarding General Assembly parallel mechanisms and the demonstrated urgency of protecting civilian infrastructure, India will vote Yes on this resolution.\n\nOur decision is influenced by three factors. First, the escalating frequency of state-sponsored cyber operations targeting civilian infrastructure demands action, and perfect should not be the enemy of good. Second, the attribution panel, while imperfect, provides a multilateral mechanism superior to the current situation of unilateral attributions with no institutional accountability. Third, India has itself been a significant victim of cyber operations and has a direct interest in an international deterrence framework.\n\nIndia's Yes vote is accompanied by expectations. We expect that the attribution panel's mandate, composition, and procedures will be negotiated inclusively, with genuine representation from developing nations. We expect that the panel will address all forms of state-sponsored cyber interference, including espionage against critical infrastructure. And we expect that if the veto prevents Security Council action, the sponsors will pursue the General Assembly track with equal determination. With these expectations recorded, India votes Yes.",
+            "keyPoints": ["Shifted from Abstain due to urgency and pragmatism", "Multilateral attribution superior to unilateral status quo", "Expects inclusive panel composition with developing nation voice"],
+            "rhetorical_strategy": "pragmatic-shift"
+          }
+        ]
+      }
+    ]
+  },
+  "water-rights": {
+    "rounds": [
+      {
+        "round": 1,
+        "speeches": [
+          {
+            "iso3": "USA",
+            "countryName": "United States",
+            "position": "Abstain",
+            "speech": "Mr. President, the United States is the largest bilateral donor of water and sanitation assistance globally, having provided over 4 billion dollars in the last decade through USAID programs reaching millions. We share the objective of universal access to clean water and sanitation and recognize the urgency of the water crisis facing many developing nations.\n\nHowever, the United States has longstanding reservations about the characterization of water access as a binding obligation under international human rights law, as stated in operative clause 1. While we supported General Assembly resolution 64/292 recognizing the right to water, we did so with the understanding that this right does not create obligations for states to provide water services extraterritorially or to subordinate all water management decisions to a single rights-based framework.\n\nThe Global Water Access Fund proposed in operative clause 2, capitalized at 50 billion dollars, raises questions about governance, burden-sharing, and conditionality that remain unaddressed. Furthermore, operative clause 4, urging states to prioritize water access over commercial exploitation, could be interpreted to restrict legitimate water resource management including agricultural irrigation and industrial use. The United States will abstain while continuing our substantial bilateral assistance and engaging constructively in implementation discussions.",
+            "keyPoints": ["Reservations on binding obligation characterization", "50 billion fund lacks governance and burden-sharing details", "Commercial exploitation clause could restrict legitimate use"],
+            "rhetorical_strategy": "constructive-abstention"
+          },
+          {
+            "iso3": "CHN",
+            "countryName": "China",
+            "position": "Yes",
+            "speech": "Mr. President, China has achieved one of the most remarkable water access transformations in human history. In thirty years, we have extended piped water to over 500 million rural residents and built water treatment infrastructure serving a population larger than Europe's. China's experience demonstrates that with political will and public investment, the water crisis is solvable.\n\nChina supports this resolution and its core premise that access to clean water is a fundamental human right requiring binding state action. The Global Water Access Fund in operative clause 2 represents a welcome investment, though China notes that 50 billion dollars, while substantial, amounts to less than the world spends on bottled water annually. The crisis demands scale.\n\nChina also supports the reporting requirements in operative clause 3. Accountability and planning are essential for progress. We offer our own experience in water infrastructure development as a model for South-South cooperation and are prepared to contribute both financially and technically to the fund's implementation. China calls upon all developed nations to meet their responsibilities and votes Yes.",
+            "keyPoints": ["Extended piped water to 500 million rural residents", "50 billion less than global bottled water spending", "Offers South-South cooperation and technical expertise"],
+            "rhetorical_strategy": "demonstrated-success"
+          },
+          {
+            "iso3": "IND",
+            "countryName": "India",
+            "position": "Yes",
+            "speech": "Mr. President, India's Jal Jeevan Mission represents the largest water infrastructure program in human history, having provided functional household tap water connections to over 140 million rural households since 2019. India understands both the scale of the water challenge and the feasibility of addressing it through determined state action.\n\nIndia strongly supports this resolution. The right to clean water and sanitation is inseparable from the right to life and the right to an adequate standard of living. For a nation where waterborne diseases still claim hundreds of thousands of lives annually, particularly among children, this is not an abstract legal debate. It is a matter of survival and dignity.\n\nIndia particularly welcomes the preferential lending provisions in operative clause 5 and the Global Water Access Fund. Water infrastructure requires massive capital investment over decades. Developing nations cannot finance this transformation solely from domestic resources while simultaneously addressing health, education, and energy needs. International solidarity, in the form of concessional finance and technology transfer, is not charity but recognition of shared responsibility for a shared resource under a shared climate threat. India votes Yes.",
+            "keyPoints": ["Jal Jeevan Mission connected 140 million households", "Water right inseparable from right to life", "International solidarity needed for capital-intensive infrastructure"],
+            "rhetorical_strategy": "national-program-scale"
+          },
+          {
+            "iso3": "GBR",
+            "countryName": "United Kingdom",
+            "position": "Yes",
+            "speech": "Mr. President, the United Kingdom is a longstanding supporter of the human right to water and sanitation and a major contributor to water access programs through DFID, now FCDO, having helped over 60 million people gain access to clean water over the past decade. Water security is a priority of our international development strategy and a cornerstone of our approach to the Sustainable Development Goals.\n\nThe UK supports this resolution. The evidence is unambiguous: 2.2 billion people lack safely managed drinking water, a number that is growing as climate change intensifies hydrological volatility. The SDG 6 targets will not be met without the type of accelerated, binding framework proposed here.\n\nWe particularly welcome the Special Rapporteur provision in operative clause 6. Independent monitoring and investigation are essential for accountability. The UK also supports the prioritization of water access over commercial exploitation in operative clause 4, which we interpret as requiring human needs assessments before large-scale commercial water extraction, not as prohibiting all commercial water use. With this interpretive understanding, the UK votes Yes and calls upon all delegations to support universal water access as a matter of basic human dignity.",
+            "keyPoints": ["Helped 60 million gain water access in past decade", "SDG 6 targets impossible without binding framework", "Interprets commercial clause as requiring needs assessments first"],
+            "rhetorical_strategy": "interpretive-support"
+          },
+          {
+            "iso3": "ETH",
+            "countryName": "Ethiopia",
+            "position": "Yes",
+            "speech": "Mr. President, Ethiopia is the water tower of East Africa, source of the Blue Nile that provides water to hundreds of millions downstream. Yet despite our water wealth, over 30 million Ethiopians still lack access to safe drinking water. Ethiopia understands the paradox that water abundance does not automatically translate into water access. Infrastructure, governance, and investment are required.\n\nEthiopia strongly supports this resolution on behalf of the African nations facing the most severe water stress. The Global Water Access Fund is critically needed. Africa's water infrastructure deficit is estimated at over 100 billion dollars. Without international support, our nations face an impossible choice between water investment and other development priorities.\n\nEthiopia also wishes to address the sovereignty concerns related to operative clause 3 on national water plans. We interpret this requirement as supportive of national development planning, not restrictive of sovereign water management decisions. Transboundary water governance, which is central to our region's stability, remains a matter for riparian states to negotiate bilaterally and through regional frameworks. Ethiopia votes Yes and calls upon the international community to match rhetoric with resources.",
+            "keyPoints": ["Water tower of East Africa yet 30 million lack access", "Africa's water infrastructure deficit exceeds 100 billion", "Transboundary governance remains for riparian states to decide"],
+            "rhetorical_strategy": "resource-paradox"
+          },
+          {
+            "iso3": "MHL",
+            "countryName": "Marshall Islands",
+            "position": "Yes",
+            "speech": "Mr. President, the Marshall Islands speaks as a nation where freshwater is among our most precious and precarious resources. Our low-lying atolls have no rivers and minimal groundwater. We depend on rainfall catchment and fragile freshwater lenses that are increasingly contaminated by saltwater intrusion as sea levels rise. Climate change is directly threatening our right to water.\n\nThe Marshall Islands strongly supports this resolution and particularly notes the preamble's recognition that climate crisis exacerbates water scarcity. For small island developing states, the water crisis and the climate crisis are inseparable. Rising seas contaminate our aquifers. Changing rainfall patterns disrupt our catchment systems. More intense droughts leave our communities without drinking water for weeks at a time.\n\nWe call upon all delegations to recognize that the right to water requires climate action. A resolution on water access that does not address the climate drivers of water insecurity addresses only symptoms. The Marshall Islands votes Yes and calls upon the Global Water Access Fund to allocate specific resources for climate-resilient water systems in SIDS, including desalination, rainwater harvesting, and aquifer protection. Our right to water depends on our right to a stable climate.",
+            "keyPoints": ["Freshwater lenses contaminated by saltwater intrusion", "Water crisis and climate crisis inseparable for SIDS", "Calls for climate-resilient water systems in fund allocation"],
+            "rhetorical_strategy": "climate-water-nexus"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "speeches": [
+          {
+            "iso3": "RUS",
+            "countryName": "Russian Federation",
+            "position": "Abstain",
+            "speech": "Mr. President, the Russian Federation possesses the largest freshwater reserves of any nation on Earth, including Lake Baikal, which alone contains twenty percent of the world's unfrozen surface freshwater. Russia approaches this resolution not as a nation facing water scarcity but as one concerned about the implications of binding international obligations regarding natural resource management.\n\nRussia has reservations about operative clause 1, which declares water access a binding obligation under international human rights law. While we do not dispute the importance of water access, the creation of new binding obligations through General Assembly resolutions without treaty negotiation raises procedural concerns. The General Assembly recommends; it does not legislate.\n\nHowever, Russia acknowledges the humanitarian importance of this resolution and does not wish to be seen as opposing the objective of universal water access. We therefore abstain rather than vote No, while placing on record our understanding that this resolution does not create extraterritorial obligations for water-abundant states to transfer resources to water-scarce states without bilateral agreement. Russia remains committed to humanitarian water assistance on a voluntary bilateral basis.",
+            "keyPoints": ["Holds 20% of world unfrozen surface freshwater", "GA cannot create binding obligations without treaty", "No extraterritorial obligation to transfer water resources"],
+            "rhetorical_strategy": "procedural-limitation"
+          },
+          {
+            "iso3": "BRA",
+            "countryName": "Brazil",
+            "position": "Yes",
+            "speech": "Mr. President, Brazil possesses approximately twelve percent of the world's freshwater in the Amazon basin and has achieved near-universal urban water access. Yet we recognize that water remains a challenge in our semi-arid Northeast, where transposition projects and desalination investments continue. Brazil's experience demonstrates that even water-rich nations must invest continuously in equitable access.\n\nBrazil strongly supports this resolution. We view the right to water as the most fundamental of economic, social, and cultural rights, without which no other right can be meaningfully exercised. The right to education means little for a child debilitated by waterborne disease. The right to health is meaningless without clean water for hygiene and sanitation.\n\nBrazil also wishes to address the sovereignty dimension. We interpret operative clause 4 on prioritizing access over commercial exploitation as referring to domestic water allocation decisions, not as restricting sovereign rights over transboundary resources. Brazil maintains its sovereign right to manage the Amazon basin's water resources while supporting the principle that within every nation, human needs take precedence over commercial profit. With this understanding, Brazil votes Yes and pledges technical cooperation with nations seeking to expand water access.",
+            "keyPoints": ["12% of world freshwater, near-universal urban access", "Water is most fundamental right enabling all others", "Domestic allocation prioritizes humans over commerce"],
+            "rhetorical_strategy": "foundational-right"
+          },
+          {
+            "iso3": "SAU",
+            "countryName": "Saudi Arabia",
+            "position": "Yes",
+            "speech": "Mr. President, Saudi Arabia is among the most water-scarce nations on Earth. We receive less than 100 millimeters of annual rainfall and have no permanent rivers or freshwater lakes. Despite these extreme conditions, Saudi Arabia has invested massively in desalination technology, becoming the world's largest producer of desalinated water with over 30 plants providing 70 percent of our drinking water.\n\nSaudi Arabia supports this resolution as a nation that has transformed water scarcity into water security through sustained investment and technological innovation. We demonstrate that water access is ultimately a matter of political will and resource allocation, not simply geography. However, we note that our solution required enormous capital, over 25 billion dollars in desalination infrastructure alone, capital that most water-scarce developing nations do not possess.\n\nThis is precisely why the Global Water Access Fund is essential. Saudi Arabia is prepared to contribute to the fund and to share our desalination expertise with other water-scarce nations. We also support research into next-generation desalination technologies that reduce energy costs and environmental impact. The Kingdom votes Yes and calls upon all water-abundant nations that have benefited from nature's geography to demonstrate solidarity with those that have not.",
+            "keyPoints": ["World largest desalination producer despite extreme scarcity", "Invested 25 billion in desalination infrastructure", "Prepared to contribute to fund and share expertise"],
+            "rhetorical_strategy": "technology-solution"
+          },
+          {
+            "iso3": "DEU",
+            "countryName": "Germany",
+            "position": "Yes",
+            "speech": "Mr. President, Germany approaches the right to water from both a development cooperation perspective and as a nation that has experienced the consequences of water commodification. Our experience with water privatization in the 1990s and early 2000s, and the subsequent remunicipalizations in Berlin and other cities, demonstrated that water services managed primarily for profit risk excluding the most vulnerable.\n\nGermany strongly supports operative clause 4 on prioritizing water access over commercial exploitation. This reflects a principle that Germany has enshrined in our own policies: water is a public good, not a commodity. While private sector involvement in water infrastructure can be beneficial, the governance framework must ensure that access for all takes precedence over returns for shareholders.\n\nGermany pledges to increase our water sector development cooperation, currently approximately 800 million euros annually, and to support the Global Water Access Fund both financially and technically. We also strongly support the Special Rapporteur provision as an accountability mechanism. Germany votes Yes and urges all EU member states to support a resolution that embodies the values of solidarity and universal human dignity upon which our Union is founded.",
+            "keyPoints": ["Remunicipalizations proved water is public good not commodity", "Pledges to increase 800 million euro water cooperation", "Private sector must not prioritize returns over access"],
+            "rhetorical_strategy": "public-good-principle"
+          },
+          {
+            "iso3": "SOM",
+            "countryName": "Somalia",
+            "position": "Yes",
+            "speech": "Mr. President, Somalia speaks as a nation in acute water crisis. Recurring droughts, exacerbated by climate change, have displaced millions and created conditions where families walk hours for water that is neither safe nor sufficient. In 2022, Somalia experienced its worst drought in four decades, with 80 percent of the country affected and millions facing acute water insecurity.\n\nFor Somalia, this resolution is not about legal frameworks or institutional design. It is about the survival of our children. Every day that we debate, children in the Horn of Africa die from waterborne diseases that are entirely preventable with basic infrastructure. The 50 billion dollar Global Water Access Fund, if properly allocated, could transform the water landscape of the entire Horn of Africa within a decade.\n\nSomalia calls upon this Assembly to move beyond aspiration to action. We have enough resolutions, declarations, and targets. What we lack is investment, infrastructure, and political will. Somalia votes Yes and implores the international community to ensure that this resolution leads to concrete resource flows, not merely another document gathering dust in the UN archives. Our people cannot drink resolutions. They need water.",
+            "keyPoints": ["2022 worst drought in 40 years affecting 80% of country", "Children dying daily from preventable waterborne diseases", "People cannot drink resolutions - need concrete investment"],
+            "rhetorical_strategy": "humanitarian-emergency"
+          },
+          {
+            "iso3": "USA",
+            "countryName": "United States",
+            "position": "Yes",
+            "speech": "Mr. President, the United States returns to the floor to announce a change in our position. Having listened to the powerful testimony of delegations from water-scarce nations, and having consulted with partners on the interpretive understandings offered during this debate, the United States will vote Yes on this resolution.\n\nOur shift is based on the following understanding. First, operative clause 1 on binding obligations is interpreted as reaffirming existing obligations under the ICESCR and customary international law regarding progressive realization, not as creating new immediate extraterritorial duties. Second, operative clause 4 on commercial exploitation is understood as establishing a prioritization framework within domestic water allocation, not as restricting all commercial water use.\n\nThe United States has invested billions in global water access and will continue to do so. The water crisis is too urgent and too devastating, particularly for the most vulnerable populations, to permit abstention on a resolution that enjoys near-universal support. The United States votes Yes and commits to constructive engagement in the fund's governance design, ensuring accountability, transparency, and results-based allocation. Clean water is too fundamental a human need to be held hostage to legal technicalities.",
+            "keyPoints": ["Shifted from Abstain based on interpretive understandings", "Interprets obligations as progressive realization framework", "Water too fundamental to be hostage to legal technicalities"],
+            "rhetorical_strategy": "humanitarian-override"
+          }
+        ]
+      }
+    ]
+  }
+}
