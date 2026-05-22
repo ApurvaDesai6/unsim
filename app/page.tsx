@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { COMMITTEES } from "@/engines/committees";
 import type { Committee } from "@/types";
@@ -46,11 +46,18 @@ const PRESETS = [
   },
 ];
 
+interface LiveEvent { id: string; title: string; date: string; source: string; countries: string[]; type: string; relevance: number }
+
 export default function LandingPage() {
   const router = useRouter();
   const [policyIdea, setPolicyIdea] = useState("");
   const [committee, setCommittee] = useState<Committee>("GA_PLENARY");
   const [mode, setMode] = useState<"write" | "presets">("presets");
+  const [liveEvents, setLiveEvents] = useState<LiveEvent[]>([]);
+
+  useEffect(() => {
+    fetch("/api/events").then((r) => r.json()).then((d) => setLiveEvents(d.events || [])).catch(() => {});
+  }, []);
 
   const canSubmit = mode === "write" ? policyIdea.trim().length >= 20 : true;
 
@@ -283,6 +290,49 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      {/* Live Situation Monitor */}
+      {liveEvents.length > 0 && (
+        <section className="border-t border-[var(--color-border)] bg-white">
+          <div className="max-w-4xl mx-auto px-6 py-16">
+            <div className="text-[13px] font-medium text-[var(--color-muted)] tracking-tight mb-2 flex items-center gap-2">
+              03 · Live context
+              <span className="w-2 h-2 rounded-full bg-[var(--color-vote-yes)] animate-pulse-soft" />
+            </div>
+            <h2
+              className="text-3xl md:text-4xl font-semibold tracking-tight leading-[1.1] mb-4"
+              style={{ fontFamily: "var(--font-serif)" }}
+            >
+              Recent events shaping votes
+            </h2>
+            <p className="text-[var(--color-muted)] mb-8 text-sm max-w-2xl">
+              Real geopolitical events from UN News, GDELT, and ReliefWeb that affect how countries vote. These inform our simulation context.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {liveEvents.slice(0, 6).map((event) => {
+                const typeColors: Record<string, string> = { vote: "var(--color-un-blue)", conflict: "var(--color-vote-no)", diplomatic: "var(--color-vote-yes)", crisis: "var(--color-vote-abstain)", agreement: "var(--color-vote-yes)" };
+                return (
+                  <div key={event.id} className="p-4 rounded-xl border border-[var(--color-border)] bg-[var(--color-bg)]/30 space-y-2">
+                    <div className="flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full" style={{ background: typeColors[event.type] || "var(--color-muted)" }} />
+                      <span className="text-[10px] font-medium uppercase text-[var(--color-muted)]">{event.type}</span>
+                      <span className="text-[10px] text-[var(--color-muted)]">{event.date}</span>
+                    </div>
+                    <p className="text-sm font-medium text-[var(--color-ink)] leading-snug">{event.title}</p>
+                    <div className="flex gap-1 flex-wrap">
+                      {event.countries.slice(0, 4).map((c) => (
+                        <span key={c} className="text-[9px] px-1.5 py-0.5 rounded bg-[var(--color-bg)] text-[var(--color-muted)] font-mono">{c}</span>
+                      ))}
+                      {event.countries.length > 4 && <span className="text-[9px] text-[var(--color-muted)]">+{event.countries.length - 4}</span>}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <p className="text-[10px] text-[var(--color-muted)] mt-4 italic">Sources: GDELT Project · UN News · ReliefWeb API — updated every 6 hours via GitHub Action</p>
+          </div>
+        </section>
+      )}
 
       {/* Explore Section */}
       <section className="border-t border-[var(--color-border)] bg-white">
