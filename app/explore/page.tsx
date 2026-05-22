@@ -31,7 +31,15 @@ interface GraphStats {
   positions: number;
 }
 
-type AnalysisView = "network" | "blocs" | "polarization" | "bridgers" | "issues";
+type AnalysisView = "influence" | "blocs" | "polarization" | "bridgers" | "issues";
+
+interface InfluenceEntity {
+  id: string; type: string; name: string; influence: string;
+  members?: string[]; countries?: string[]; recipients?: string[];
+}
+interface InfluenceEdge {
+  source: string; sourceName: string; target: string; effect: string; mechanism: string; strength: number; sourceType?: string;
+}
 
 const REGION_COLORS: Record<string, string> = {
   AFRICAN: "#e6a817", APG: "#4b92db", EEG: "#9b59b6", GRULAC: "#27ae60", WEOG: "#e74c3c",
@@ -45,7 +53,10 @@ export default function ExplorePage() {
   const [stats, setStats] = useState<GraphStats | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [selectedData, setSelectedData] = useState<RelationshipData | null>(null);
-  const [activeView, setActiveView] = useState<AnalysisView>("network");
+  const [activeView, setActiveView] = useState<AnalysisView>("influence");
+  const [influenceData, setInfluenceData] = useState<{ entities: InfluenceEntity[]; influence_edges: InfluenceEdge[] } | null>(null);
+  const [selectedEntity, setSelectedEntity] = useState<string | null>(null);
+  const [issueFilter, setIssueFilter] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [loading, setLoading] = useState(true);
   const [comparisonCountry, setComparisonCountry] = useState<string | null>(null);
@@ -55,9 +66,11 @@ export default function ExplorePage() {
     Promise.all([
       fetch("/api/kg/explore?action=countries").then((r) => r.json()),
       fetch("/api/kg/query?action=stats").then((r) => r.json()),
-    ]).then(([c, s]) => {
+      fetch("/api/kg/influence?action=all").then((r) => r.json()),
+    ]).then(([c, s, inf]) => {
       setCountries(c);
       setStats(s);
+      setInfluenceData(inf);
       setLoading(false);
     }).catch(() => setLoading(false));
   }, []);
@@ -144,7 +157,7 @@ export default function ExplorePage() {
         {/* View tabs */}
         <div className="max-w-[1400px] mx-auto px-4 pb-2 flex gap-1">
           {([
-            ["network", "Alliance Network"],
+            ["influence", "Influence Network"],
             ["polarization", "Polarization Map"],
             ["bridgers", "Bridge Countries"],
             ["blocs", "Voting Blocs"],
@@ -337,25 +350,89 @@ export default function ExplorePage() {
             </div>
           )}
 
-          {activeView === "network" && (
-            <div className="h-full flex items-center justify-center p-6">
-              <div className="text-center space-y-4 max-w-md">
-                <div className="text-4xl opacity-30">🌐</div>
-                <h2 className="text-lg font-semibold" style={{ fontFamily: "var(--font-serif)" }}>Alliance & Rivalry Network</h2>
+          {activeView === "influence" && influenceData && (
+            <div className="p-6 space-y-6">
+              <div>
+                <h2 className="text-lg font-semibold mb-1" style={{ fontFamily: "var(--font-serif)" }}>Hidden Influence Network</h2>
                 <p className="text-sm text-[var(--color-muted)]">
-                  Search for a country above to explore its diplomatic network — alliances grounded in 20 years of co-voting data (cosine similarity on 870K+ votes).
+                  Beyond country-to-country alliances: security pacts, arms trade, aid dependency, trade leverage, and corporate interests that shape how delegates vote. Click any entity to see its influence pathways.
                 </p>
-                <div className="grid grid-cols-2 gap-2 text-left">
-                  {["USA", "CHN", "IND", "BRA", "NGA", "FRA"].map((iso3) => {
-                    const c = countries.find((x) => x.iso3 === iso3);
-                    return c ? (
-                      <button key={iso3} onClick={() => fetchCountryData(iso3)} className="p-2.5 rounded-lg border border-[var(--color-border)] hover:border-[var(--color-un-blue)] text-left transition-colors">
-                        <div className="text-sm font-medium">{c.name}</div>
-                        <div className="text-[10px] text-[var(--color-muted)]">{REGION_LABELS[c.region]}</div>
+              </div>
+
+              {/* Issue filter */}
+              <div className="flex gap-1.5 flex-wrap">
+                <button onClick={() => setIssueFilter(null)} className={`text-[10px] px-2.5 py-1 rounded-full border transition-colors ${!issueFilter ? "border-[var(--color-un-blue)] text-[var(--color-un-blue)] bg-[var(--color-un-blue)]/10" : "border-[var(--color-border)] text-[var(--color-muted)]"}`}>All Issues</button>
+                {["Nuclear weapons", "Palestinian conflict", "Human rights", "Arms control", "Economic development"].map((issue) => (
+                  <button key={issue} onClick={() => setIssueFilter(issue)} className={`text-[10px] px-2.5 py-1 rounded-full border transition-colors ${issueFilter === issue ? "border-[var(--color-un-blue)] text-[var(--color-un-blue)] bg-[var(--color-un-blue)]/10" : "border-[var(--color-border)] text-[var(--color-muted)] hover:border-[var(--color-un-blue)]"}`}>{issue}</button>
+                ))}
+              </div>
+
+              {/* Influence entities grid */}
+              <div className="space-y-3">
+                {influenceData.entities
+                  .filter((e) => {
+                    if (!issueFilter) return true;
+                    return influenceData.influence_edges.some((edge) => edge.source === e.id && edge.target.toLowerCase().includes(issueFilter.toLowerCase()));
+                  })
+                  .map((entity) => {
+                    const typeStyles: Record<string, { bg: string; border: string; icon: string }> = {
+                      "security-org": { bg: "bg-red-50", border: "border-red-200", icon: "🛡" },
+                      "regional-org": { bg: "bg-blue-50", border: "border-blue-200", icon: "🌍" },
+                      "religious-org": { bg: "bg-purple-50", border: "border-purple-200", icon: "☪" },
+                      "economic-org": { bg: "bg-emerald-50", border: "border-emerald-200", icon: "💰" },
+                      "corporation": { bg: "bg-amber-50", border: "border-amber-200", icon: "🏭" },
+                      "aid-flow": { bg: "bg-cyan-50", border: "border-cyan-200", icon: "🤝" },
+                      "trade-dependency": { bg: "bg-orange-50", border: "border-orange-200", icon: "📦" },
+                      "treaty-obligation": { bg: "bg-indigo-50", border: "border-indigo-200", icon: "📜" },
+                    };
+                    const style = typeStyles[entity.type] || { bg: "bg-gray-50", border: "border-gray-200", icon: "•" };
+                    const edges = influenceData.influence_edges.filter((e) => e.source === entity.id);
+                    const isSelected = selectedEntity === entity.id;
+
+                    return (
+                      <button
+                        key={entity.id}
+                        onClick={() => setSelectedEntity(isSelected ? null : entity.id)}
+                        className={`w-full text-left p-4 rounded-xl border transition-all ${style.bg} ${isSelected ? "ring-2 ring-[var(--color-un-blue)] " + style.border : style.border + " hover:shadow-sm"}`}
+                      >
+                        <div className="flex items-start gap-3">
+                          <span className="text-lg">{style.icon}</span>
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2 mb-1">
+                              <span className="font-medium text-sm">{entity.name}</span>
+                              <span className="text-[9px] px-1.5 py-0.5 rounded bg-white/80 text-[var(--color-muted)]">{entity.type}</span>
+                            </div>
+                            <p className="text-[11px] text-[var(--color-muted)] leading-relaxed">{entity.influence}</p>
+
+                            {/* Influence pathways (expanded) */}
+                            {isSelected && edges.length > 0 && (
+                              <div className="mt-3 pt-3 border-t border-[var(--color-border)]/50 space-y-2">
+                                <div className="text-[9px] font-semibold text-[var(--color-ink)] uppercase">Influence Pathways</div>
+                                {edges.map((edge, i) => (
+                                  <div key={i} className="p-2 rounded-lg bg-white/80 text-[11px]">
+                                    <div className="flex items-center gap-2 mb-0.5">
+                                      <span className="font-medium">→ {edge.target}</span>
+                                      <span className={`text-[9px] px-1.5 py-0.5 rounded-full ${edge.effect === "oppose" || edge.effect === "weaken-climate-language" ? "bg-[var(--color-vote-no-muted)] text-[var(--color-vote-no)]" : edge.effect === "support" || edge.effect === "align-with-eu" ? "bg-[var(--color-vote-yes-muted)] text-[var(--color-vote-yes)]" : "bg-[var(--color-vote-abstain-muted)] text-[var(--color-vote-abstain)]"}`}>
+                                        {edge.effect}
+                                      </span>
+                                      <span className="text-[9px] text-[var(--color-muted)] ml-auto font-mono">{(edge.strength * 100).toFixed(0)}% strength</span>
+                                    </div>
+                                    <p className="text-[10px] text-[var(--color-muted)]">{edge.mechanism}</p>
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        </div>
                       </button>
-                    ) : null;
+                    );
                   })}
-                </div>
+              </div>
+
+              <div className="p-4 rounded-lg border border-[var(--color-un-blue)]/20 bg-[var(--color-un-blue)]/5">
+                <p className="text-[11px] text-[var(--color-ink)] leading-relaxed">
+                  <strong>How to read this:</strong> Each entity (security org, trade relationship, aid flow) exerts measurable influence on how member countries vote. "Strength" is the empirical correlation between membership/dependency and voting alignment on the target issue area. Data from SIPRI, OECD DAC, AidData, and UN Comtrade.
+                </p>
               </div>
             </div>
           )}

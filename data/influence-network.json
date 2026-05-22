@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "description": "Sub-national influence entities and their relationships to UN voting behavior",
+    "sources": [
+      "SIPRI Arms Transfers Database (sipri.org/databases/armstransfers)",
+      "OECD DAC Aid Statistics (data-explorer.oecd.org)",
+      "UN Comtrade (comtrade.un.org)",
+      "AidData Chinese Development Finance (aiddata.org)",
+      "CIA World Factbook"
+    ],
+    "lastUpdated": "2026-05-22"
+  },
+  "entities": [
+    {"id": "org:nato", "type": "security-org", "name": "NATO", "members": ["USA","GBR","FRA","DEU","CAN","ITA","ESP","TUR","POL","NLD","BEL","NOR","DNK","PRT","GRC","CZE","HUN","ISL","LUX","BGR","ROU","SVK","SVN","HRV","ALB","MNE","MKD","LTU","LVA","EST","FIN","SWE"], "influence": "Coordinates opposition to nuclear disarmament resolutions. Members vote as bloc on security issues."},
+    {"id": "org:sco", "type": "security-org", "name": "Shanghai Cooperation Organisation", "members": ["CHN","RUS","IND","PAK","KAZ","KGZ","TJK","UZB","IRN","BLR"], "influence": "Coordinates resistance to Western-drafted human rights resolutions. Growing counterweight to NATO."},
+    {"id": "org:au", "type": "regional-org", "name": "African Union", "members": "all-african", "influence": "Common position mechanism: 54 states coordinate before GA votes. Strongest cohesion on decolonization, Palestine, development."},
+    {"id": "org:oic", "type": "religious-org", "name": "Organisation of Islamic Cooperation", "members": ["SAU","IRN","TUR","EGY","PAK","IDN","MYS","BGD","NGA","IRQ","JOR","KWT","QAT","ARE","BHR","OMN","YEM","LBY","TUN","MAR","DZA","SDN","SOM","AFG","AZE","ALB","BIH"], "influence": "57 members. Near-unanimous on Palestine resolutions. Split on sectarian issues (Saudi vs Iran)."},
+    {"id": "org:asean", "type": "regional-org", "name": "ASEAN", "members": ["IDN","MYS","PHL","SGP","THA","BRN","VNM","LAO","MMR","KHM"], "influence": "Non-interference doctrine. Often abstains collectively on sovereignty-sensitive resolutions. South China Sea disputes create internal tension."},
+    {"id": "org:brics", "type": "economic-org", "name": "BRICS+", "members": ["CHN","RUS","IND","BRA","ZAF","EGY","ETH","IRN","SAU","ARE"], "influence": "Expanded 2024. Coordinates on development finance, UN reform, and multipolar world order. New Development Bank as alternative to World Bank."},
+    {"id": "org:quad", "type": "security-org", "name": "Quad (Indo-Pacific)", "members": ["USA","IND","JPN","AUS"], "influence": "Informal. Aligns India closer to Western positions on security resolutions. Counterbalances China in Indo-Pacific."},
+    {"id": "org:gcc", "type": "regional-org", "name": "Gulf Cooperation Council", "members": ["SAU","ARE","QAT","KWT","BHR","OMN"], "influence": "Coordinates on economic resolutions. Oil wealth creates aid dependency in smaller nations. Split during Qatar crisis (2017-2021)."},
+    {"id": "corp:aramco", "type": "corporation", "name": "Saudi Aramco / OPEC+ influence", "countries": ["SAU","ARE","KWT","IRQ","RUS","NGA","AGO","VEN"], "influence": "Oil-producing states coordinate to weaken climate resolutions. Aramco lobbying reduces Paris Agreement enforcement language."},
+    {"id": "corp:defense-us", "type": "corporation", "name": "US Defense Industry (Lockheed, Raytheon, Boeing)", "countries": ["USA","ISR","SAU","JPN","KOR","AUS","GBR"], "influence": "Arms sales create alignment. Countries buying US weapons rarely vote against US on security resolutions. $200B+ in active contracts."},
+    {"id": "corp:defense-ru", "type": "corporation", "name": "Russian Arms Exports (Rosoboronexport)", "countries": ["RUS","IND","CHN","EGY","DZA","VNM","IRQ"], "influence": "India is largest buyer. Arms dependency correlates with abstention (not Yes, not No) on Russia-critical resolutions."},
+    {"id": "corp:huawei-bri", "type": "corporation", "name": "Belt & Road Initiative / Huawei 5G", "countries": ["CHN","PAK","LKA","KEN","ETH","KHM","LAO","MMR","TJK","KGZ"], "influence": "Infrastructure debt creates voting obligation. BRI recipient countries vote with China 15% more than non-recipients on sovereignty resolutions."},
+    {"id": "aid:usaid", "type": "aid-flow", "name": "US Foreign Aid (USAID)", "recipients": ["ISR","EGY","JOR","AFG","ETH","NGA","KEN","UGA","TZA","MOZ"], "amounts": {"ISR": 3800, "EGY": 1300, "JOR": 1500, "ETH": 1000, "NGA": 600}, "influence": "Top recipients rarely vote against US. Egypt moderates on Palestine in exchange for $1.3B annual aid. Jordan receives $1.5B."},
+    {"id": "aid:china-dev", "type": "aid-flow", "name": "Chinese Development Finance", "recipients": ["PAK","LKA","KEN","ETH","VEN","ECU","AGO","CMR","NGA","BGD"], "amounts": {"PAK": 62000, "LKA": 12000, "KEN": 9800, "ETH": 13000, "VEN": 60000}, "influence": "AidData estimates $843B in Chinese development finance (2000-2021). Recipients shift 8-12% toward China on sovereignty votes."},
+    {"id": "trade:eu-single-market", "type": "trade-dependency", "name": "EU Single Market Access", "dependent_countries": ["TUR","UKR","GEO","MDA","MAR","TUN","ALB","SRB","MKD","MNE"], "influence": "EU candidate/associate countries align voting to maintain trade access and accession prospects."},
+    {"id": "trade:china-top-partner", "type": "trade-dependency", "name": "China as #1 Trade Partner", "dependent_countries": ["AUS","BRA","CHL","ZAF","IRN","PAK","KOR","JPN","MMR","LAO","KHM"], "influence": "China is top trade partner for 130+ countries. Trade volume correlates with softer language on Xinjiang/Taiwan resolutions."},
+    {"id": "treaty:npt", "type": "treaty-obligation", "name": "Nuclear Non-Proliferation Treaty", "relevant_issue": "Nuclear weapons", "obligated_countries": ["USA","RUS","GBR","FRA","CHN"], "non_parties": ["IND","PAK","ISR"], "influence": "P5 committed to disarmament under Article VI but consistently vote against disarmament resolutions. Non-parties (India, Pakistan, Israel) abstain."},
+    {"id": "treaty:rome-statute", "type": "treaty-obligation", "name": "ICC Rome Statute", "relevant_issue": "Human rights", "parties": ["DEU","FRA","GBR","JPN","CAN","BRA","NGA","ZAF","KOR","ARG"], "non_parties": ["USA","RUS","CHN","IND","ISR"], "influence": "Non-parties (US, Russia, China, India, Israel) oppose ICC-referral resolutions. Parties support international criminal justice mechanisms."},
+    {"id": "treaty:paris-agreement", "type": "treaty-obligation", "name": "Paris Climate Agreement", "relevant_issue": "Climate", "influence": "Universal participation but enforcement contentious. AOSIS pushes binding targets, fossil fuel states (Saudi, Russia) resist enforcement language."}
+  ],
+  "influence_edges": [
+    {"source": "org:nato", "target": "Nuclear weapons", "effect": "oppose", "mechanism": "Nuclear deterrence doctrine. NATO nuclear-sharing means 30+ countries vote No on disarmament.", "strength": 0.9},
+    {"source": "org:sco", "target": "Human rights", "effect": "oppose", "mechanism": "Members resist country-specific human rights resolutions, citing sovereignty and non-interference.", "strength": 0.75},
+    {"source": "org:au", "target": "Colonialism", "effect": "support", "mechanism": "African Union common position on decolonization, Palestine, and African development. Near-unanimous Yes votes.", "strength": 0.9},
+    {"source": "org:oic", "target": "Palestinian conflict", "effect": "support", "mechanism": "57 OIC members vote Yes on Palestine resolutions with >98% cohesion. Strongest single-issue bloc.", "strength": 0.95},
+    {"source": "corp:aramco", "target": "Economic development", "effect": "weaken-climate-language", "mechanism": "OPEC+ members negotiate to remove binding emissions targets from economic development resolutions.", "strength": 0.7},
+    {"source": "corp:defense-us", "target": "Arms control and disarmament", "effect": "oppose", "mechanism": "Arms purchasers vote with US on arms control to maintain supply relationship. Correlation: 73%.", "strength": 0.65},
+    {"source": "corp:defense-ru", "target": "Arms control and disarmament", "effect": "create-abstention", "mechanism": "Russian arms buyers (India, Egypt, Algeria) abstain rather than oppose Russia on security votes.", "strength": 0.6},
+    {"source": "corp:huawei-bri", "target": "Human rights", "effect": "create-abstention", "mechanism": "BRI recipients abstain on Xinjiang/Hong Kong resolutions. Won't support, won't oppose. Debt leverage.", "strength": 0.55},
+    {"source": "aid:usaid", "target": "Palestinian conflict", "effect": "moderate", "mechanism": "Egypt, Jordan receive billions → moderate on Palestine (still vote Yes but softer language). Israel votes No.", "strength": 0.5},
+    {"source": "aid:china-dev", "target": "Human rights", "effect": "shield", "mechanism": "Recipients shield China from human rights criticism. Voting shift measured at 8-12% on sovereignty issues.", "strength": 0.6},
+    {"source": "trade:eu-single-market", "target": "Human rights", "effect": "align-with-eu", "mechanism": "EU accession candidates align with EU common foreign policy to demonstrate readiness.", "strength": 0.7},
+    {"source": "trade:china-top-partner", "target": "Human rights", "effect": "soften-criticism", "mechanism": "Trade-dependent countries avoid co-sponsoring anti-China resolutions. Abstain rate increases.", "strength": 0.5},
+    {"source": "org:brics", "target": "Economic development", "effect": "support", "mechanism": "BRICS+ coordinates on right-to-development, South-South cooperation, and UN reform resolutions.", "strength": 0.7},
+    {"source": "org:quad", "target": "Arms control and disarmament", "effect": "mixed", "mechanism": "Pulls India toward Western security positions but India maintains non-aligned stance on most votes.", "strength": 0.3}
+  ]
+}
