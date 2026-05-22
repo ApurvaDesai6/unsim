@@ -26,6 +26,8 @@
     "graphology-traversal": "^0.3.1",
     "graphology-types": "^0.24.8",
     "lucide-react": "^0.500.0",
+    "ml-cart": "^2.1.1",
+    "ml-random-forest": "^2.1.0",
     "neo4j-driver": "^6.0.1",
     "next": "^15.3.0",
     "react": "^19.0.0",
