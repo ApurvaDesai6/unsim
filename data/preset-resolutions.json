@@ -1,0 +1,117 @@
+{
+  "climate-treaty": {
+    "title": "International Convention on Climate Accountability and Atmospheric Restoration",
+    "committee": "GA_PLENARY",
+    "preamble": [
+      { "id": "pp1", "text": "Recalling the Paris Agreement adopted under the United Nations Framework Convention on Climate Change on 12 December 2015" },
+      { "id": "pp2", "text": "Noting with grave concern the findings of the Intergovernmental Panel on Climate Change Sixth Assessment Report indicating that global temperatures have already exceeded 1.1°C above pre-industrial levels" },
+      { "id": "pp3", "text": "Recognizing the principle of common but differentiated responsibilities and respective capabilities" },
+      { "id": "pp4", "text": "Deeply concerned by the disproportionate impact of climate change on least developed countries and small island developing states" }
+    ],
+    "operativeClauses": [
+      { "id": "op1", "text": "Decides to establish a binding emissions reduction framework requiring all Parties to reduce greenhouse gas emissions by 45 percent below 2019 levels by 2035", "strength": 0.9, "topics": ["climate", "environment"] },
+      { "id": "op2", "text": "Establishes an International Climate Accountability Mechanism with authority to monitor, verify, and certify national emissions inventories through independent satellite-based observation systems", "strength": 0.8, "topics": ["climate", "sovereignty", "technology"] },
+      { "id": "op3", "text": "Decides that Parties exceeding allocated carbon budgets shall contribute to the Loss and Damage Fund at a rate proportional to excess emissions", "strength": 0.85, "topics": ["climate", "development", "trade"] },
+      { "id": "op4", "text": "Calls upon developed country Parties to provide no less than 200 billion USD annually in climate finance to developing countries for adaptation and mitigation", "strength": 0.7, "topics": ["climate", "development"] },
+      { "id": "op5", "text": "Urges all Member States to phase out fossil fuel subsidies within five years and redirect funds toward renewable energy infrastructure", "strength": 0.6, "topics": ["climate", "environment", "development"] },
+      { "id": "op6", "text": "Requests the Secretary-General to report annually to the General Assembly on the implementation of the present resolution", "strength": 0.3, "topics": ["climate"] }
+    ],
+    "policyVector": { "sovereignty": -0.4, "humanRights": 0.1, "development": 0.4, "security": 0.0, "environment": 0.9, "decolonization": 0.0 },
+    "issueWeights": { "climate": 0.95, "environment": 0.7, "development": 0.5, "trade": 0.3, "sovereignty": 0.2, "technology": 0.15 }
+  },
+  "ai-governance": {
+    "title": "Establishment of the International Agency for Artificial Intelligence Governance",
+    "committee": "GA_PLENARY",
+    "preamble": [
+      { "id": "pp1", "text": "Recalling General Assembly resolution 78/265 on seizing the opportunities of safe, secure and trustworthy artificial intelligence systems" },
+      { "id": "pp2", "text": "Recognizing that frontier artificial intelligence systems pose novel risks to international peace and security, human rights, and economic stability" },
+      { "id": "pp3", "text": "Affirming that the governance of artificial intelligence must be inclusive, transparent, and respect the sovereignty of all nations" }
+    ],
+    "operativeClauses": [
+      { "id": "op1", "text": "Decides to establish the International Agency for Artificial Intelligence (IAAI) as a specialized agency of the United Nations system", "strength": 0.9, "topics": ["technology", "sovereignty", "international-law"] },
+      { "id": "op2", "text": "Mandates the IAAI to develop binding international standards for the safety testing and deployment of frontier AI systems exceeding defined capability thresholds", "strength": 0.85, "topics": ["technology", "security"] },
+      { "id": "op3", "text": "Authorizes the IAAI to conduct inspections of AI development facilities upon reasonable suspicion of non-compliance with safety standards", "strength": 0.8, "topics": ["technology", "sovereignty"] },
+      { "id": "op4", "text": "Calls upon all Member States to establish national AI governance bodies and report annually on domestic AI development activities", "strength": 0.6, "topics": ["technology", "sovereignty"] },
+      { "id": "op5", "text": "Requests the IAAI to maintain a registry of frontier AI systems and facilitate technology transfer to developing countries", "strength": 0.5, "topics": ["technology", "development"] },
+      { "id": "op6", "text": "Urges Member States to impose moratoriums on AI systems demonstrated to pose existential risk until adequate safeguards are verified", "strength": 0.7, "topics": ["technology", "security", "human-rights"] }
+    ],
+    "policyVector": { "sovereignty": -0.3, "humanRights": 0.3, "development": 0.2, "security": 0.4, "environment": 0.0, "decolonization": 0.0 },
+    "issueWeights": { "technology": 0.9, "sovereignty": 0.5, "security": 0.4, "development": 0.3, "human-rights": 0.3, "international-law": 0.2 }
+  },
+  "nuclear-ban": {
+    "title": "Convention on the Complete Elimination of Nuclear Weapons",
+    "committee": "FIRST_COMMITTEE",
+    "preamble": [
+      { "id": "pp1", "text": "Recalling the Treaty on the Non-Proliferation of Nuclear Weapons and the obligations of nuclear-weapon States under Article VI thereof" },
+      { "id": "pp2", "text": "Reaffirming the Treaty on the Prohibition of Nuclear Weapons adopted on 7 July 2017" },
+      { "id": "pp3", "text": "Deeply alarmed by the continued modernization of nuclear arsenals and the erosion of the arms control architecture" },
+      { "id": "pp4", "text": "Convinced that the existence of nuclear weapons constitutes an existential threat to all humanity" }
+    ],
+    "operativeClauses": [
+      { "id": "op1", "text": "Decides that all States possessing nuclear weapons shall reduce their arsenals to zero warheads within fifteen years of entry into force of the present Convention", "strength": 0.95, "topics": ["nuclear", "disarmament", "security"] },
+      { "id": "op2", "text": "Establishes an International Verification Agency with unfettered access to all facilities associated with nuclear weapons programs", "strength": 0.9, "topics": ["nuclear", "disarmament", "sovereignty"] },
+      { "id": "op3", "text": "Demands that all States parties place fissile materials under international safeguards within three years", "strength": 0.85, "topics": ["nuclear", "disarmament"] },
+      { "id": "op4", "text": "Provides security guarantees to disarming States through a collective security mechanism under the Security Council", "strength": 0.7, "topics": ["nuclear", "security"] },
+      { "id": "op5", "text": "Calls upon all States not party to this Convention to accede without preconditions", "strength": 0.6, "topics": ["nuclear", "disarmament"] },
+      { "id": "op6", "text": "Decides that violations of this Convention shall be referred to the Security Council under Chapter VII of the Charter", "strength": 0.8, "topics": ["nuclear", "security", "international-law"] }
+    ],
+    "policyVector": { "sovereignty": 0.2, "humanRights": 0.3, "development": 0.0, "security": -0.8, "environment": 0.1, "decolonization": 0.2 },
+    "issueWeights": { "nuclear": 0.95, "disarmament": 0.9, "security": 0.7, "sovereignty": 0.3, "international-law": 0.2 }
+  },
+  "sc-reform": {
+    "title": "Reform and Expansion of the Security Council",
+    "committee": "GA_PLENARY",
+    "preamble": [
+      { "id": "pp1", "text": "Recalling the ongoing intergovernmental negotiations on Security Council reform pursuant to decision 62/557" },
+      { "id": "pp2", "text": "Recognizing that the current composition of the Security Council does not reflect contemporary geopolitical realities" },
+      { "id": "pp3", "text": "Affirming the principle of equitable geographical representation in the principal organs of the United Nations" }
+    ],
+    "operativeClauses": [
+      { "id": "op1", "text": "Decides to expand the Security Council from fifteen to twenty-one members, adding six new permanent seats", "strength": 0.9, "topics": ["sovereignty", "international-law"] },
+      { "id": "op2", "text": "Allocates new permanent seats as follows: two to Africa, two to Asia-Pacific, one to Latin America and the Caribbean, and one to Western Europe and Others", "strength": 0.85, "topics": ["sovereignty", "decolonization"] },
+      { "id": "op3", "text": "Decides that the veto power shall henceforth require two concurrent negative votes from permanent members to prevent adoption of a resolution", "strength": 0.8, "topics": ["sovereignty", "international-law"] },
+      { "id": "op4", "text": "Requests all permanent members to justify any exercise of the veto before the General Assembly within ten days", "strength": 0.6, "topics": ["sovereignty", "human-rights"] },
+      { "id": "op5", "text": "Decides that these amendments to the Charter shall enter into force upon ratification by two thirds of the Members including all current permanent members", "strength": 0.5, "topics": ["international-law", "sovereignty"] }
+    ],
+    "policyVector": { "sovereignty": 0.6, "humanRights": 0.3, "development": 0.1, "security": 0.1, "environment": 0.0, "decolonization": 0.5 },
+    "issueWeights": { "sovereignty": 0.9, "international-law": 0.6, "decolonization": 0.5, "human-rights": 0.3 }
+  },
+  "cyber-norms": {
+    "title": "Binding International Norms on State Conduct in Cyberspace",
+    "committee": "SECURITY_COUNCIL",
+    "preamble": [
+      { "id": "pp1", "text": "Recalling the reports of the Group of Governmental Experts on Developments in the Field of Information and Telecommunications in the Context of International Security" },
+      { "id": "pp2", "text": "Gravely concerned by the increasing frequency and severity of state-sponsored cyber operations targeting civilian critical infrastructure" },
+      { "id": "pp3", "text": "Affirming that international humanitarian law applies to cyber operations during armed conflict" }
+    ],
+    "operativeClauses": [
+      { "id": "op1", "text": "Decides that state-sponsored cyber operations targeting civilian critical infrastructure including hospitals, water systems, power grids, and financial networks constitute a threat to international peace and security", "strength": 0.9, "topics": ["security", "technology", "human-rights"] },
+      { "id": "op2", "text": "Demands that all States refrain from conducting or supporting cyber operations designed to damage or disable civilian infrastructure of another State", "strength": 0.85, "topics": ["security", "sovereignty", "technology"] },
+      { "id": "op3", "text": "Establishes an International Cyber Attribution Panel with authority to investigate and publicly attribute significant cyber incidents", "strength": 0.8, "topics": ["security", "technology"] },
+      { "id": "op4", "text": "Decides that confirmed violations of these norms shall be subject to graduated sanctions under Article 41 of the Charter", "strength": 0.75, "topics": ["security", "international-law"] },
+      { "id": "op5", "text": "Calls upon all States to establish national computer emergency response teams and participate in international information sharing mechanisms", "strength": 0.5, "topics": ["security", "technology"] }
+    ],
+    "policyVector": { "sovereignty": -0.2, "humanRights": 0.4, "development": 0.0, "security": 0.7, "environment": 0.0, "decolonization": 0.0 },
+    "issueWeights": { "security": 0.9, "technology": 0.7, "sovereignty": 0.4, "human-rights": 0.3, "international-law": 0.3 }
+  },
+  "water-rights": {
+    "title": "Universal Right to Clean Water and Sanitation: Binding Framework for Achievement by 2035",
+    "committee": "THIRD_COMMITTEE",
+    "preamble": [
+      { "id": "pp1", "text": "Recalling General Assembly resolution 64/292 recognizing the human right to water and sanitation" },
+      { "id": "pp2", "text": "Noting with deep concern that 2.2 billion people still lack safely managed drinking water services" },
+      { "id": "pp3", "text": "Reaffirming Sustainable Development Goal 6 to ensure availability and sustainable management of water and sanitation for all" },
+      { "id": "pp4", "text": "Recognizing that the climate crisis is exacerbating water scarcity and threatening the human right to water" }
+    ],
+    "operativeClauses": [
+      { "id": "op1", "text": "Declares that access to clean water and adequate sanitation is a binding obligation of all States under international human rights law", "strength": 0.85, "topics": ["water", "human-rights", "development"] },
+      { "id": "op2", "text": "Decides to establish a Global Water Access Fund capitalized at 50 billion USD to finance water infrastructure in least developed countries", "strength": 0.8, "topics": ["water", "development"] },
+      { "id": "op3", "text": "Requires all States to submit national water access plans with measurable targets and annual progress reports", "strength": 0.7, "topics": ["water", "sovereignty", "development"] },
+      { "id": "op4", "text": "Urges States to prioritize water access over commercial exploitation in their water resource management policies", "strength": 0.6, "topics": ["water", "human-rights", "trade"] },
+      { "id": "op5", "text": "Calls upon international financial institutions to provide preferential lending for water and sanitation infrastructure", "strength": 0.5, "topics": ["water", "development"] },
+      { "id": "op6", "text": "Requests the Secretary-General to appoint a Special Rapporteur on Universal Water Access with a mandate to investigate non-compliance", "strength": 0.65, "topics": ["water", "human-rights"] }
+    ],
+    "policyVector": { "sovereignty": -0.1, "humanRights": 0.6, "development": 0.7, "security": 0.0, "environment": 0.5, "decolonization": 0.1 },
+    "issueWeights": { "water": 0.9, "human-rights": 0.6, "development": 0.7, "environment": 0.4, "trade": 0.2, "sovereignty": 0.15 }
+  }
+}
