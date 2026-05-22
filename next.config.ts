@@ -3,7 +3,13 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   outputFileTracingIncludes: {
-    "/api/**": ["./data/**/*.json"],
+    "/api/simulate": ["./data/**/*.json"],
+    "/api/simulate/temporal": ["./data/**/*.json"],
+    "/api/simulate/llm": ["./data/**/*.json"],
+    "/api/analyze-resolution": ["./data/**/*.json"],
+    "/api/kg/query": ["./data/**/*.json"],
+    "/api/kg/explore": ["./data/**/*.json"],
+    "/api/debate": ["./data/**/*.json"],
   },
 };
 
