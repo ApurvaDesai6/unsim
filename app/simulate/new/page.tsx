@@ -8,6 +8,7 @@ import VoteTally from "@/components/viz/VoteTally";
 import PlaybackControls from "@/components/viz/PlaybackControls";
 import { getCommitteeConfig } from "@/engines/committees";
 import Timeline from "@/components/viz/Timeline";
+import DebatePanel from "@/components/panel/DebatePanel";
 
 interface ResolutionClause {
   id: string;
@@ -45,7 +46,11 @@ function SimulationView() {
   const [resolution, setResolution] = useState<ResolutionData | null>(null);
   const [analyzedResolution, setAnalyzedResolution] = useState<Record<string, unknown> | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<"clauses" | "factors" | "blocs">("clauses");
+  const [activeTab, setActiveTab] = useState<"clauses" | "factors" | "blocs" | "debate" | "amendments">("clauses");
+  const [debateData, setDebateData] = useState<{ rounds: { round: number; speeches: unknown[] }[] } | null>(null);
+  const [debateLoading, setDebateLoading] = useState(false);
+  const [showDebate, setShowDebate] = useState(false);
+  const [amendments, setAmendments] = useState<{ clauseIndex: number; originalStrength: number; newStrength: number; proposer: string; reason: string; accepted: boolean }[]>([]);
   const [highlightBloc, setHighlightBloc] = useState<string | null>(null);
   const [isResimulating, setIsResimulating] = useState(false);
   const [timelineData, setTimelineData] = useState<unknown[] | null>(null);
@@ -151,6 +156,31 @@ function SimulationView() {
       setTimelineLoading(false);
     }
   }, [analyzedResolution]);
+
+  // Fetch debate speeches
+  const fetchDebate = useCallback(async () => {
+    if (debateData) { setShowDebate(true); setActiveTab("debate"); return; }
+    setDebateLoading(true);
+    setShowDebate(true);
+    setActiveTab("debate");
+    try {
+      const res = await fetch(`/api/debate?preset=${preset}`);
+      if (res.ok) {
+        const data = await res.json();
+        setDebateData(data);
+      }
+    } finally {
+      setDebateLoading(false);
+    }
+  }, [preset, debateData]);
+
+  // Propose amendment (shifts clause strength and records it)
+  const proposeAmendment = useCallback((clauseIndex: number, newStrength: number, proposer: string, reason: string) => {
+    if (!resolution) return;
+    const originalStrength = resolution.clauses[clauseIndex].strength;
+    setAmendments((prev) => [...prev, { clauseIndex, originalStrength, newStrength, proposer, reason, accepted: true }]);
+    handleStrengthChange(clauseIndex, newStrength);
+  }, [resolution, handleStrengthChange]);
 
   // Fetch country relationships when selected
   useEffect(() => {
@@ -284,15 +314,15 @@ function SimulationView() {
         <div className="col-span-12 lg:col-span-4 xl:col-span-3 overflow-y-auto rounded-xl border border-[var(--color-border)] bg-white">
           {/* Tabs */}
           <div className="sticky top-0 bg-white border-b border-[var(--color-border)] px-3 py-2 flex gap-1 z-10">
-            {(["clauses", "factors", "blocs"] as const).map((tab) => (
+            {(["clauses", "debate", "amendments", "factors", "blocs"] as const).map((tab) => (
               <button
                 key={tab}
-                onClick={() => setActiveTab(tab)}
-                className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors ${
+                onClick={() => tab === "debate" ? fetchDebate() : setActiveTab(tab)}
+                className={`px-2.5 py-1.5 rounded-md text-[11px] font-medium transition-colors ${
                   activeTab === tab ? "bg-[var(--color-un-blue)] text-white" : "text-[var(--color-muted)] hover:bg-[var(--color-bg)]"
                 }`}
               >
-                {tab === "clauses" ? "Resolution" : tab === "factors" ? "Factors" : "Blocs"}
+                {tab === "clauses" ? "Resolution" : tab === "factors" ? "Factors" : tab === "debate" ? "Debate" : tab === "amendments" ? "Amend" : "Blocs"}
               </button>
             ))}
           </div>
@@ -392,6 +422,99 @@ function SimulationView() {
               </div>
             )}
 
+            {activeTab === "debate" && (
+              <div className="space-y-3">
+                {debateLoading ? (
+                  <div className="text-center py-8">
+                    <div className="w-6 h-6 border-2 border-[var(--color-un-blue)] border-t-transparent rounded-full animate-spin mx-auto mb-2" />
+                    <p className="text-xs text-[var(--color-muted)]">Loading debate speeches...</p>
+                  </div>
+                ) : debateData ? (
+                  <DebatePanel preset={preset} rounds={debateData.rounds as any} />
+                ) : (
+                  <div className="text-center py-8">
+                    <p className="text-sm text-[var(--color-muted)]">
+                      {preset ? "Click to load debate simulation" : "Debate available for preset scenarios"}
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {activeTab === "amendments" && (
+              <div className="space-y-3">
+                <div className="text-xs text-[var(--color-muted)] leading-relaxed">
+                  Propose amendments to weaken or strengthen clauses. Each amendment shifts the vote — like real UN negotiations where language is the battlefield.
+                </div>
+
+                {amendments.length > 0 && (
+                  <div className="space-y-2">
+                    <div className="text-[10px] font-semibold text-[var(--color-muted)] uppercase">Proposed Amendments</div>
+                    {amendments.map((a, i) => (
+                      <div key={i} className="p-2.5 rounded-lg border border-[var(--color-border)] bg-[var(--color-bg)]/50 text-xs">
+                        <div className="flex items-center justify-between mb-1">
+                          <span className="font-medium">OP{a.clauseIndex + 1} — {a.proposer}</span>
+                          <span className={`text-[9px] px-1.5 py-0.5 rounded-full ${a.accepted ? "bg-[var(--color-vote-yes-muted)] text-[var(--color-vote-yes)]" : "bg-[var(--color-vote-no-muted)] text-[var(--color-vote-no)]"}`}>
+                            {a.accepted ? "Adopted" : "Rejected"}
+                          </span>
+                        </div>
+                        <p className="text-[var(--color-muted)]">{a.reason}</p>
+                        <div className="flex items-center gap-2 mt-1 text-[10px]">
+                          <span style={{ fontFamily: "var(--font-mono)" }}>
+                            {(a.originalStrength * 100).toFixed(0)}% → {(a.newStrength * 100).toFixed(0)}%
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* Quick amendment suggestions */}
+                {resolution && phase === "complete" && (
+                  <div className="space-y-2">
+                    <div className="text-[10px] font-semibold text-[var(--color-muted)] uppercase">Suggested Amendments</div>
+                    {resolution.clauses.filter((c) => c.strength > 0.7).slice(0, 3).map((clause, idx) => {
+                      const realIdx = resolution.clauses.indexOf(clause);
+                      return (
+                        <div key={realIdx} className="p-2.5 rounded-lg border border-[var(--color-border)] bg-white">
+                          <p className="text-[11px] text-[var(--color-ink)] mb-2 line-clamp-2">{clause.text.slice(0, 80)}...</p>
+                          <div className="flex gap-1.5">
+                            <button
+                              onClick={() => proposeAmendment(realIdx, clause.strength * 0.6, "G77", `Soften binding language in OP${realIdx + 1} to increase developing country support`)}
+                              className="text-[9px] px-2 py-1 rounded border border-[var(--color-border)] hover:border-[var(--color-un-blue)] text-[var(--color-muted)] hover:text-[var(--color-un-blue)] transition-colors"
+                            >
+                              Weaken (G77 friendly)
+                            </button>
+                            <button
+                              onClick={() => proposeAmendment(realIdx, Math.min(1, clause.strength * 1.3), "EU", `Strengthen enforcement in OP${realIdx + 1} for accountability`)}
+                              className="text-[9px] px-2 py-1 rounded border border-[var(--color-border)] hover:border-[var(--color-un-blue)] text-[var(--color-muted)] hover:text-[var(--color-un-blue)] transition-colors"
+                            >
+                              Strengthen (EU push)
+                            </button>
+                            <button
+                              onClick={() => proposeAmendment(realIdx, 0.3, "NAM", `Replace binding obligation with voluntary framework in OP${realIdx + 1}`)}
+                              className="text-[9px] px-2 py-1 rounded border border-[var(--color-border)] hover:border-[var(--color-un-blue)] text-[var(--color-muted)] hover:text-[var(--color-un-blue)] transition-colors"
+                            >
+                              Make voluntary (NAM)
+                            </button>
+                          </div>
+                        </div>
+                      );
+                    })}
+                    {amendments.length > 0 && (
+                      <button
+                        onClick={resimulate}
+                        disabled={isResimulating}
+                        className="w-full py-2 rounded-lg bg-[var(--color-un-blue)] text-white text-xs font-medium hover:bg-[var(--color-un-blue-dark)] disabled:opacity-50 transition-colors"
+                      >
+                        {isResimulating ? "Recalculating..." : "Re-simulate with all amendments"}
+                      </button>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
             {activeTab === "blocs" && voteResult && phase === "complete" && (
               <div className="space-y-2">
                 <p className="text-[10px] text-[var(--color-muted)]">Hover to highlight members in hemicycle</p>
@@ -465,13 +588,31 @@ function SimulationView() {
           )}
 
           {/* Timeline toggle + temporal sim */}
-          {phase === "complete" && !showTimeline && (
-            <button
-              onClick={fetchTimeline}
-              className="w-full py-2 rounded-lg border border-[var(--color-border)] text-sm text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
-            >
-              ⏱ Time Travel — see how this resolution would fare in different eras
-            </button>
+          {phase === "complete" && (
+            <div className="flex gap-2">
+              {!showTimeline && (
+                <button
+                  onClick={fetchTimeline}
+                  className="flex-1 py-2 rounded-lg border border-[var(--color-border)] text-xs text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
+                >
+                  ⏱ Time Travel
+                </button>
+              )}
+              {preset && !showDebate && (
+                <button
+                  onClick={fetchDebate}
+                  className="flex-1 py-2 rounded-lg border border-[var(--color-border)] text-xs text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
+                >
+                  🎤 Watch Debate
+                </button>
+              )}
+              <button
+                onClick={() => setActiveTab("amendments")}
+                className="flex-1 py-2 rounded-lg border border-[var(--color-border)] text-xs text-[var(--color-muted)] hover:border-[var(--color-un-blue)] hover:text-[var(--color-un-blue)] transition-colors"
+              >
+                ✍️ Propose Amendments
+              </button>
+            </div>
           )}
           {showTimeline && (
             <Timeline
