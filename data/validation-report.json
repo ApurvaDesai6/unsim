@@ -1,0 +1,251 @@
+{
+  "generatedAt": "2026-05-22T04:18:36.268Z",
+  "engineVersion": "0.1.0",
+  "dataVersion": "seed-193-countries",
+  "dataSources": [
+    {
+      "name": "Erik Voeten UNGA Voting Data",
+      "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LEJUQZ",
+      "description": "Roll-call voting data for all UNGA resolutions 1946–2023. Provides ideal point estimates and per-resolution country votes.",
+      "usage": "Country ideal points, voting pattern baselines, historical calibration targets"
+    },
+    {
+      "name": "V-Dem (Varieties of Democracy) v14",
+      "url": "https://www.v-dem.net/data/the-v-dem-dataset/",
+      "description": "Democracy indicators for 202 countries, 1789–2023. Covers electoral, liberal, participatory, deliberative, and egalitarian dimensions.",
+      "usage": "Democracy index scores, regime classification, behavioral trait calibration"
+    },
+    {
+      "name": "UN Digital Library",
+      "url": "https://digitallibrary.un.org",
+      "description": "Official repository of UN documents, resolutions, and voting records.",
+      "usage": "Resolution texts, vote tallies for validation, historical precedents"
+    },
+    {
+      "name": "Security Council Veto List",
+      "url": "https://research.un.org/en/docs/sc/quick/veto",
+      "description": "Complete list of vetoes cast in the Security Council since 1946.",
+      "usage": "Veto pattern analysis, P5 behavioral calibration"
+    },
+    {
+      "name": "World Bank Open Data",
+      "url": "https://data.worldbank.org",
+      "description": "Development indicators including GDP per capita, population, governance metrics.",
+      "usage": "Economic context for voting behavior modeling"
+    }
+  ],
+  "methodology": {
+    "positionComputation": [
+      "Ideal Point Alignment (25%): Distance between country's Voeten ideal point and resolution's aggregate position",
+      "Policy Dimension Matching (30%): Weighted dot product across 6 dimensions (sovereignty, human rights, development, security, environment, decolonization)",
+      "Topic Voting History (20%): Historical voting rate on resolution's topic categories",
+      "Bloc Coordination (15%): Average predicted vote of bloc peers, weighted by bloc cohesion scores",
+      "Bilateral Relations (10%): Alliance and rivalry modifiers (planned for v2)"
+    ],
+    "voteDecision": "Softmax3 function converts composite score to probability distribution [P(Yes), P(No), P(Abstain)]. Argmax determines predicted vote. Abstain probability boosted for countries with weak position signals and lower democracy indices.",
+    "limitations": [
+      "Current model uses static ideal points — does not capture year-over-year drift in positions",
+      "Bilateral relations and specific diplomatic disputes not yet modeled",
+      "Topic-specific voting history not yet populated from Voeten roll-call data",
+      "Resolution language analysis is approximate — actual clause wording matters",
+      "Does not model last-minute diplomatic pressure, side deals, or vote trading",
+      "Small island states with sparse voting records are less accurately predicted"
+    ]
+  },
+  "summary": {
+    "resolutionsTested": 6,
+    "outcomeAccuracy": 1,
+    "avgTotalError": 36.666666666666664,
+    "avgNoVoterAccuracy": 0.5057720057720058,
+    "vetoAccuracy": 0
+  },
+  "results": [
+    {
+      "id": "palestine-2023-es10",
+      "title": "Protection of civilians and upholding legal and humanitarian obligations (Gaza ceasefire)",
+      "resolutionNumber": "A/ES-10/L.27",
+      "date": "2023-12-12",
+      "source": "https://digitallibrary.un.org/record/4029235",
+      "notes": "Emergency Special Session on Palestine. One of the largest Yes votes on a Palestine resolution. Demanded immediate humanitarian ceasefire.",
+      "actual": {
+        "yes": 153,
+        "no": 10,
+        "abstain": 23,
+        "passed": true
+      },
+      "predicted": {
+        "yes": 142,
+        "no": 20,
+        "abstain": 31,
+        "passed": true
+      },
+      "accuracy": {
+        "outcomeCorrect": true,
+        "vetoCorrect": true,
+        "yesDelta": -11,
+        "noDelta": 10,
+        "abstainDelta": 8,
+        "totalError": 29,
+        "knownNoVoterAccuracy": 0.2727272727272727,
+        "knownAbstainerAccuracy": 0.25
+      }
+    },
+    {
+      "id": "ukraine-2023",
+      "title": "Principles of the Charter of the United Nations underlying a comprehensive, just and lasting peace in Ukraine",
+      "resolutionNumber": "A/RES/ES-11/6",
+      "date": "2023-02-23",
+      "source": "https://digitallibrary.un.org/record/4003921",
+      "notes": "Western-aligned resolution condemning Russian aggression. Global South split: many abstained rather than opposing.",
+      "actual": {
+        "yes": 141,
+        "no": 7,
+        "abstain": 32,
+        "passed": true
+      },
+      "predicted": {
+        "yes": 163,
+        "no": 5,
+        "abstain": 25,
+        "passed": true
+      },
+      "accuracy": {
+        "outcomeCorrect": true,
+        "vetoCorrect": true,
+        "yesDelta": 22,
+        "noDelta": -2,
+        "abstainDelta": -7,
+        "totalError": 31,
+        "knownNoVoterAccuracy": 0.2857142857142857,
+        "knownAbstainerAccuracy": 0.3333333333333333
+      }
+    },
+    {
+      "id": "nuclear-weapons-convention-2023",
+      "title": "Convention on the prohibition of the use of nuclear weapons",
+      "resolutionNumber": "A/RES/78/46",
+      "date": "2023-12-04",
+      "source": "https://digitallibrary.un.org/record/4030271",
+      "notes": "NATO + nuclear states vote No. Global South overwhelmingly Yes. Classic North-South divide on disarmament.",
+      "actual": {
+        "yes": 126,
+        "no": 48,
+        "abstain": 12,
+        "passed": true
+      },
+      "predicted": {
+        "yes": 168,
+        "no": 2,
+        "abstain": 23,
+        "passed": true
+      },
+      "accuracy": {
+        "outcomeCorrect": true,
+        "vetoCorrect": true,
+        "yesDelta": 42,
+        "noDelta": -46,
+        "abstainDelta": 11,
+        "totalError": 99,
+        "knownNoVoterAccuracy": 0.14285714285714285,
+        "knownAbstainerAccuracy": 1
+      }
+    },
+    {
+      "id": "sc-gaza-ceasefire-vetoed-2023",
+      "title": "Security Council draft resolution demanding immediate humanitarian ceasefire in Gaza",
+      "resolutionNumber": "S/2023/970",
+      "date": "2023-12-08",
+      "source": "https://digitallibrary.un.org/record/4028901",
+      "notes": "13-1-1 vote with sole US veto. UK abstained. All other P5 (Russia, China, France) voted Yes.",
+      "actual": {
+        "yes": 13,
+        "no": 1,
+        "abstain": 1,
+        "passed": false,
+        "vetoedBy": [
+          "USA"
+        ]
+      },
+      "predicted": {
+        "yes": 10,
+        "no": 3,
+        "abstain": 2,
+        "passed": false,
+        "vetoedBy": [
+          "GBR",
+          "USA"
+        ]
+      },
+      "accuracy": {
+        "outcomeCorrect": true,
+        "vetoCorrect": false,
+        "yesDelta": -3,
+        "noDelta": 2,
+        "abstainDelta": 1,
+        "totalError": 6,
+        "knownNoVoterAccuracy": 1,
+        "knownAbstainerAccuracy": 0
+      }
+    },
+    {
+      "id": "climate-loss-damage-2023",
+      "title": "Protection of global climate for present and future generations of humankind",
+      "resolutionNumber": "A/RES/78/148",
+      "date": "2023-12-19",
+      "source": "https://digitallibrary.un.org/record/4031024",
+      "notes": "Near-consensus climate resolution. Only USA, Russia, Iran voted No. Oil states abstained.",
+      "actual": {
+        "yes": 167,
+        "no": 3,
+        "abstain": 12,
+        "passed": true
+      },
+      "predicted": {
+        "yes": 156,
+        "no": 4,
+        "abstain": 33,
+        "passed": true
+      },
+      "accuracy": {
+        "outcomeCorrect": true,
+        "vetoCorrect": true,
+        "yesDelta": -11,
+        "noDelta": 1,
+        "abstainDelta": 21,
+        "totalError": 33,
+        "knownNoVoterAccuracy": 0.3333333333333333,
+        "knownAbstainerAccuracy": 0
+      }
+    },
+    {
+      "id": "right-to-development-2023",
+      "title": "The right to development",
+      "resolutionNumber": "A/RES/78/160",
+      "date": "2023-12-19",
+      "source": "https://digitallibrary.un.org/record/4031040",
+      "notes": "Classic North-South divide. Western states oppose on grounds it implies economic obligations. G77 strongly supports.",
+      "actual": {
+        "yes": 145,
+        "no": 27,
+        "abstain": 9,
+        "passed": true
+      },
+      "predicted": {
+        "yes": 140,
+        "no": 40,
+        "abstain": 13,
+        "passed": true
+      },
+      "accuracy": {
+        "outcomeCorrect": true,
+        "vetoCorrect": true,
+        "yesDelta": -5,
+        "noDelta": 13,
+        "abstainDelta": 4,
+        "totalError": 22,
+        "knownNoVoterAccuracy": 1,
+        "knownAbstainerAccuracy": 1
+      }
+    }
+  ]
+}

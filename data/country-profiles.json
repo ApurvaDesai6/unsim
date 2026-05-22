@@ -1,0 +1,5847 @@
+[
+  {
+    "iso3": "AFG",
+    "name": "Afghanistan",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.45,
+    "policyDimensions": {
+      "sovereignty": 0.2778517762263892,
+      "humanRights": -0.33178124318522895,
+      "development": 0.2365921797548868,
+      "security": -0.08323372018831636,
+      "environment": -0.15365097042025322,
+      "decolonization": 0.19884958572775352
+    },
+    "votingHistory": {
+      "totalVotes": 2141,
+      "yesRate": 0.5793460003779843,
+      "noRate": 0.14619068529775614,
+      "abstainRate": 0.27973171377781114,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 69256.21790910518,
+    "population": 699597419.5805255,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.08
+  },
+  {
+    "iso3": "ALB",
+    "name": "Albania",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.35,
+    "policyDimensions": {
+      "sovereignty": -0.22369985801021094,
+      "humanRights": 0.26421842814637775,
+      "development": -0.160529533508357,
+      "security": -0.12277495306282651,
+      "environment": 0.0510314697052891,
+      "decolonization": -0.14248675848764525
+    },
+    "votingHistory": {
+      "totalVotes": 3573,
+      "yesRate": 0.5364468956480145,
+      "noRate": 0.17002541850263378,
+      "abstainRate": 0.31902582761110404,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 45006.83789607297,
+    "population": 362603515.2765348,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.5
+  },
+  {
+    "iso3": "DZA",
+    "name": "Algeria",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.5,
+    "policyDimensions": {
+      "sovereignty": 0.4164682494223742,
+      "humanRights": -0.2517748529270233,
+      "development": 0.3982940863057259,
+      "security": 0.0988184132726906,
+      "environment": -0.1549616564949885,
+      "decolonization": 0.38410573164213113
+    },
+    "votingHistory": {
+      "totalVotes": 867,
+      "yesRate": 0.6287288772533016,
+      "noRate": 0.14149801323458042,
+      "abstainRate": 0.2672666059439691,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 55473.44533504766,
+    "population": 533111317.57168597,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.22
+  },
+  {
+    "iso3": "AND",
+    "name": "Andorra",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.4,
+    "policyDimensions": {
+      "sovereignty": -0.25054042664718357,
+      "humanRights": 0.4717048091340588,
+      "development": -0.1672072884608543,
+      "security": 0.14708623434349108,
+      "environment": 0.26246292744471295,
+      "decolonization": -0.3003110386839395
+    },
+    "votingHistory": {
+      "totalVotes": 1374,
+      "yesRate": 0.48473786161857146,
+      "noRate": 0.15135005580409197,
+      "abstainRate": 0.35343824388190137,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 48497.637767227745,
+    "population": 1126551683.7340086,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.5342627381520026
+  },
+  {
+    "iso3": "AGO",
+    "name": "Angola",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.2634117072304738,
+      "humanRights": -0.28263463726212146,
+      "development": 0.36580891994312614,
+      "security": -0.14427457528521181,
+      "environment": -0.15330422210467612,
+      "decolonization": 0.3650952506205289
+    },
+    "votingHistory": {
+      "totalVotes": 3448,
+      "yesRate": 0.6555878077530275,
+      "noRate": 0.11463492994421044,
+      "abstainRate": 0.2785650514889426,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 47585.83563905811,
+    "population": 471403515.1144847,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "ATG",
+    "name": "Antigua and Barbuda",
+    "region": "GRULAC",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.08440389095558874,
+      "humanRights": -0.048004472691799624,
+      "development": 0.04044590968765457,
+      "security": 0.12645410613074295,
+      "environment": -0.014139736813758436,
+      "decolonization": 0.2599434349883682
+    },
+    "votingHistory": {
+      "totalVotes": 2930,
+      "yesRate": 0.5606664593589182,
+      "noRate": 0.12092965780662596,
+      "abstainRate": 0.2804616746971061,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 10389.970472406125,
+    "population": 340991659.2542412,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.4257309787268124
+  },
+  {
+    "iso3": "ARG",
+    "name": "Argentina",
+    "region": "GRULAC",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.1,
+    "policyDimensions": {
+      "sovereignty": 0.08561427091728295,
+      "humanRights": -0.03032633139643034,
+      "development": 0.04860198619393678,
+      "security": -0.08709773214932011,
+      "environment": -0.07090491657049974,
+      "decolonization": 0.2391424712175835
+    },
+    "votingHistory": {
+      "totalVotes": 3445,
+      "yesRate": 0.5966959469769374,
+      "noRate": 0.15485846123305577,
+      "abstainRate": 0.3069738413630923,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 33131.25268745498,
+    "population": 214469997.53341544,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.7
+  },
+  {
+    "iso3": "ARM",
+    "name": "Armenia",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.0839435397900975,
+      "humanRights": -0.11402803359996248,
+      "development": 0.12275083750666838,
+      "security": 0.14634619911581886,
+      "environment": -0.07110559969351292,
+      "decolonization": 0.1570555889355148
+    },
+    "votingHistory": {
+      "totalVotes": 2090,
+      "yesRate": 0.5345539623136991,
+      "noRate": 0.11886262115879509,
+      "abstainRate": 0.29628624511446944,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 79298.4966408225,
+    "population": 1119632767.4864752,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.45
+  },
+  {
+    "iso3": "AUS",
+    "name": "Australia",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.65,
+    "policyDimensions": {
+      "sovereignty": -0.5047023189265053,
+      "humanRights": 0.5729892504396824,
+      "development": -0.3575241656991477,
+      "security": -0.003033278848285148,
+      "environment": 0.3961442463789471,
+      "decolonization": -0.3279347746174165
+    },
+    "votingHistory": {
+      "totalVotes": 1392,
+      "yesRate": 0.4341028473041027,
+      "noRate": 0.1840017055385983,
+      "abstainRate": 0.3532047631575737,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 33309.026371759595,
+    "population": 17451466.895221144,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.88
+  },
+  {
+    "iso3": "AUT",
+    "name": "Austria",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.42,
+    "policyDimensions": {
+      "sovereignty": -0.2718029800515629,
+      "humanRights": 0.4320021992891567,
+      "development": -0.21383933684295958,
+      "security": -0.07355181973510232,
+      "environment": 0.2900230965192949,
+      "decolonization": -0.22189052579619237
+    },
+    "votingHistory": {
+      "totalVotes": 2458,
+      "yesRate": 0.49735577693496735,
+      "noRate": 0.15759304137378768,
+      "abstainRate": 0.33599160969047603,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 34465.72506089362,
+    "population": 1310440411.436183,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.87
+  },
+  {
+    "iso3": "AZE",
+    "name": "Azerbaijan",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.17031247817103576,
+      "humanRights": -0.11687584618150158,
+      "development": 0.2174914016603705,
+      "security": 0.021407402532968543,
+      "environment": -0.02627242399642067,
+      "decolonization": 0.10880378959323368
+    },
+    "votingHistory": {
+      "totalVotes": 1565,
+      "yesRate": 0.5991054214476854,
+      "noRate": 0.13511051850745234,
+      "abstainRate": 0.2926122841117,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 79393.55837516337,
+    "population": 990715813.0210512,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "BHS",
+    "name": "Bahamas",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.1,
+    "policyDimensions": {
+      "sovereignty": 0.041321352465618716,
+      "humanRights": -0.05039492201185666,
+      "development": 0.07781562132360778,
+      "security": -0.13509194457090737,
+      "environment": -0.054111137690281294,
+      "decolonization": 0.2039265583685894
+    },
+    "votingHistory": {
+      "totalVotes": 3099,
+      "yesRate": 0.6122331928082819,
+      "noRate": 0.12191415988419067,
+      "abstainRate": 0.2937838893194645,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 25258.760144994307,
+    "population": 903161701.5292662,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6264371692963031
+  },
+  {
+    "iso3": "BHR",
+    "name": "Bahrain",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "elected",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.305192838674456,
+      "humanRights": -0.2448340350342528,
+      "development": 0.16321761329616832,
+      "security": 0.06633437832732088,
+      "environment": -0.11908908261547076,
+      "decolonization": 0.17014025999119975
+    },
+    "votingHistory": {
+      "totalVotes": 3333,
+      "yesRate": 0.6331425282482857,
+      "noRate": 0.15020546410819643,
+      "abstainRate": 0.2719305748229218,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 43953.93631862335,
+    "population": 1395142080.9048908,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "BGD",
+    "name": "Bangladesh",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.3174202897510072,
+      "humanRights": -0.19184914173484993,
+      "development": 0.21772789403743292,
+      "security": -0.13362554346295666,
+      "environment": -0.09845931602140408,
+      "decolonization": 0.22737806704882021
+    },
+    "votingHistory": {
+      "totalVotes": 1548,
+      "yesRate": 0.6272234068752088,
+      "noRate": 0.10870339749874627,
+      "abstainRate": 0.28702453289577373,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 36845.61922490728,
+    "population": 493757979.81827235,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.32
+  },
+  {
+    "iso3": "BRB",
+    "name": "Barbados",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.11562458912740103,
+      "humanRights": -0.1604057008948656,
+      "development": 0.061126389240642634,
+      "security": 0.026874573895911358,
+      "environment": -0.10956703223277978,
+      "decolonization": 0.18607888483933147
+    },
+    "votingHistory": {
+      "totalVotes": 1123,
+      "yesRate": 0.5481402905624454,
+      "noRate": 0.131622657353087,
+      "abstainRate": 0.28802857254353087,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 35408.89089238106,
+    "population": 1364783005.5396848,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.530117381231421
+  },
+  {
+    "iso3": "BLR",
+    "name": "Belarus",
+    "region": "EEG",
+    "blocs": [
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.55,
+    "policyDimensions": {
+      "sovereignty": 0.41028702147544527,
+      "humanRights": -0.31520725502404556,
+      "development": 0.2542064971533154,
+      "security": 0.06012662062657221,
+      "environment": -0.19803129906021788,
+      "decolonization": 0.3923257217317181
+    },
+    "votingHistory": {
+      "totalVotes": 3446,
+      "yesRate": 0.6380110568775589,
+      "noRate": 0.1302672012342995,
+      "abstainRate": 0.25742522202372203,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 48164.68862424714,
+    "population": 388540095.1731229,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.1
+  },
+  {
+    "iso3": "BEL",
+    "name": "Belgium",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.48,
+    "policyDimensions": {
+      "sovereignty": -0.3889272167077118,
+      "humanRights": 0.4480112374953486,
+      "development": -0.2995114276126286,
+      "security": -0.04728543481260664,
+      "environment": 0.2851995652635115,
+      "decolonization": -0.24624521334917404
+    },
+    "votingHistory": {
+      "totalVotes": 2732,
+      "yesRate": 0.5107300915221521,
+      "noRate": 0.1635828226265923,
+      "abstainRate": 0.3576302756188974,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 35103.236336750735,
+    "population": 495923893.44719094,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.86
+  },
+  {
+    "iso3": "BLZ",
+    "name": "Belize",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.14347567784564466,
+      "humanRights": -0.08195419575948132,
+      "development": 0.12766983411337013,
+      "security": -0.06800407320680192,
+      "environment": -0.01458296888498193,
+      "decolonization": 0.3390802535028384
+    },
+    "votingHistory": {
+      "totalVotes": 3186,
+      "yesRate": 0.6180949175423233,
+      "noRate": 0.12309739572184564,
+      "abstainRate": 0.2844141656205556,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 42314.48728063015,
+    "population": 976728801.3225138,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.5922266201796538
+  },
+  {
+    "iso3": "BEN",
+    "name": "Benin",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.165611133797935,
+      "humanRights": -0.21713022405564092,
+      "development": 0.3742109303069792,
+      "security": -0.08173743550007637,
+      "environment": -0.09201591403503341,
+      "decolonization": 0.37107856009297036
+    },
+    "votingHistory": {
+      "totalVotes": 2811,
+      "yesRate": 0.5980189398072006,
+      "noRate": 0.11843296176659243,
+      "abstainRate": 0.27498563661356124,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 46724.64543528031,
+    "population": 1300490349.5463636,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.30339657291849065
+  },
+  {
+    "iso3": "BTN",
+    "name": "Bhutan",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.05302635110053847,
+      "humanRights": -0.04253310416069187,
+      "development": 0.145159657985242,
+      "security": 0.08012364784491334,
+      "environment": -0.10216986937498904,
+      "decolonization": 0.04858188219917516
+    },
+    "votingHistory": {
+      "totalVotes": 3157,
+      "yesRate": 0.6094443017027676,
+      "noRate": 0.16118245060175712,
+      "abstainRate": 0.30287435922140127,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 8311.65677479274,
+    "population": 951624156.3289366,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.35794852405273087
+  },
+  {
+    "iso3": "BOL",
+    "name": "Bolivia",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.55,
+    "policyDimensions": {
+      "sovereignty": 0.4495739072094611,
+      "humanRights": -0.3117460680745417,
+      "development": 0.286412278722602,
+      "security": 0.11723489155229992,
+      "environment": -0.12571104178803766,
+      "decolonization": 0.5185336696318196
+    },
+    "votingHistory": {
+      "totalVotes": 2136,
+      "yesRate": 0.6608483577841773,
+      "noRate": 0.10940857042370097,
+      "abstainRate": 0.24498329432564392,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 48649.774189956894,
+    "population": 336933908.44894665,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.52
+  },
+  {
+    "iso3": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.25,
+    "policyDimensions": {
+      "sovereignty": -0.22663475877527023,
+      "humanRights": 0.13855073396431997,
+      "development": -0.17916247359923143,
+      "security": 0.088068719193821,
+      "environment": 0.10277211135317853,
+      "decolonization": -0.1909794841464561
+    },
+    "votingHistory": {
+      "totalVotes": 1490,
+      "yesRate": 0.4716414415065995,
+      "noRate": 0.17826351345068858,
+      "abstainRate": 0.3490141080457284,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 32966.750778250105,
+    "population": 607513776.5082214,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.45
+  },
+  {
+    "iso3": "BWA",
+    "name": "Botswana",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.08351986626128662,
+      "humanRights": -0.1792084133611546,
+      "development": 0.3511541000395441,
+      "security": -0.07254074658792017,
+      "environment": -0.06771194273436254,
+      "decolonization": 0.28390420348357975
+    },
+    "votingHistory": {
+      "totalVotes": 1893,
+      "yesRate": 0.6020528114521999,
+      "noRate": 0.12978067303886187,
+      "abstainRate": 0.2665876819150493,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 77861.68858708387,
+    "population": 1068443649.6424474,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.68
+  },
+  {
+    "iso3": "BRA",
+    "name": "Brazil",
+    "region": "GRULAC",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.07247344980656016,
+      "humanRights": -0.0655534358323909,
+      "development": 0.05258111814679139,
+      "security": -0.05783441052954514,
+      "environment": -0.08570100912142102,
+      "decolonization": 0.3331832566783259
+    },
+    "votingHistory": {
+      "totalVotes": 3213,
+      "yesRate": 0.5762439923422049,
+      "noRate": 0.11747114186698362,
+      "abstainRate": 0.2942185819077348,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 35941.074856310406,
+    "population": 1251249187.3037066,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.65
+  },
+  {
+    "iso3": "BRN",
+    "name": "Brunei Darussalam",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.2739982147174883,
+      "humanRights": -0.2712774815844087,
+      "development": 0.21037058992319985,
+      "security": -0.06688132838273451,
+      "environment": -0.1411690460730272,
+      "decolonization": 0.2639804413283664
+    },
+    "votingHistory": {
+      "totalVotes": 2889,
+      "yesRate": 0.5585983514893098,
+      "noRate": 0.14855858860794888,
+      "abstainRate": 0.24899013239168327,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 20070.689887523346,
+    "population": 1031903843.06867,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.31635913122826237
+  },
+  {
+    "iso3": "BGR",
+    "name": "Bulgaria",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.35,
+    "policyDimensions": {
+      "sovereignty": -0.2934040204490078,
+      "humanRights": 0.1932620037855259,
+      "development": -0.10276128109608806,
+      "security": 0.07787333448135138,
+      "environment": 0.09640482521997876,
+      "decolonization": -0.2079162542435611
+    },
+    "votingHistory": {
+      "totalVotes": 2945,
+      "yesRate": 0.46711609623851635,
+      "noRate": 0.14559530567682702,
+      "abstainRate": 0.3354839195929197,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 53886.283242350044,
+    "population": 1390931001.0624306,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.58
+  },
+  {
+    "iso3": "BFA",
+    "name": "Burkina Faso",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.1701695962681364,
+      "humanRights": -0.1973752143379243,
+      "development": 0.4067420298656779,
+      "security": 0.025242613157081106,
+      "environment": -0.12429111670919021,
+      "decolonization": 0.39435405428971954
+    },
+    "votingHistory": {
+      "totalVotes": 3651,
+      "yesRate": 0.611230090396998,
+      "noRate": 0.1423995963862165,
+      "abstainRate": 0.2949656091094867,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 28659.20466456078,
+    "population": 289132438.2866459,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "BDI",
+    "name": "Burundi",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.25028273645445764,
+      "humanRights": -0.1727376259858109,
+      "development": 0.28848428303922624,
+      "security": -0.1267383236849537,
+      "environment": -0.05871016038202451,
+      "decolonization": 0.38565911371509054
+    },
+    "votingHistory": {
+      "totalVotes": 2732,
+      "yesRate": 0.6219887033563547,
+      "noRate": 0.13251559818920577,
+      "abstainRate": 0.2828705604090053,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 11165.63443703708,
+    "population": 202049127.0736789,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "CPV",
+    "name": "Cabo Verde",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.10671666421851066,
+      "humanRights": -0.12411121934398804,
+      "development": 0.23301579769072492,
+      "security": -0.1379028910975677,
+      "environment": -0.1144942376563545,
+      "decolonization": 0.2794731187178923
+    },
+    "votingHistory": {
+      "totalVotes": 1865,
+      "yesRate": 0.5696741311594784,
+      "noRate": 0.13962837278426818,
+      "abstainRate": 0.3015035567692257,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 32389.77465019323,
+    "population": 761700497.0383016,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.4506883406431154
+  },
+  {
+    "iso3": "KHM",
+    "name": "Cambodia",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.33611957091165695,
+      "humanRights": -0.2758688939620901,
+      "development": 0.21467278254909272,
+      "security": -0.10250405679748022,
+      "environment": -0.1171694205240741,
+      "decolonization": 0.1956821980701485
+    },
+    "votingHistory": {
+      "totalVotes": 2222,
+      "yesRate": 0.5866275818754518,
+      "noRate": 0.15465885701814175,
+      "abstainRate": 0.25576227561821274,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 62790.012619874906,
+    "population": 1393357794.535837,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.18
+  },
+  {
+    "iso3": "CMR",
+    "name": "Cameroon",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.21928445856186665,
+      "humanRights": -0.13123477760381874,
+      "development": 0.31717123401867486,
+      "security": -0.032602425660612624,
+      "environment": -0.0308989185155134,
+      "decolonization": 0.34301618980663273
+    },
+    "votingHistory": {
+      "totalVotes": 1474,
+      "yesRate": 0.5996637071656679,
+      "noRate": 0.12537777264960526,
+      "abstainRate": 0.29381702312240765,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 28515.688358693315,
+    "population": 175750490.72981358,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.18
+  },
+  {
+    "iso3": "CAN",
+    "name": "Canada",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.55,
+    "policyDimensions": {
+      "sovereignty": -0.3539543808563506,
+      "humanRights": 0.5745741807039767,
+      "development": -0.20149985848728102,
+      "security": 0.01680820595165906,
+      "environment": 0.33988371513315563,
+      "decolonization": -0.3786964983687961
+    },
+    "votingHistory": {
+      "totalVotes": 3229,
+      "yesRate": 0.4577228937810806,
+      "noRate": 0.17043108098626394,
+      "abstainRate": 0.3743751104162948,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 68923.01451506163,
+    "population": 955458948.8357792,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.89
+  },
+  {
+    "iso3": "CAF",
+    "name": "Central African Republic",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.14400204639975028,
+      "humanRights": -0.13332331279719326,
+      "development": 0.27314091830587506,
+      "security": -0.10511137155236476,
+      "environment": -0.1424651023914258,
+      "decolonization": 0.33584918779340783
+    },
+    "votingHistory": {
+      "totalVotes": 1393,
+      "yesRate": 0.6174320672126329,
+      "noRate": 0.13637646358084782,
+      "abstainRate": 0.28233605599550904,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 57634.86627317846,
+    "population": 168869896.31075874,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "TCD",
+    "name": "Chad",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.14232175726614002,
+      "humanRights": -0.17157921990067213,
+      "development": 0.3843726997285552,
+      "security": 0.10676696332096283,
+      "environment": -0.11482864655317473,
+      "decolonization": 0.31248682872100886
+    },
+    "votingHistory": {
+      "totalVotes": 3779,
+      "yesRate": 0.573533158388113,
+      "noRate": 0.1495308564509104,
+      "abstainRate": 0.25562203002176753,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 75114.02365055728,
+    "population": 421339025.6711489,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.08
+  },
+  {
+    "iso3": "CHL",
+    "name": "Chile",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.05,
+    "policyDimensions": {
+      "sovereignty": 0.007762909961809148,
+      "humanRights": -0.061904134318908705,
+      "development": 0.08121631253306202,
+      "security": 0.08595687563902625,
+      "environment": -0.04542400180255622,
+      "decolonization": 0.2037925205260498
+    },
+    "votingHistory": {
+      "totalVotes": 1912,
+      "yesRate": 0.514409226837314,
+      "noRate": 0.12470274985819187,
+      "abstainRate": 0.31401025180565434,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 42877.03860036028,
+    "population": 639595777.3561463,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.78
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "P5",
+    "idealPoint": 0.65,
+    "policyDimensions": {
+      "sovereignty": 0.5155679690222181,
+      "humanRights": -0.4060056361209149,
+      "development": 0.37892316673624404,
+      "security": -0.111056243921876,
+      "environment": -0.20680438076537205,
+      "decolonization": 0.3884922234256501
+    },
+    "votingHistory": {
+      "totalVotes": 1371,
+      "yesRate": 0.6873957399162222,
+      "noRate": 0.10752800379298347,
+      "abstainRate": 0.2598110903426564,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 28098.727269819643,
+    "population": 838015313.4937317,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.1
+  },
+  {
+    "iso3": "COL",
+    "name": "Colombia",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "elected",
+    "idealPoint": -0.05,
+    "policyDimensions": {
+      "sovereignty": -0.09461283282018565,
+      "humanRights": -0.035145786930840875,
+      "development": 0.019415319016998472,
+      "security": -0.11149862875731165,
+      "environment": 0.0728866032261603,
+      "decolonization": 0.15359371990864018
+    },
+    "votingHistory": {
+      "totalVotes": 2739,
+      "yesRate": 0.5335645082921406,
+      "noRate": 0.13962792895085363,
+      "abstainRate": 0.2827356180718018,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 27357.287137386687,
+    "population": 1089382677.8172824,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.62
+  },
+  {
+    "iso3": "COM",
+    "name": "Comoros",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.16021348443702177,
+      "humanRights": -0.24441704195212038,
+      "development": 0.35865074131489977,
+      "security": 0.02112992102539398,
+      "environment": -0.11372556801390032,
+      "decolonization": 0.26429198696028716
+    },
+    "votingHistory": {
+      "totalVotes": 3400,
+      "yesRate": 0.5516167669386177,
+      "noRate": 0.1587963677381157,
+      "abstainRate": 0.28079377451347964,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 71898.5224717526,
+    "population": 1084616961.6676323,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.4730333716080136
+  },
+  {
+    "iso3": "COG",
+    "name": "Congo",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.20770835550681413,
+      "humanRights": -0.1991544381655181,
+      "development": 0.3191894672739295,
+      "security": 0.016833793038230814,
+      "environment": -0.08494365190503739,
+      "decolonization": 0.38818612428456223
+    },
+    "votingHistory": {
+      "totalVotes": 2177,
+      "yesRate": 0.5725372704351408,
+      "noRate": 0.1380850422430283,
+      "abstainRate": 0.26923112202650656,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 73293.18555265041,
+    "population": 1286990302.6269143,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "COD",
+    "name": "Democratic Republic of the Congo",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "elected",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.18184569321033678,
+      "humanRights": -0.24211702341379526,
+      "development": 0.34700735551817513,
+      "security": 0.10765235960894554,
+      "environment": -0.03270069091992935,
+      "decolonization": 0.3478054276371387
+    },
+    "votingHistory": {
+      "totalVotes": 2596,
+      "yesRate": 0.5785774794299103,
+      "noRate": 0.14877092785871843,
+      "abstainRate": 0.2854824061646317,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 63254.229370098146,
+    "population": 1050112539.4866948,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.18
+  },
+  {
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.05,
+    "policyDimensions": {
+      "sovereignty": -0.058718503745905704,
+      "humanRights": 0.022942667977871065,
+      "development": 0.004799730436596948,
+      "security": -0.036650885801448235,
+      "environment": -0.007456096228551142,
+      "decolonization": 0.07181500332588679
+    },
+    "votingHistory": {
+      "totalVotes": 3376,
+      "yesRate": 0.5422283673961016,
+      "noRate": 0.14466376034709713,
+      "abstainRate": 0.29998849863186205,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 28969.363729462344,
+    "population": 770686677.1763741,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.8
+  },
+  {
+    "iso3": "CIV",
+    "name": "Côte d'Ivoire",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.24413644689930053,
+      "humanRights": -0.17037060625044875,
+      "development": 0.32701999596949205,
+      "security": -0.061657069323504586,
+      "environment": -0.05626477605110612,
+      "decolonization": 0.2840174012256361
+    },
+    "votingHistory": {
+      "totalVotes": 2303,
+      "yesRate": 0.5520130885798747,
+      "noRate": 0.12368479435359703,
+      "abstainRate": 0.281620485086837,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 80568.49817176547,
+    "population": 232344278.83222097,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.38
+  },
+  {
+    "iso3": "HRV",
+    "name": "Croatia",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.42,
+    "policyDimensions": {
+      "sovereignty": -0.26562017800068016,
+      "humanRights": 0.31058354862629983,
+      "development": -0.19336438293530706,
+      "security": -0.028261419357327136,
+      "environment": 0.1418587284248459,
+      "decolonization": -0.26669364996061046
+    },
+    "votingHistory": {
+      "totalVotes": 3053,
+      "yesRate": 0.4908578276647856,
+      "noRate": 0.15808982583184022,
+      "abstainRate": 0.3461414570829694,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 74029.01532338676,
+    "population": 10345173.155678244,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.72
+  },
+  {
+    "iso3": "CUB",
+    "name": "Cuba",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.8,
+    "policyDimensions": {
+      "sovereignty": 0.581813013671621,
+      "humanRights": -0.538045569267833,
+      "development": 0.4342180854313118,
+      "security": -0.11195915517442839,
+      "environment": -0.21098053317656285,
+      "decolonization": 0.6933841646458917
+    },
+    "votingHistory": {
+      "totalVotes": 1540,
+      "yesRate": 0.7046696805406059,
+      "noRate": 0.0967879176423391,
+      "abstainRate": 0.2404124447296868,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 19159.16942855324,
+    "population": 181550598.64425582,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "CYP",
+    "name": "Cyprus",
+    "region": "APG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.15,
+    "policyDimensions": {
+      "sovereignty": -0.11092531967696857,
+      "humanRights": 0.08264811976292359,
+      "development": -0.12806764086197775,
+      "security": 0.1409918250495083,
+      "environment": -0.010850924942840574,
+      "decolonization": -0.11543770703497289
+    },
+    "votingHistory": {
+      "totalVotes": 3021,
+      "yesRate": 0.5686991565467788,
+      "noRate": 0.18231123990142048,
+      "abstainRate": 0.30588100610903485,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 70585.4163331877,
+    "population": 769708209.2367249,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.5898237574589028
+  },
+  {
+    "iso3": "CZE",
+    "name": "Czechia",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.52,
+    "policyDimensions": {
+      "sovereignty": -0.3467578601445439,
+      "humanRights": 0.3702173503663431,
+      "development": -0.18952289545315387,
+      "security": -0.024400689959153687,
+      "environment": 0.16215872763589925,
+      "decolonization": -0.3705031121115906
+    },
+    "votingHistory": {
+      "totalVotes": 2154,
+      "yesRate": 0.44759628727044826,
+      "noRate": 0.19283286012658682,
+      "abstainRate": 0.33028939316172373,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 63327.42720803419,
+    "population": 1043657876.5531089,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.79
+  },
+  {
+    "iso3": "PRK",
+    "name": "Democratic People's Republic of Korea",
+    "region": "APG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": 0.85,
+    "policyDimensions": {
+      "sovereignty": 0.5340153863732738,
+      "humanRights": -0.48859226203374384,
+      "development": 0.47541111542969267,
+      "security": -0.005455596408679991,
+      "environment": -0.20792389234013947,
+      "decolonization": 0.5034654144147563
+    },
+    "votingHistory": {
+      "totalVotes": 2386,
+      "yesRate": 0.6820562242051951,
+      "noRate": 0.09384040307051976,
+      "abstainRate": 0.23621996057597455,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 67661.13601686925,
+    "population": 460091442.66714376,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.05
+  },
+  {
+    "iso3": "DNK",
+    "name": "Denmark",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "elected",
+    "idealPoint": -0.45,
+    "policyDimensions": {
+      "sovereignty": -0.26007081433433826,
+      "humanRights": 0.5081299771981151,
+      "development": -0.18933795534291722,
+      "security": 0.000500278605730331,
+      "environment": 0.28350413421483345,
+      "decolonization": -0.2906143451844376
+    },
+    "votingHistory": {
+      "totalVotes": 3149,
+      "yesRate": 0.45888836501314967,
+      "noRate": 0.15593504166892613,
+      "abstainRate": 0.36953409892030387,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 13463.232654254705,
+    "population": 371302542.30835766,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.93
+  },
+  {
+    "iso3": "DJI",
+    "name": "Djibouti",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.29803611800843754,
+      "humanRights": -0.2352978658420727,
+      "development": 0.4052385310829241,
+      "security": 0.10265980715692503,
+      "environment": -0.1768848231998004,
+      "decolonization": 0.3650665275845832
+    },
+    "votingHistory": {
+      "totalVotes": 1244,
+      "yesRate": 0.6058294908389984,
+      "noRate": 0.13341390984328788,
+      "abstainRate": 0.26007428551909373,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 60035.76107207587,
+    "population": 683618470.7582854,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "DMA",
+    "name": "Dominica",
+    "region": "GRULAC",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.1323497685737325,
+      "humanRights": -0.13608071349120715,
+      "development": 0.13576341005059972,
+      "security": -0.04903651245381602,
+      "environment": -0.025055462424656248,
+      "decolonization": 0.2617751857235039
+    },
+    "votingHistory": {
+      "totalVotes": 1828,
+      "yesRate": 0.5895692577444878,
+      "noRate": 0.1361654272096151,
+      "abstainRate": 0.29952128052816746,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 75011.66789094257,
+    "population": 881226198.5721943,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.511148336765158
+  },
+  {
+    "iso3": "DOM",
+    "name": "Dominican Republic",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.05,
+    "policyDimensions": {
+      "sovereignty": 0.03950879019440821,
+      "humanRights": -0.10062227055328485,
+      "development": -0.024484207137600557,
+      "security": 0.07102918532235296,
+      "environment": -0.052283289481951684,
+      "decolonization": 0.14797063309768463
+    },
+    "votingHistory": {
+      "totalVotes": 1369,
+      "yesRate": 0.5391104488055246,
+      "noRate": 0.12544628121260232,
+      "abstainRate": 0.2905376637216047,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 27402.629154362396,
+    "population": 265496483.6850405,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.55
+  },
+  {
+    "iso3": "ECU",
+    "name": "Ecuador",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.2677122996288147,
+      "humanRights": -0.17910158415420482,
+      "development": 0.12101650352031376,
+      "security": 0.06182902483544987,
+      "environment": -0.025848737859830426,
+      "decolonization": 0.3449701332882908
+    },
+    "votingHistory": {
+      "totalVotes": 3229,
+      "yesRate": 0.590036368129085,
+      "noRate": 0.15212470419987215,
+      "abstainRate": 0.2800453652988758,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 78542.28509905335,
+    "population": 891848038.7089304,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.55
+  },
+  {
+    "iso3": "EGY",
+    "name": "Egypt",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.45,
+    "policyDimensions": {
+      "sovereignty": 0.28934266349285437,
+      "humanRights": -0.2626584834972533,
+      "development": 0.3981350187906379,
+      "security": 0.0050880551233627004,
+      "environment": -0.1521427487843071,
+      "decolonization": 0.42146757445215893
+    },
+    "votingHistory": {
+      "totalVotes": 1294,
+      "yesRate": 0.6049948113778362,
+      "noRate": 0.1397504793776317,
+      "abstainRate": 0.2459750144965888,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 37483.427276016075,
+    "population": 1324063412.2138875,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.18
+  },
+  {
+    "iso3": "SLV",
+    "name": "El Salvador",
+    "region": "GRULAC",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0,
+    "policyDimensions": {
+      "sovereignty": -0.03696992588508174,
+      "humanRights": 0.019511591618534083,
+      "development": 0.01741240819506636,
+      "security": -0.0517494517615413,
+      "environment": -0.042705532446900736,
+      "decolonization": 0.15900150269363109
+    },
+    "votingHistory": {
+      "totalVotes": 3532,
+      "yesRate": 0.5720535724125928,
+      "noRate": 0.173099471837771,
+      "abstainRate": 0.31014552336073137,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 23498.87904676117,
+    "population": 796685498.3850931,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.5
+  },
+  {
+    "iso3": "GNQ",
+    "name": "Equatorial Guinea",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.19497884332551124,
+      "humanRights": -0.24041308800583078,
+      "development": 0.41508001069656575,
+      "security": 0.13034059500329676,
+      "environment": -0.08019519611964822,
+      "decolonization": 0.36155045890168996
+    },
+    "votingHistory": {
+      "totalVotes": 3559,
+      "yesRate": 0.5703584022023386,
+      "noRate": 0.14776286189683316,
+      "abstainRate": 0.24198662085504885,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 68010.20642812601,
+    "population": 397549275.57946634,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.05
+  },
+  {
+    "iso3": "ERI",
+    "name": "Eritrea",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.55,
+    "policyDimensions": {
+      "sovereignty": 0.3970026808783884,
+      "humanRights": -0.33223442272451575,
+      "development": 0.5078964708740582,
+      "security": -0.03289995577253866,
+      "environment": -0.22905363772973736,
+      "decolonization": 0.4340638625689465
+    },
+    "votingHistory": {
+      "totalVotes": 1024,
+      "yesRate": 0.6200292491720826,
+      "noRate": 0.1460352066574933,
+      "abstainRate": 0.24664615275027368,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 79719.55402165641,
+    "population": 779024481.5740209,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.05
+  },
+  {
+    "iso3": "EST",
+    "name": "Estonia",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.55,
+    "policyDimensions": {
+      "sovereignty": -0.43544979295354563,
+      "humanRights": 0.37378468089708705,
+      "development": -0.34366561559579933,
+      "security": 0.10321628638850903,
+      "environment": 0.19491154516462972,
+      "decolonization": -0.37991530752156755
+    },
+    "votingHistory": {
+      "totalVotes": 3462,
+      "yesRate": 0.5097322805719992,
+      "noRate": 0.18269507962283563,
+      "abstainRate": 0.35670089696224333,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 36694.60599582982,
+    "population": 401094226.4380502,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.79
+  },
+  {
+    "iso3": "SWZ",
+    "name": "Eswatini",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.20846877204800693,
+      "humanRights": -0.15185219697348126,
+      "development": 0.2572261900017565,
+      "security": 0.11862076059184519,
+      "environment": -0.11387978581219907,
+      "decolonization": 0.30492296011185344
+    },
+    "votingHistory": {
+      "totalVotes": 810,
+      "yesRate": 0.6135440770218951,
+      "noRate": 0.1291896446734177,
+      "abstainRate": 0.2850979200238589,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 4391.1168210653395,
+    "population": 1008237379.3174018,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.4346718662731982
+  },
+  {
+    "iso3": "ETH",
+    "name": "Ethiopia",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.1729638644314752,
+      "humanRights": -0.1731481513469825,
+      "development": 0.3837460114582782,
+      "security": 0.08020066091096974,
+      "environment": -0.11708299550625564,
+      "decolonization": 0.3972907621232538
+    },
+    "votingHistory": {
+      "totalVotes": 1123,
+      "yesRate": 0.6232873422118806,
+      "noRate": 0.11968729699314276,
+      "abstainRate": 0.26232618638601296,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 12502.278934117005,
+    "population": 170216346.0513033,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.2
+  },
+  {
+    "iso3": "FJI",
+    "name": "Fiji",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.05214568706046456,
+      "humanRights": -0.1298440668976037,
+      "development": 0.11494383738956968,
+      "security": 0.10259304536799736,
+      "environment": -0.01521816765079698,
+      "decolonization": 0.1298606446606248
+    },
+    "votingHistory": {
+      "totalVotes": 2798,
+      "yesRate": 0.5477774545050407,
+      "noRate": 0.1567785018750649,
+      "abstainRate": 0.2701217685989388,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 78882.5991968351,
+    "population": 565008908.1678909,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6621686455705595
+  },
+  {
+    "iso3": "FIN",
+    "name": "Finland",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.4,
+    "policyDimensions": {
+      "sovereignty": -0.338189888981448,
+      "humanRights": 0.4004468364118242,
+      "development": -0.144225149908854,
+      "security": 0.13541495741471063,
+      "environment": 0.24635024993246196,
+      "decolonization": -0.25484087375920284
+    },
+    "votingHistory": {
+      "totalVotes": 899,
+      "yesRate": 0.53934231790233,
+      "noRate": 0.19263733632807556,
+      "abstainRate": 0.36403642669064845,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 32874.633606494084,
+    "population": 1109146350.5928164,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.92
+  },
+  {
+    "iso3": "FRA",
+    "name": "France",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "P5",
+    "idealPoint": -0.5,
+    "policyDimensions": {
+      "sovereignty": -0.36788901749367103,
+      "humanRights": 0.4685444096437526,
+      "development": -0.2811444125152529,
+      "security": -0.0356975035475794,
+      "environment": 0.2418417795251221,
+      "decolonization": -0.27653227727895885
+    },
+    "votingHistory": {
+      "totalVotes": 1230,
+      "yesRate": 0.4752076185425296,
+      "noRate": 0.17992092160971856,
+      "abstainRate": 0.3588342195222699,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 26664.94802610598,
+    "population": 813601294.247981,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.83
+  },
+  {
+    "iso3": "GAB",
+    "name": "Gabon",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.15623978451621715,
+      "humanRights": -0.167276179253188,
+      "development": 0.403104785615137,
+      "security": 0.0572731691895223,
+      "environment": -0.1436573738624941,
+      "decolonization": 0.37517345657110523
+    },
+    "votingHistory": {
+      "totalVotes": 963,
+      "yesRate": 0.6157470966667746,
+      "noRate": 0.1273293209558654,
+      "abstainRate": 0.2947607444761694,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 24973.29571283732,
+    "population": 156194755.55628183,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "GMB",
+    "name": "Gambia",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.13591306203415454,
+      "humanRights": -0.15002132113441388,
+      "development": 0.27081987746544645,
+      "security": 0.13388059883934458,
+      "environment": -0.1377532833460144,
+      "decolonization": 0.22644392506951555
+    },
+    "votingHistory": {
+      "totalVotes": 1495,
+      "yesRate": 0.5741849028357968,
+      "noRate": 0.14324266731989166,
+      "abstainRate": 0.2501121269190014,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 80781.12952778608,
+    "population": 410980740.2304678,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6941934194402288
+  },
+  {
+    "iso3": "GEO",
+    "name": "Georgia",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.4,
+    "policyDimensions": {
+      "sovereignty": -0.224208783090396,
+      "humanRights": 0.25068596603248405,
+      "development": -0.25701279132208155,
+      "security": -0.06214432562984162,
+      "environment": 0.06358366553638681,
+      "decolonization": -0.303720051953271
+    },
+    "votingHistory": {
+      "totalVotes": 3618,
+      "yesRate": 0.45582761889226453,
+      "noRate": 0.19046865488995532,
+      "abstainRate": 0.3395664800690875,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 52249.40105975824,
+    "population": 142929976.59828514,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.52
+  },
+  {
+    "iso3": "DEU",
+    "name": "Germany",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.55,
+    "policyDimensions": {
+      "sovereignty": -0.3289121018557139,
+      "humanRights": 0.5740180103455247,
+      "development": -0.31096554537326226,
+      "security": -0.12803472268349367,
+      "environment": 0.3520185684440701,
+      "decolonization": -0.3119938513815855
+    },
+    "votingHistory": {
+      "totalVotes": 3698,
+      "yesRate": 0.4267072992374206,
+      "noRate": 0.1541831982651919,
+      "abstainRate": 0.3673951148910902,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 25644.796854035183,
+    "population": 1038838618.0632721,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.88
+  },
+  {
+    "iso3": "GHA",
+    "name": "Ghana",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.13799010839732131,
+      "humanRights": -0.20442447593189414,
+      "development": 0.30960168574461755,
+      "security": -0.08729768671032452,
+      "environment": -0.030587705732460065,
+      "decolonization": 0.309479594331812
+    },
+    "votingHistory": {
+      "totalVotes": 1442,
+      "yesRate": 0.5884907329340909,
+      "noRate": 0.14916207672484733,
+      "abstainRate": 0.25504961667001474,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 40982.55663550984,
+    "population": 1119239129.1456273,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.65
+  },
+  {
+    "iso3": "GRC",
+    "name": "Greece",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "elected",
+    "idealPoint": -0.35,
+    "policyDimensions": {
+      "sovereignty": -0.2969372275743953,
+      "humanRights": 0.48167298758790666,
+      "development": -0.10998188719618643,
+      "security": 0.11914139873561017,
+      "environment": 0.30872323850838546,
+      "decolonization": -0.20106152080140577
+    },
+    "votingHistory": {
+      "totalVotes": 2449,
+      "yesRate": 0.4899776588432672,
+      "noRate": 0.16683821212601338,
+      "abstainRate": 0.3343330187802978,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 48806.78973714979,
+    "population": 272247440.3765512,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.74
+  },
+  {
+    "iso3": "GRD",
+    "name": "Grenada",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.06370205242738641,
+      "humanRights": -0.12078617000854253,
+      "development": 0.11075959153491062,
+      "security": 0.138933835851246,
+      "environment": -0.03808564494552222,
+      "decolonization": 0.19222550444938835
+    },
+    "votingHistory": {
+      "totalVotes": 1163,
+      "yesRate": 0.6065933282589757,
+      "noRate": 0.15289723914242284,
+      "abstainRate": 0.2612732217556968,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 34993.29013051309,
+    "population": 1052268229.2892175,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.4642378429333302
+  },
+  {
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0,
+    "policyDimensions": {
+      "sovereignty": -0.023764820676009366,
+      "humanRights": -0.002745394857541053,
+      "development": 0.007006944979542617,
+      "security": 0.04094097427812893,
+      "environment": -0.027021652600267353,
+      "decolonization": 0.21909714181537207
+    },
+    "votingHistory": {
+      "totalVotes": 1406,
+      "yesRate": 0.5047150317124824,
+      "noRate": 0.1308830949142303,
+      "abstainRate": 0.2953632278415288,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 22789.484308517887,
+    "population": 704348507.4930588,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.42
+  },
+  {
+    "iso3": "GIN",
+    "name": "Guinea",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.27665596643966994,
+      "humanRights": -0.1221067115424915,
+      "development": 0.41132842717606766,
+      "security": -0.1287947887738223,
+      "environment": -0.07748578641388701,
+      "decolonization": 0.38674570435233074
+    },
+    "votingHistory": {
+      "totalVotes": 1877,
+      "yesRate": 0.5845932905700975,
+      "noRate": 0.13278882205085568,
+      "abstainRate": 0.2708187673463995,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 73817.05317851553,
+    "population": 1125285754.653168,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.47240202663755093
+  },
+  {
+    "iso3": "GNB",
+    "name": "Guinea-Bissau",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.22967330685459852,
+      "humanRights": -0.2335343443226382,
+      "development": 0.2809182375101182,
+      "security": 0.1293988637345375,
+      "environment": -0.08281507941610532,
+      "decolonization": 0.3453132522921807
+    },
+    "votingHistory": {
+      "totalVotes": 1832,
+      "yesRate": 0.602765802195707,
+      "noRate": 0.13274210945999765,
+      "abstainRate": 0.2665434874690937,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 57439.2683227638,
+    "population": 559498978.6213844,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.40702089669812025
+  },
+  {
+    "iso3": "GUY",
+    "name": "Guyana",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.11515193992879985,
+      "humanRights": -0.1067856906405151,
+      "development": 0.15865097829574976,
+      "security": -0.13996835835044466,
+      "environment": -0.005433384889139178,
+      "decolonization": 0.3553715744126522
+    },
+    "votingHistory": {
+      "totalVotes": 3405,
+      "yesRate": 0.5803548709589185,
+      "noRate": 0.12633654125124133,
+      "abstainRate": 0.280624258781463,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 10823.59165554484,
+    "population": 573736337.9771091,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.55
+  },
+  {
+    "iso3": "HTI",
+    "name": "Haiti",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.14878509030067014,
+      "humanRights": -0.1321895521965785,
+      "development": 0.07101584379468483,
+      "security": -0.03443057972109657,
+      "environment": -0.05496732779544948,
+      "decolonization": 0.26408045852768247
+    },
+    "votingHistory": {
+      "totalVotes": 2512,
+      "yesRate": 0.6202754448564434,
+      "noRate": 0.14421074106805276,
+      "abstainRate": 0.27556837848400884,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 68186.43564432544,
+    "population": 11429731.26288963,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.25
+  },
+  {
+    "iso3": "HND",
+    "name": "Honduras",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.05,
+    "policyDimensions": {
+      "sovereignty": -0.02096380930649206,
+      "humanRights": -0.004283070256766643,
+      "development": -0.0171479816588452,
+      "security": 0.03245354950950797,
+      "environment": -0.007376502339583011,
+      "decolonization": 0.16782138059912746
+    },
+    "votingHistory": {
+      "totalVotes": 2678,
+      "yesRate": 0.5366878088445374,
+      "noRate": 0.15305621957885013,
+      "abstainRate": 0.27318604202549585,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 14447.44364112789,
+    "population": 437672056.25828874,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.38
+  },
+  {
+    "iso3": "HUN",
+    "name": "Hungary",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.4,
+    "policyDimensions": {
+      "sovereignty": -0.2924801190773677,
+      "humanRights": 0.3051787106972604,
+      "development": -0.2712207733295441,
+      "security": 0.05536474394736923,
+      "environment": 0.10557989851352291,
+      "decolonization": -0.2740400602340326
+    },
+    "votingHistory": {
+      "totalVotes": 3382,
+      "yesRate": 0.4996770068769523,
+      "noRate": 0.19172776414005266,
+      "abstainRate": 0.35839051035777447,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 2663.771290719456,
+    "population": 836418362.2415104,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.55
+  },
+  {
+    "iso3": "ISL",
+    "name": "Iceland",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.38,
+    "policyDimensions": {
+      "sovereignty": -0.2790359561853194,
+      "humanRights": 0.4884168127839027,
+      "development": -0.25934315954436155,
+      "security": -0.07446514962345015,
+      "environment": 0.19780707238307388,
+      "decolonization": -0.17543478120594164
+    },
+    "votingHistory": {
+      "totalVotes": 1423,
+      "yesRate": 0.4657174413443351,
+      "noRate": 0.18032583622502296,
+      "abstainRate": 0.33733177687328575,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 21310.35984407886,
+    "population": 10498057.579446599,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.9
+  },
+  {
+    "iso3": "IND",
+    "name": "India",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.19752145085309664,
+      "humanRights": -0.2016327836845612,
+      "development": 0.12612696909371926,
+      "security": 0.05724220923316716,
+      "environment": -0.11046804388413858,
+      "decolonization": 0.144642816162585
+    },
+    "votingHistory": {
+      "totalVotes": 3679,
+      "yesRate": 0.6023445040866139,
+      "noRate": 0.15212467204596025,
+      "abstainRate": 0.27652437511168515,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 36638.33462904169,
+    "population": 661900555.2089425,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.52
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.18346226699265236,
+      "humanRights": -0.16962907666913912,
+      "development": 0.12152278487838869,
+      "security": 0.14780310939480623,
+      "environment": -0.034314816278478794,
+      "decolonization": 0.20078780039348354
+    },
+    "votingHistory": {
+      "totalVotes": 2276,
+      "yesRate": 0.5709707383668216,
+      "noRate": 0.12218983622377036,
+      "abstainRate": 0.2514380769225391,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 43861.52849971818,
+    "population": 430459352.5815777,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.55
+  },
+  {
+    "iso3": "IRN",
+    "name": "Iran",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.75,
+    "policyDimensions": {
+      "sovereignty": 0.5847786650026167,
+      "humanRights": -0.4322785572165806,
+      "development": 0.3949233326699872,
+      "security": 0.041371837209763895,
+      "environment": -0.16096109622413315,
+      "decolonization": 0.49166383580692663
+    },
+    "votingHistory": {
+      "totalVotes": 1933,
+      "yesRate": 0.6662840323647914,
+      "noRate": 0.13252897867817173,
+      "abstainRate": 0.22252023139095864,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 80921.13027719807,
+    "population": 319059553.1565625,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "IRQ",
+    "name": "Iraq",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.55,
+    "policyDimensions": {
+      "sovereignty": 0.38573279890365264,
+      "humanRights": -0.33252405205451047,
+      "development": 0.31263607369331553,
+      "security": 0.14186181917131455,
+      "environment": -0.20736829376718224,
+      "decolonization": 0.38121473046630033
+    },
+    "votingHistory": {
+      "totalVotes": 991,
+      "yesRate": 0.645665343660667,
+      "noRate": 0.10611954450575159,
+      "abstainRate": 0.22911849427714903,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 38578.45814283435,
+    "population": 1083493822.5914361,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.25
+  },
+  {
+    "iso3": "IRL",
+    "name": "Ireland",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.25,
+    "policyDimensions": {
+      "sovereignty": -0.1151206127403119,
+      "humanRights": 0.3224363554146691,
+      "development": -0.1151115860243122,
+      "security": 0.0953003579390469,
+      "environment": 0.2745119085941724,
+      "decolonization": -0.20498534410260277
+    },
+    "votingHistory": {
+      "totalVotes": 2410,
+      "yesRate": 0.5515634551851692,
+      "noRate": 0.17315718717539152,
+      "abstainRate": 0.3412726981894282,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 80585.85817357196,
+    "population": 515091782.64062893,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.9
+  },
+  {
+    "iso3": "ISR",
+    "name": "Israel",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.85,
+    "policyDimensions": {
+      "sovereignty": -0.6214058447213391,
+      "humanRights": 0.7067065761265593,
+      "development": -0.47599053299659644,
+      "security": -0.06307053731593083,
+      "environment": 0.3473304511856592,
+      "decolonization": -0.530336711230999
+    },
+    "votingHistory": {
+      "totalVotes": 2722,
+      "yesRate": 0.38376426225790394,
+      "noRate": 0.20236863462833424,
+      "abstainRate": 0.38584461325915625,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 27685.72763602383,
+    "population": 694247844.8755568,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.72
+  },
+  {
+    "iso3": "ITA",
+    "name": "Italy",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.48,
+    "policyDimensions": {
+      "sovereignty": -0.36836061318483215,
+      "humanRights": 0.47373218815977036,
+      "development": -0.2841166991878107,
+      "security": -0.12663472713358578,
+      "environment": 0.2948146523790934,
+      "decolonization": -0.2433678757931031
+    },
+    "votingHistory": {
+      "totalVotes": 3738,
+      "yesRate": 0.4724920910625933,
+      "noRate": 0.1597327586879797,
+      "abstainRate": 0.32995434857787437,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 79187.6635919762,
+    "population": 1042972478.5982916,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.8
+  },
+  {
+    "iso3": "JAM",
+    "name": "Jamaica",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.0937978353162291,
+      "humanRights": -0.19277121848840528,
+      "development": 0.1229549193866446,
+      "security": 0.04512857575787432,
+      "environment": -0.003345927451352114,
+      "decolonization": 0.275468211225343
+    },
+    "votingHistory": {
+      "totalVotes": 2493,
+      "yesRate": 0.5922805480990282,
+      "noRate": 0.14145359751220177,
+      "abstainRate": 0.29119214415927225,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 65873.73616194207,
+    "population": 954591918.485086,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.68
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japan",
+    "region": "APG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.6,
+    "policyDimensions": {
+      "sovereignty": -0.42889375556351006,
+      "humanRights": 0.31690522471720006,
+      "development": -0.3454297715379926,
+      "security": -0.11014108237813718,
+      "environment": 0.12282973782807349,
+      "decolonization": -0.30523843996465166
+    },
+    "votingHistory": {
+      "totalVotes": 2721,
+      "yesRate": 0.5055504011585262,
+      "noRate": 0.1825290811382069,
+      "abstainRate": 0.3405743035174846,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 47981.887101890024,
+    "population": 1128721309.4284458,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.82
+  },
+  {
+    "iso3": "JOR",
+    "name": "Jordan",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.31371972787047725,
+      "humanRights": -0.2696118967711487,
+      "development": 0.16793123586520814,
+      "security": 0.10152480924770348,
+      "environment": -0.07808202675731898,
+      "decolonization": 0.28478247099783793
+    },
+    "votingHistory": {
+      "totalVotes": 1857,
+      "yesRate": 0.6318319913743371,
+      "noRate": 0.11075921023107582,
+      "abstainRate": 0.28871201700268123,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 52017.45317946595,
+    "population": 89636287.75775114,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.22
+  },
+  {
+    "iso3": "KAZ",
+    "name": "Kazakhstan",
+    "region": "APG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.24993825858690266,
+      "humanRights": -0.16974642010050509,
+      "development": 0.10044773587734618,
+      "security": 0.05594252417933721,
+      "environment": -0.1545999052013736,
+      "decolonization": 0.2631950356970064
+    },
+    "votingHistory": {
+      "totalVotes": 1343,
+      "yesRate": 0.5985696766260242,
+      "noRate": 0.13353743792884923,
+      "abstainRate": 0.2681618255488951,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 40142.81460436592,
+    "population": 916168002.3374311,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.18
+  },
+  {
+    "iso3": "KEN",
+    "name": "Kenya",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.16942651758888422,
+      "humanRights": -0.11542707294934126,
+      "development": 0.3617667284006641,
+      "security": 0.1479159918376049,
+      "environment": -0.10649078844731924,
+      "decolonization": 0.330753059779702
+    },
+    "votingHistory": {
+      "totalVotes": 1743,
+      "yesRate": 0.6264458061403003,
+      "noRate": 0.13326900474977887,
+      "abstainRate": 0.2894264752835563,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 25895.168492778943,
+    "population": 161246569.01834452,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.45
+  },
+  {
+    "iso3": "KIR",
+    "name": "Kiribati",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.1,
+    "policyDimensions": {
+      "sovereignty": 0.06087798073093359,
+      "humanRights": -0.10373917798947989,
+      "development": 0.030155141711038346,
+      "security": 0.045290773058145,
+      "environment": 0.017384657669436344,
+      "decolonization": 0.04266998399227624
+    },
+    "votingHistory": {
+      "totalVotes": 2109,
+      "yesRate": 0.5735199534796458,
+      "noRate": 0.1445749125547183,
+      "abstainRate": 0.28311401705912165,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 74666.74104557995,
+    "population": 1242476186.5770504,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.4284222713970631
+  },
+  {
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.2669527666275279,
+      "humanRights": -0.20074312802770714,
+      "development": 0.23018559620370754,
+      "security": -0.07021918544085211,
+      "environment": -0.12942823086735517,
+      "decolonization": 0.19940029904814444
+    },
+    "votingHistory": {
+      "totalVotes": 2663,
+      "yesRate": 0.6538414732911256,
+      "noRate": 0.10595016972649614,
+      "abstainRate": 0.27806702639280506,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 7229.107083340433,
+    "population": 758691116.9168168,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.2
+  },
+  {
+    "iso3": "KGZ",
+    "name": "Kyrgyzstan",
+    "region": "APG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.26735754790537936,
+      "humanRights": -0.12221389799313943,
+      "development": 0.14680170395220668,
+      "security": 0.08330683175784229,
+      "environment": -0.05256915214182091,
+      "decolonization": 0.19739775865394568
+    },
+    "votingHistory": {
+      "totalVotes": 3091,
+      "yesRate": 0.5882553564997519,
+      "noRate": 0.13293389153735105,
+      "abstainRate": 0.29260571981258815,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 37089.59578817934,
+    "population": 932813482.7077304,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.28
+  },
+  {
+    "iso3": "LAO",
+    "name": "Lao People's Democratic Republic",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.55,
+    "policyDimensions": {
+      "sovereignty": 0.3170915448728696,
+      "humanRights": -0.26586303906302505,
+      "development": 0.33525989133288614,
+      "security": 0.06195729596353073,
+      "environment": -0.1455990283390505,
+      "decolonization": 0.2677275525971147
+    },
+    "votingHistory": {
+      "totalVotes": 3097,
+      "yesRate": 0.6166737077418188,
+      "noRate": 0.10473625205160031,
+      "abstainRate": 0.2542467842354082,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 65511.31062221511,
+    "population": 1193092881.3661082,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "LVA",
+    "name": "Latvia",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "elected",
+    "idealPoint": -0.52,
+    "policyDimensions": {
+      "sovereignty": -0.3926994231989839,
+      "humanRights": 0.2399919633998051,
+      "development": -0.25171290297915994,
+      "security": -0.06890693675235542,
+      "environment": 0.13194562483740635,
+      "decolonization": -0.33542706434392067
+    },
+    "votingHistory": {
+      "totalVotes": 2322,
+      "yesRate": 0.43308664979950684,
+      "noRate": 0.16568001234221272,
+      "abstainRate": 0.3363416310053649,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 65238.373130615415,
+    "population": 1345726145.5036879,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.76
+  },
+  {
+    "iso3": "LBN",
+    "name": "Lebanon",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.21743587511415496,
+      "humanRights": -0.304570234818284,
+      "development": 0.2152952497103939,
+      "security": 0.021798790402663602,
+      "environment": -0.11882559776860885,
+      "decolonization": 0.2972548807324504
+    },
+    "votingHistory": {
+      "totalVotes": 2614,
+      "yesRate": 0.5943599310923275,
+      "noRate": 0.148947468684974,
+      "abstainRate": 0.25709922305124316,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 34670.72761842765,
+    "population": 468375409.07625234,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.35
+  },
+  {
+    "iso3": "LSO",
+    "name": "Lesotho",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.10057372258756628,
+      "humanRights": -0.11399995761201716,
+      "development": 0.2809230347352389,
+      "security": 0.1495817703426773,
+      "environment": -0.04150803339237068,
+      "decolonization": 0.30108571380285676
+    },
+    "votingHistory": {
+      "totalVotes": 2962,
+      "yesRate": 0.5480180828390918,
+      "noRate": 0.13022023012575698,
+      "abstainRate": 0.2778466067807392,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 56910.9064135493,
+    "population": 6381195.03183551,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.3233875172267173
+  },
+  {
+    "iso3": "LBR",
+    "name": "Liberia",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "elected",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.16110025366328196,
+      "humanRights": -0.13988460918536516,
+      "development": 0.3312729393088429,
+      "security": -0.0006364998292728574,
+      "environment": -0.12455790736120145,
+      "decolonization": 0.3596499319618218
+    },
+    "votingHistory": {
+      "totalVotes": 1067,
+      "yesRate": 0.5389725244840311,
+      "noRate": 0.15121150418154697,
+      "abstainRate": 0.27828618538991695,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 40245.74037064932,
+    "population": 260111954.34836254,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.5751151641540032
+  },
+  {
+    "iso3": "LBY",
+    "name": "Libya",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.5,
+    "policyDimensions": {
+      "sovereignty": 0.420173866009613,
+      "humanRights": -0.3103264154599342,
+      "development": 0.40869168446718057,
+      "security": -0.07703025527927797,
+      "environment": -0.10743831393365708,
+      "decolonization": 0.47586421406615154
+    },
+    "votingHistory": {
+      "totalVotes": 2625,
+      "yesRate": 0.6092958623856064,
+      "noRate": 0.1219654536391528,
+      "abstainRate": 0.23351359669084512,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 11131.085033093366,
+    "population": 405983871.7269557,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.1
+  },
+  {
+    "iso3": "LIE",
+    "name": "Liechtenstein",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.38,
+    "policyDimensions": {
+      "sovereignty": -0.2540694368069687,
+      "humanRights": 0.38407538612817305,
+      "development": -0.1725068501190997,
+      "security": -0.058640288819708,
+      "environment": 0.3360186803948643,
+      "decolonization": -0.29866251996337956
+    },
+    "votingHistory": {
+      "totalVotes": 2387,
+      "yesRate": 0.5161341380796243,
+      "noRate": 0.15638272021580082,
+      "abstainRate": 0.3221658056036489,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 39995.61631469885,
+    "population": 1349589609.3813562,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6451926150231605
+  },
+  {
+    "iso3": "LTU",
+    "name": "Lithuania",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.52,
+    "policyDimensions": {
+      "sovereignty": -0.35882739499533256,
+      "humanRights": 0.2777245189279142,
+      "development": -0.26973710054176325,
+      "security": 0.07621124932221397,
+      "environment": 0.15625539070490174,
+      "decolonization": -0.27240589287537287
+    },
+    "votingHistory": {
+      "totalVotes": 3630,
+      "yesRate": 0.4477802049689415,
+      "noRate": 0.16063636668390507,
+      "abstainRate": 0.36205419118680393,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 64000.04493049347,
+    "population": 851406654.067374,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.77
+  },
+  {
+    "iso3": "LUX",
+    "name": "Luxembourg",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.48,
+    "policyDimensions": {
+      "sovereignty": -0.30763106651199773,
+      "humanRights": 0.4223842520167549,
+      "development": -0.20750525202194814,
+      "security": 0.011493405644198285,
+      "environment": 0.3598938569461214,
+      "decolonization": -0.2304111650715142
+    },
+    "votingHistory": {
+      "totalVotes": 2116,
+      "yesRate": 0.45409508205812776,
+      "noRate": 0.1690297445920365,
+      "abstainRate": 0.3454126956710622,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 7490.539630523543,
+    "population": 76374843.07427073,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.86
+  },
+  {
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.11968060632228865,
+      "humanRights": -0.12835882379518793,
+      "development": 0.2891950572000805,
+      "security": -0.07403806043417148,
+      "environment": -0.04087661830495965,
+      "decolonization": 0.2572838419541446
+    },
+    "votingHistory": {
+      "totalVotes": 2748,
+      "yesRate": 0.620966340318198,
+      "noRate": 0.12934629905895476,
+      "abstainRate": 0.297737976512345,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 28422.57401985642,
+    "population": 1030716204.0834004,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.45425250934303096
+  },
+  {
+    "iso3": "MWI",
+    "name": "Malawi",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.11872304719144548,
+      "humanRights": -0.10947071939810896,
+      "development": 0.3111592849975357,
+      "security": 0.038494033270630536,
+      "environment": -0.049261431570458564,
+      "decolonization": 0.2759863369285563
+    },
+    "votingHistory": {
+      "totalVotes": 1157,
+      "yesRate": 0.553132441317577,
+      "noRate": 0.1189924393912061,
+      "abstainRate": 0.28947852985921285,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 19723.207772412155,
+    "population": 1160222229.2509332,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.3552707562351764
+  },
+  {
+    "iso3": "MYS",
+    "name": "Malaysia",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.3346363690122115,
+      "humanRights": -0.25250999354233733,
+      "development": 0.18838491875524283,
+      "security": -0.11544659700371478,
+      "environment": -0.058035303846242677,
+      "decolonization": 0.26122244785917514
+    },
+    "votingHistory": {
+      "totalVotes": 2907,
+      "yesRate": 0.6332893597039603,
+      "noRate": 0.1525198141060583,
+      "abstainRate": 0.2653598688986058,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 37112.13534048575,
+    "population": 891658629.4901577,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.45
+  },
+  {
+    "iso3": "MDV",
+    "name": "Maldives",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.2151846209343487,
+      "humanRights": -0.10847369735908546,
+      "development": 0.07926840412646263,
+      "security": 0.10155490621727771,
+      "environment": -0.04950289230316479,
+      "decolonization": 0.20856032268692748
+    },
+    "votingHistory": {
+      "totalVotes": 3429,
+      "yesRate": 0.5965145022047252,
+      "noRate": 0.13143312312172098,
+      "abstainRate": 0.2685602437165939,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 3349.710427771721,
+    "population": 886150493.7174964,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.3526147776405827
+  },
+  {
+    "iso3": "MLI",
+    "name": "Mali",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.17297752150287327,
+      "humanRights": -0.18562495218604452,
+      "development": 0.3618458337119887,
+      "security": 0.14347197334130107,
+      "environment": -0.16143370737238638,
+      "decolonization": 0.3736447923464339
+    },
+    "votingHistory": {
+      "totalVotes": 2966,
+      "yesRate": 0.6351400181907556,
+      "noRate": 0.12867541531535692,
+      "abstainRate": 0.25247395538666134,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 76824.7756016964,
+    "population": 235678145.56891754,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.22
+  },
+  {
+    "iso3": "MLT",
+    "name": "Malta",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.3,
+    "policyDimensions": {
+      "sovereignty": -0.24989983124539716,
+      "humanRights": 0.4487928480663786,
+      "development": -0.1492178425132804,
+      "security": -0.08785718342705097,
+      "environment": 0.2362761981229475,
+      "decolonization": -0.20593682809987496
+    },
+    "votingHistory": {
+      "totalVotes": 1031,
+      "yesRate": 0.5488872122424392,
+      "noRate": 0.1577641285973983,
+      "abstainRate": 0.35295009855831744,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 80340.15806749002,
+    "population": 270634617.99067086,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.49125912752730283
+  },
+  {
+    "iso3": "MHL",
+    "name": "Marshall Islands",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.3,
+    "policyDimensions": {
+      "sovereignty": -0.1806842172880853,
+      "humanRights": 0.11858831789428095,
+      "development": -0.14475209222169408,
+      "security": 0.11814756066728092,
+      "environment": 0.10956808823034356,
+      "decolonization": -0.17256484153856635
+    },
+    "votingHistory": {
+      "totalVotes": 2150,
+      "yesRate": 0.5535045425590371,
+      "noRate": 0.18863585144016792,
+      "abstainRate": 0.3074029952595949,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 12979.11121230086,
+    "population": 507050381.85040474,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6404717765609902
+  },
+  {
+    "iso3": "MRT",
+    "name": "Mauritania",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.24938195191775026,
+      "humanRights": -0.20610467543152733,
+      "development": 0.3755069567997723,
+      "security": -0.04470385187182199,
+      "environment": -0.1591286802103577,
+      "decolonization": 0.4039749615893175
+    },
+    "votingHistory": {
+      "totalVotes": 2466,
+      "yesRate": 0.632320212996523,
+      "noRate": 0.13930695006898766,
+      "abstainRate": 0.2653546534747245,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 27189.741200345976,
+    "population": 1012368891.941644,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.22
+  },
+  {
+    "iso3": "MUS",
+    "name": "Mauritius",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.09004057146726188,
+      "humanRights": -0.15237796449274243,
+      "development": 0.3540463955907725,
+      "security": 0.02396182852656622,
+      "environment": 0.006690577622896668,
+      "decolonization": 0.3390730354967697
+    },
+    "votingHistory": {
+      "totalVotes": 2895,
+      "yesRate": 0.6070987836590733,
+      "noRate": 0.15322351818397256,
+      "abstainRate": 0.26839376197741216,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 22525.855888967835,
+    "population": 422686893.3503136,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.72
+  },
+  {
+    "iso3": "MEX",
+    "name": "Mexico",
+    "region": "GRULAC",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.15913235347464968,
+      "humanRights": -0.09897245835139706,
+      "development": 0.12914724762764462,
+      "security": 0.06543509958205629,
+      "environment": 0.019934360897153225,
+      "decolonization": 0.2424282980308468
+    },
+    "votingHistory": {
+      "totalVotes": 1263,
+      "yesRate": 0.5940273835629987,
+      "noRate": 0.13835213854928782,
+      "abstainRate": 0.27771407068421,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 41483.46892941824,
+    "population": 87366044.48689987,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.58
+  },
+  {
+    "iso3": "FSM",
+    "name": "Micronesia",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.25,
+    "policyDimensions": {
+      "sovereignty": -0.15629261745053635,
+      "humanRights": 0.14131202536316403,
+      "development": -0.09059788282974575,
+      "security": -0.06109877128878114,
+      "environment": 0.04425323977932642,
+      "decolonization": -0.21566327120891382
+    },
+    "votingHistory": {
+      "totalVotes": 1877,
+      "yesRate": 0.5103310712258871,
+      "noRate": 0.15621026485895512,
+      "abstainRate": 0.31541049969741386,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 39090.02256907756,
+    "population": 939580721.2461556,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.4341173941581783
+  },
+  {
+    "iso3": "MDA",
+    "name": "Moldova",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.3,
+    "policyDimensions": {
+      "sovereignty": -0.1452950033522898,
+      "humanRights": 0.14990108276831476,
+      "development": -0.21481227645180473,
+      "security": 0.06189061478057192,
+      "environment": 0.11315295232649729,
+      "decolonization": -0.22665658058870036
+    },
+    "votingHistory": {
+      "totalVotes": 2111,
+      "yesRate": 0.5403102974326607,
+      "noRate": 0.1632039172838451,
+      "abstainRate": 0.31721129820035104,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 37696.96866457746,
+    "population": 11208378.33172604,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.48
+  },
+  {
+    "iso3": "MCO",
+    "name": "Monaco",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.35,
+    "policyDimensions": {
+      "sovereignty": -0.3045767353159787,
+      "humanRights": 0.4300523891823954,
+      "development": -0.1365228151405516,
+      "security": 0.04298878183890803,
+      "environment": 0.2414180035100826,
+      "decolonization": -0.1973209864977563
+    },
+    "votingHistory": {
+      "totalVotes": 2706,
+      "yesRate": 0.4865615370448357,
+      "noRate": 0.15677060696628656,
+      "abstainRate": 0.3538584262025213,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 14857.84473592831,
+    "population": 488109919.58083117,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6800524154631543
+  },
+  {
+    "iso3": "MNG",
+    "name": "Mongolia",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.08013710317437935,
+      "humanRights": -0.11794790102703215,
+      "development": 0.08043494009888613,
+      "security": -0.041905756758504026,
+      "environment": -0.09949497461772872,
+      "decolonization": 0.027776674251718605
+    },
+    "votingHistory": {
+      "totalVotes": 3382,
+      "yesRate": 0.5956661706634718,
+      "noRate": 0.1394010285152823,
+      "abstainRate": 0.28128431116493524,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 48739.14178082234,
+    "population": 942244045.1353308,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.62
+  },
+  {
+    "iso3": "MNE",
+    "name": "Montenegro",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.3,
+    "policyDimensions": {
+      "sovereignty": -0.21288118937236283,
+      "humanRights": 0.20364221386347017,
+      "development": -0.15859694039300012,
+      "security": 0.12635360550516136,
+      "environment": 0.04295838453526571,
+      "decolonization": -0.13958207622975624
+    },
+    "votingHistory": {
+      "totalVotes": 2898,
+      "yesRate": 0.4858016943118539,
+      "noRate": 0.14690964930851702,
+      "abstainRate": 0.35081598010748066,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 10718.474859771895,
+    "population": 406883581.48830795,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.55
+  },
+  {
+    "iso3": "MAR",
+    "name": "Morocco",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.18545331984885347,
+      "humanRights": -0.1524015088745862,
+      "development": 0.338822589625796,
+      "security": 0.06274530117231077,
+      "environment": -0.028414108715582198,
+      "decolonization": 0.3160532705814236
+    },
+    "votingHistory": {
+      "totalVotes": 1411,
+      "yesRate": 0.566311021644811,
+      "noRate": 0.15719948020873112,
+      "abstainRate": 0.26408051344661054,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 46508.2577945451,
+    "population": 904332158.0321255,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.3
+  },
+  {
+    "iso3": "MOZ",
+    "name": "Mozambique",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.21170462094287026,
+      "humanRights": -0.21543103559884033,
+      "development": 0.3658530746041455,
+      "security": 0.09878027945495682,
+      "environment": -0.047308130736301676,
+      "decolonization": 0.40404492833862193
+    },
+    "votingHistory": {
+      "totalVotes": 3694,
+      "yesRate": 0.6162402065479523,
+      "noRate": 0.1529431624723233,
+      "abstainRate": 0.2818000310174655,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 14466.473187661373,
+    "population": 352900941.0454079,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.3
+  },
+  {
+    "iso3": "MMR",
+    "name": "Myanmar",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.45,
+    "policyDimensions": {
+      "sovereignty": 0.25532164514421524,
+      "humanRights": -0.1982120671130745,
+      "development": 0.21934191760824573,
+      "security": 0.13158037508409012,
+      "environment": -0.13772594507032213,
+      "decolonization": 0.2516640080201123
+    },
+    "votingHistory": {
+      "totalVotes": 1666,
+      "yesRate": 0.6509387849512135,
+      "noRate": 0.13604768949410592,
+      "abstainRate": 0.25964557380872905,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 17857.414733818132,
+    "population": 124977483.10904193,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "NAM",
+    "name": "Namibia",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.21813594544495823,
+      "humanRights": -0.16501669008052366,
+      "development": 0.30430741247355647,
+      "security": 0.11231214631402682,
+      "environment": -0.13196895616873375,
+      "decolonization": 0.3936248198427783
+    },
+    "votingHistory": {
+      "totalVotes": 3072,
+      "yesRate": 0.5550077728793277,
+      "noRate": 0.1446288940862587,
+      "abstainRate": 0.2742179390099407,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 43753.05432331587,
+    "population": 465836757.1957844,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.62
+  },
+  {
+    "iso3": "NRU",
+    "name": "Nauru",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.2,
+    "policyDimensions": {
+      "sovereignty": -0.15699141890089757,
+      "humanRights": 0.16384169802508355,
+      "development": -0.06223065921506627,
+      "security": 0.09467306748141374,
+      "environment": 0.03918753421497241,
+      "decolonization": -0.15422162762359287
+    },
+    "votingHistory": {
+      "totalVotes": 913,
+      "yesRate": 0.4934289027805042,
+      "noRate": 0.14399921803711896,
+      "abstainRate": 0.3302031464071951,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 47501.1073943463,
+    "population": 606477333.458892,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.5949531309993363
+  },
+  {
+    "iso3": "NPL",
+    "name": "Nepal",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.22723062163620036,
+      "humanRights": -0.18916011617150158,
+      "development": 0.11802593740122996,
+      "security": 0.06767322929056203,
+      "environment": -0.1486395475800707,
+      "decolonization": 0.2174739515507766
+    },
+    "votingHistory": {
+      "totalVotes": 3591,
+      "yesRate": 0.6072882949537105,
+      "noRate": 0.1551187877991746,
+      "abstainRate": 0.29954830276536487,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 1711.5439513492267,
+    "population": 27713678.68233092,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.45
+  },
+  {
+    "iso3": "NLD",
+    "name": "Netherlands",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.52,
+    "policyDimensions": {
+      "sovereignty": -0.3087953769983247,
+      "humanRights": 0.47246159834029655,
+      "development": -0.23262616514871506,
+      "security": 0.03565271156505979,
+      "environment": 0.35623313643765475,
+      "decolonization": -0.3152094511734809
+    },
+    "votingHistory": {
+      "totalVotes": 3773,
+      "yesRate": 0.46427232691884796,
+      "noRate": 0.18527750495827697,
+      "abstainRate": 0.35273079032025556,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 9881.999870967586,
+    "population": 170101313.41750997,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.89
+  },
+  {
+    "iso3": "NZL",
+    "name": "New Zealand",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.45,
+    "policyDimensions": {
+      "sovereignty": -0.36933262082034085,
+      "humanRights": 0.4997312084130783,
+      "development": -0.2999466138076844,
+      "security": 0.04612387870348148,
+      "environment": 0.244971648055355,
+      "decolonization": -0.22712401764051152
+    },
+    "votingHistory": {
+      "totalVotes": 1898,
+      "yesRate": 0.4694762507353389,
+      "noRate": 0.15617385346411583,
+      "abstainRate": 0.3277373944939434,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 78392.68984584899,
+    "population": 103669353.12478323,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.91
+  },
+  {
+    "iso3": "NIC",
+    "name": "Nicaragua",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.65,
+    "policyDimensions": {
+      "sovereignty": 0.39438018220113125,
+      "humanRights": -0.35681703906315776,
+      "development": 0.3284216667125983,
+      "security": -0.029670817656365877,
+      "environment": -0.16849285219062418,
+      "decolonization": 0.48557825786075054
+    },
+    "votingHistory": {
+      "totalVotes": 3001,
+      "yesRate": 0.6202633390628648,
+      "noRate": 0.12777579512104292,
+      "abstainRate": 0.2146635814254785,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 16478.137604770745,
+    "population": 102880354.70704325,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.2
+  },
+  {
+    "iso3": "NER",
+    "name": "Niger",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.10285257689022752,
+      "humanRights": -0.10404270360689671,
+      "development": 0.2791420488569751,
+      "security": 0.058545116569973785,
+      "environment": -0.08455089733110528,
+      "decolonization": 0.2280047729385562
+    },
+    "votingHistory": {
+      "totalVotes": 2901,
+      "yesRate": 0.5700185473152712,
+      "noRate": 0.1417820732526672,
+      "abstainRate": 0.254772946216346,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 1163.6994816744,
+    "population": 363439398.2422048,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "NGA",
+    "name": "Nigeria",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.2494782252527024,
+      "humanRights": -0.25174541589262556,
+      "development": 0.39702026207745544,
+      "security": 0.07419476654012565,
+      "environment": -0.13274564634956085,
+      "decolonization": 0.3184076929100341
+    },
+    "votingHistory": {
+      "totalVotes": 3308,
+      "yesRate": 0.5834842069909173,
+      "noRate": 0.1341167196012374,
+      "abstainRate": 0.28948830181371604,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 4780.212719873574,
+    "population": 655626606.43374,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.42
+  },
+  {
+    "iso3": "MKD",
+    "name": "North Macedonia",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.32,
+    "policyDimensions": {
+      "sovereignty": -0.19388587003315003,
+      "humanRights": 0.1495525296229293,
+      "development": -0.2002318134939372,
+      "security": -0.14791854880701716,
+      "environment": 0.17018329250048458,
+      "decolonization": -0.21169825132859366
+    },
+    "votingHistory": {
+      "totalVotes": 2371,
+      "yesRate": 0.48711525030134134,
+      "noRate": 0.15880051425280992,
+      "abstainRate": 0.31978315845708905,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 78806.76897564129,
+    "population": 892278101.774172,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.55
+  },
+  {
+    "iso3": "NOR",
+    "name": "Norway",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.38,
+    "policyDimensions": {
+      "sovereignty": -0.24336553243649317,
+      "humanRights": 0.45049350361467655,
+      "development": -0.20552336844394994,
+      "security": 0.0010559597404338427,
+      "environment": 0.28507439770970366,
+      "decolonization": -0.18077929347422422
+    },
+    "votingHistory": {
+      "totalVotes": 937,
+      "yesRate": 0.5208914660396733,
+      "noRate": 0.1520431487313572,
+      "abstainRate": 0.3469423438845999,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 67791.61268910198,
+    "population": 139540400.8459976,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.95
+  },
+  {
+    "iso3": "OMN",
+    "name": "Oman",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.3324902807030571,
+      "humanRights": -0.22015195704185214,
+      "development": 0.14907834836609624,
+      "security": 0.046429881312984464,
+      "environment": -0.1855316197640569,
+      "decolonization": 0.206018759631789
+    },
+    "votingHistory": {
+      "totalVotes": 2525,
+      "yesRate": 0.6115242866360407,
+      "noRate": 0.1483998422216158,
+      "abstainRate": 0.2691605139742978,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 67101.16462830946,
+    "population": 348523247.22178125,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "PAK",
+    "name": "Pakistan",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "elected",
+    "idealPoint": 0.45,
+    "policyDimensions": {
+      "sovereignty": 0.27880627990905343,
+      "humanRights": -0.33653922640055867,
+      "development": 0.1545825270364486,
+      "security": 0.082447529172629,
+      "environment": -0.06288681169107717,
+      "decolonization": 0.3101230916881755
+    },
+    "votingHistory": {
+      "totalVotes": 3791,
+      "yesRate": 0.6334956066091535,
+      "noRate": 0.13283616086010266,
+      "abstainRate": 0.23994730417382604,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 78247.17024649661,
+    "population": 435975879.61720437,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.3
+  },
+  {
+    "iso3": "PLW",
+    "name": "Palau",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.4,
+    "policyDimensions": {
+      "sovereignty": -0.2184149946652853,
+      "humanRights": 0.20636202800817835,
+      "development": -0.15993552093509017,
+      "security": 0.02476224300329627,
+      "environment": 0.1916438620459856,
+      "decolonization": -0.20517454202756624
+    },
+    "votingHistory": {
+      "totalVotes": 915,
+      "yesRate": 0.5370895805389364,
+      "noRate": 0.17380787149276766,
+      "abstainRate": 0.3490887332065238,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 17689.242277454876,
+    "population": 1397964883.1213627,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6014560129264035
+  },
+  {
+    "iso3": "PAN",
+    "name": "Panama",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "elected",
+    "idealPoint": 0,
+    "policyDimensions": {
+      "sovereignty": -0.05348775183746771,
+      "humanRights": -0.0647254021465139,
+      "development": 0.03539828795716127,
+      "security": 0.0412586093627053,
+      "environment": 0.02874786309053838,
+      "decolonization": 0.22218076663491798
+    },
+    "votingHistory": {
+      "totalVotes": 2818,
+      "yesRate": 0.5787160221437728,
+      "noRate": 0.1301675770676619,
+      "abstainRate": 0.29801994591788844,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 60637.52099770064,
+    "population": 61317899.22389851,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.62
+  },
+  {
+    "iso3": "PNG",
+    "name": "Papua New Guinea",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.11689931957910288,
+      "humanRights": -0.08970107589026473,
+      "development": 0.12703477078514053,
+      "security": 0.1244041986936713,
+      "environment": -0.11022768545901115,
+      "decolonization": 0.16226774812379566
+    },
+    "votingHistory": {
+      "totalVotes": 3475,
+      "yesRate": 0.5365191189511723,
+      "noRate": 0.1662867821703634,
+      "abstainRate": 0.29037661538235304,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 77017.49956515094,
+    "population": 128144048.73477623,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.49440773636903795
+  },
+  {
+    "iso3": "PRY",
+    "name": "Paraguay",
+    "region": "GRULAC",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.05,
+    "policyDimensions": {
+      "sovereignty": -0.010330452970306034,
+      "humanRights": -0.06683170121205778,
+      "development": 0.022935403260154516,
+      "security": -0.07501292334054896,
+      "environment": 0.027283951599915493,
+      "decolonization": 0.20990159161968658
+    },
+    "votingHistory": {
+      "totalVotes": 2943,
+      "yesRate": 0.5298878970887484,
+      "noRate": 0.141499884852441,
+      "abstainRate": 0.31513004455834864,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 79727.0297852175,
+    "population": 141942907.14959916,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.52
+  },
+  {
+    "iso3": "PER",
+    "name": "Peru",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.05,
+    "policyDimensions": {
+      "sovereignty": 0.0051835740346423236,
+      "humanRights": 0.018962697974397494,
+      "development": 0.045207987899241964,
+      "security": -0.02713743282415379,
+      "environment": 0.0527005758259214,
+      "decolonization": 0.21633153380624287
+    },
+    "votingHistory": {
+      "totalVotes": 2933,
+      "yesRate": 0.5833549397522246,
+      "noRate": 0.15608423558147255,
+      "abstainRate": 0.28152163362398785,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 15411.042764412947,
+    "population": 697202527.11837,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6
+  },
+  {
+    "iso3": "PHL",
+    "name": "Philippines",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.06647428755333515,
+      "humanRights": -0.11611422458456694,
+      "development": 0.08071462384674573,
+      "security": 0.13927483849443376,
+      "environment": -0.03437338496660194,
+      "decolonization": 0.09176547804772049
+    },
+    "votingHistory": {
+      "totalVotes": 3654,
+      "yesRate": 0.5372043798618727,
+      "noRate": 0.13324534114118322,
+      "abstainRate": 0.28576032453816397,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 26592.48393997375,
+    "population": 1193649823.860824,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.5
+  },
+  {
+    "iso3": "POL",
+    "name": "Poland",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.5,
+    "policyDimensions": {
+      "sovereignty": -0.35248094452020734,
+      "humanRights": 0.24120459286873336,
+      "development": -0.1896512557786543,
+      "security": 0.05766555331825872,
+      "environment": 0.11293849260265437,
+      "decolonization": -0.3202050739306037
+    },
+    "votingHistory": {
+      "totalVotes": 1994,
+      "yesRate": 0.47244430367076873,
+      "noRate": 0.17657799820336,
+      "abstainRate": 0.32925254609534804,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 50745.775752176014,
+    "population": 1159425866.6793294,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.68
+  },
+  {
+    "iso3": "PRT",
+    "name": "Portugal",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.4,
+    "policyDimensions": {
+      "sovereignty": -0.3502289013763025,
+      "humanRights": 0.4133449568618892,
+      "development": -0.25028800413135627,
+      "security": -0.1093522540664655,
+      "environment": 0.3250523276627186,
+      "decolonization": -0.2789374195514101
+    },
+    "votingHistory": {
+      "totalVotes": 2842,
+      "yesRate": 0.45027330332674864,
+      "noRate": 0.1919113860504961,
+      "abstainRate": 0.35165092006247745,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 56209.90363676331,
+    "population": 765062929.859807,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.85
+  },
+  {
+    "iso3": "QAT",
+    "name": "Qatar",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.298993597301653,
+      "humanRights": -0.23707769749734495,
+      "development": 0.13095322881265387,
+      "security": -0.08280545718334742,
+      "environment": -0.11141188044250287,
+      "decolonization": 0.265084244064075
+    },
+    "votingHistory": {
+      "totalVotes": 2034,
+      "yesRate": 0.6385978110224471,
+      "noRate": 0.1274842374847467,
+      "abstainRate": 0.27219398277746365,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 42554.62696253198,
+    "population": 250547480.8195833,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.1
+  },
+  {
+    "iso3": "KOR",
+    "name": "Republic of Korea",
+    "region": "APG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.45,
+    "policyDimensions": {
+      "sovereignty": -0.3418222180665057,
+      "humanRights": 0.20286437415700975,
+      "development": -0.16719915527319518,
+      "security": -0.1271447730663104,
+      "environment": 0.14371166699419535,
+      "decolonization": -0.24711873368875095
+    },
+    "votingHistory": {
+      "totalVotes": 1803,
+      "yesRate": 0.44903771405493326,
+      "noRate": 0.17854383789027198,
+      "abstainRate": 0.32605567251473094,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 49149.81497082623,
+    "population": 518594106.02677244,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.81
+  },
+  {
+    "iso3": "ROU",
+    "name": "Romania",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.45,
+    "policyDimensions": {
+      "sovereignty": -0.3301737415208886,
+      "humanRights": 0.2332819530643248,
+      "development": -0.19668024509369403,
+      "security": -0.049188853823390985,
+      "environment": 0.1319354711989722,
+      "decolonization": -0.31942021364681894
+    },
+    "votingHistory": {
+      "totalVotes": 3385,
+      "yesRate": 0.5078577515192697,
+      "noRate": 0.18996260232582282,
+      "abstainRate": 0.34492333241387346,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 35687.90768522022,
+    "population": 497255373.66746116,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.62
+  },
+  {
+    "iso3": "RUS",
+    "name": "Russia",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "P5",
+    "idealPoint": 0.7,
+    "policyDimensions": {
+      "sovereignty": 0.5333828178486746,
+      "humanRights": -0.399756118381572,
+      "development": 0.3824241978482865,
+      "security": 0.04658396514053085,
+      "environment": -0.1373401262942562,
+      "decolonization": 0.3816330231625198
+    },
+    "votingHistory": {
+      "totalVotes": 3165,
+      "yesRate": 0.6817621918294491,
+      "noRate": 0.09546598081837081,
+      "abstainRate": 0.2285229789799831,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 78409.50189470535,
+    "population": 1224992635.3780885,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "RWA",
+    "name": "Rwanda",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.16108997985978843,
+      "humanRights": -0.1408873652843496,
+      "development": 0.2686776658214344,
+      "security": -0.09579123913910965,
+      "environment": -0.1457643217048059,
+      "decolonization": 0.35282286236244786
+    },
+    "votingHistory": {
+      "totalVotes": 1506,
+      "yesRate": 0.5794902918492422,
+      "noRate": 0.11956544179866681,
+      "abstainRate": 0.266310586318446,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 65782.0620203349,
+    "population": 361332763.2486081,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.22
+  },
+  {
+    "iso3": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.0575966879510313,
+      "humanRights": -0.15258880885727444,
+      "development": 0.023342231224137873,
+      "security": -0.12434098461511102,
+      "environment": -0.09830301001162803,
+      "decolonization": 0.18266218204695317
+    },
+    "votingHistory": {
+      "totalVotes": 2379,
+      "yesRate": 0.5490805671286259,
+      "noRate": 0.13854813592067178,
+      "abstainRate": 0.270238597579356,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 22496.33300059855,
+    "population": 44936243.12097352,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.3348147244273719
+  },
+  {
+    "iso3": "LCA",
+    "name": "Saint Lucia",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.05969124156043196,
+      "humanRights": -0.015742932956373065,
+      "development": 0.004873144103883106,
+      "security": 0.061195646741240214,
+      "environment": -0.017684747317732483,
+      "decolonization": 0.24634149475520045
+    },
+    "votingHistory": {
+      "totalVotes": 1538,
+      "yesRate": 0.5894663641757719,
+      "noRate": 0.12295526052719336,
+      "abstainRate": 0.2893303110006569,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 77336.64000694096,
+    "population": 429909618.75642174,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.5298024870990315
+  },
+  {
+    "iso3": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.13157380093042126,
+      "humanRights": -0.10362189539676112,
+      "development": 0.14993948836925894,
+      "security": 0.12447923216374573,
+      "environment": -0.07768431217472169,
+      "decolonization": 0.325665354496023
+    },
+    "votingHistory": {
+      "totalVotes": 3491,
+      "yesRate": 0.6197795340953813,
+      "noRate": 0.11628105876531475,
+      "abstainRate": 0.2711442377292886,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 79565.57788293938,
+    "population": 1179210311.7667046,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.41778260053083827
+  },
+  {
+    "iso3": "WSM",
+    "name": "Samoa",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.1,
+    "policyDimensions": {
+      "sovereignty": 0.08989670056963728,
+      "humanRights": -0.11911090601797003,
+      "development": 0.10456447652065301,
+      "security": 0.04128104569187411,
+      "environment": -0.07833673639766331,
+      "decolonization": -0.01075245799397874
+    },
+    "votingHistory": {
+      "totalVotes": 2305,
+      "yesRate": 0.6001070522063195,
+      "noRate": 0.13982376893745357,
+      "abstainRate": 0.2857863308072058,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 47531.53143043898,
+    "population": 633928977.8374785,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.5708518999328026
+  },
+  {
+    "iso3": "SMR",
+    "name": "San Marino",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.35,
+    "policyDimensions": {
+      "sovereignty": -0.21989144632124605,
+      "humanRights": 0.3606835264795655,
+      "development": -0.24268635914025044,
+      "security": -0.0030811277108921454,
+      "environment": 0.23333024017823167,
+      "decolonization": -0.28157780126356
+    },
+    "votingHistory": {
+      "totalVotes": 3215,
+      "yesRate": 0.5432872814954695,
+      "noRate": 0.1666504604984425,
+      "abstainRate": 0.3170552091014234,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 54968.33797310673,
+    "population": 1166061135.8775783,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.4530955513364392
+  },
+  {
+    "iso3": "STP",
+    "name": "Sao Tome and Principe",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.12015448285852429,
+      "humanRights": -0.1440310941471325,
+      "development": 0.32840518710515587,
+      "security": -0.041127338980121386,
+      "environment": -0.11656884427451734,
+      "decolonization": 0.2998870119277591
+    },
+    "votingHistory": {
+      "totalVotes": 3577,
+      "yesRate": 0.614866641202212,
+      "noRate": 0.14976050947438005,
+      "abstainRate": 0.3038227696038835,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 52775.01048235573,
+    "population": 318349020.52839726,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.30456854216860807
+  },
+  {
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.5,
+    "policyDimensions": {
+      "sovereignty": 0.3829482323392174,
+      "humanRights": -0.25819720383342293,
+      "development": 0.2346541004743553,
+      "security": 0.10395830624130514,
+      "environment": -0.11479086089874405,
+      "decolonization": 0.3276300021919026
+    },
+    "votingHistory": {
+      "totalVotes": 1595,
+      "yesRate": 0.5820166397856121,
+      "noRate": 0.14797161202830533,
+      "abstainRate": 0.234296222056564,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 10309.596887163258,
+    "population": 1323757617.9412444,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.08
+  },
+  {
+    "iso3": "SEN",
+    "name": "Senegal",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.20207883635351406,
+      "humanRights": -0.21454803196004313,
+      "development": 0.39750785448064746,
+      "security": -0.056335142791814896,
+      "environment": -0.016385726913899584,
+      "decolonization": 0.30826705470291593
+    },
+    "votingHistory": {
+      "totalVotes": 3392,
+      "yesRate": 0.6182108233870731,
+      "noRate": 0.11593694271366971,
+      "abstainRate": 0.28887253774769434,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 37292.5029816787,
+    "population": 654496648.2136507,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.58
+  },
+  {
+    "iso3": "SRB",
+    "name": "Serbia",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.1,
+    "policyDimensions": {
+      "sovereignty": -0.10885435464648863,
+      "humanRights": 0.05072824110410368,
+      "development": -0.03909146901315346,
+      "security": 0.11583556529736042,
+      "environment": 0.06252197777794719,
+      "decolonization": -0.029570636887701847
+    },
+    "votingHistory": {
+      "totalVotes": 1720,
+      "yesRate": 0.497145380864885,
+      "noRate": 0.13684310653173437,
+      "abstainRate": 0.31870048174022236,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 10854.370674550153,
+    "population": 1141551801.1679645,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.52
+  },
+  {
+    "iso3": "SYC",
+    "name": "Seychelles",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.06761725534280232,
+      "humanRights": -0.12264134033993848,
+      "development": 0.2583528170439771,
+      "security": 0.11637479177824567,
+      "environment": -0.049499078973778296,
+      "decolonization": 0.30094823152198186
+    },
+    "votingHistory": {
+      "totalVotes": 1108,
+      "yesRate": 0.5843101948579565,
+      "noRate": 0.11534084457446374,
+      "abstainRate": 0.2611185758225895,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 55755.397302740115,
+    "population": 1164842312.9994404,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.5901833932591098
+  },
+  {
+    "iso3": "SLE",
+    "name": "Sierra Leone",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.21205024613580903,
+      "humanRights": -0.20368402185353543,
+      "development": 0.26392617879061175,
+      "security": 0.06631248360879545,
+      "environment": -0.14624225516948902,
+      "decolonization": 0.27062274591196855
+    },
+    "votingHistory": {
+      "totalVotes": 1530,
+      "yesRate": 0.6067416247607306,
+      "noRate": 0.13201740879321408,
+      "abstainRate": 0.2766673593378317,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 77951.78873766023,
+    "population": 612622955.203376,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6585254679337436
+  },
+  {
+    "iso3": "SGP",
+    "name": "Singapore",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.1,
+    "policyDimensions": {
+      "sovereignty": 0.09448403473232966,
+      "humanRights": 0.013284471721454624,
+      "development": 0.020644882203928402,
+      "security": 0.11588600018664402,
+      "environment": -0.02241098961034114,
+      "decolonization": 0.09289703529046314
+    },
+    "votingHistory": {
+      "totalVotes": 2760,
+      "yesRate": 0.608652455111419,
+      "noRate": 0.15820741835241378,
+      "abstainRate": 0.2798216428269682,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 11918.742104181727,
+    "population": 1016487963.5398364,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.48
+  },
+  {
+    "iso3": "SVK",
+    "name": "Slovakia",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.45,
+    "policyDimensions": {
+      "sovereignty": -0.3116397444185893,
+      "humanRights": 0.33480147483288347,
+      "development": -0.1647477791213309,
+      "security": 0.026631690649462792,
+      "environment": 0.12781511744899096,
+      "decolonization": -0.30124430430034277
+    },
+    "votingHistory": {
+      "totalVotes": 3495,
+      "yesRate": 0.43490098037812885,
+      "noRate": 0.15523488582524816,
+      "abstainRate": 0.34262867219341653,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 4803.800848266995,
+    "population": 358641192.39230436,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.75
+  },
+  {
+    "iso3": "SVN",
+    "name": "Slovenia",
+    "region": "EEG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.4,
+    "policyDimensions": {
+      "sovereignty": -0.21197789394924832,
+      "humanRights": 0.27142889479790555,
+      "development": -0.13351756707032156,
+      "security": -0.0859447257909795,
+      "environment": 0.13304916847451803,
+      "decolonization": -0.2874688806041304
+    },
+    "votingHistory": {
+      "totalVotes": 2238,
+      "yesRate": 0.4404377001431859,
+      "noRate": 0.18821873204159054,
+      "abstainRate": 0.3367381776361117,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 4079.5563578325223,
+    "population": 305088396.61950207,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.78
+  },
+  {
+    "iso3": "SLB",
+    "name": "Solomon Islands",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.11004192474299154,
+      "humanRights": -0.14483799649631557,
+      "development": 0.09428435242601771,
+      "security": 0.14419114594212526,
+      "environment": -0.0760471532764023,
+      "decolonization": 0.11258575836838823
+    },
+    "votingHistory": {
+      "totalVotes": 1196,
+      "yesRate": 0.5443052825242759,
+      "noRate": 0.14824603346892307,
+      "abstainRate": 0.2631513421221523,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 80276.8846264288,
+    "population": 966706605.1465125,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.5192885772835669
+  },
+  {
+    "iso3": "SOM",
+    "name": "Somalia",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "elected",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.22812164614515415,
+      "humanRights": -0.27154900216184297,
+      "development": 0.43256991468546213,
+      "security": 0.04522065159287784,
+      "environment": -0.08208131566808588,
+      "decolonization": 0.3234040133418525
+    },
+    "votingHistory": {
+      "totalVotes": 1314,
+      "yesRate": 0.6529495268950588,
+      "noRate": 0.12241288602757568,
+      "abstainRate": 0.28091170065009763,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 57496.33502040439,
+    "population": 1066034170.3404636,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.1
+  },
+  {
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.14620192829663908,
+      "humanRights": -0.17490974653044478,
+      "development": 0.3145471947650768,
+      "security": 0.05950303992943442,
+      "environment": -0.0908611298401051,
+      "decolonization": 0.2882401755808946
+    },
+    "votingHistory": {
+      "totalVotes": 3572,
+      "yesRate": 0.624997488825465,
+      "noRate": 0.15308004725737961,
+      "abstainRate": 0.2649487615947027,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 79705.6442905929,
+    "population": 199860352.3626482,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.62
+  },
+  {
+    "iso3": "SSD",
+    "name": "South Sudan",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.14112687450044947,
+      "humanRights": -0.2338143178748,
+      "development": 0.30794143386486483,
+      "security": 0.10120268719065996,
+      "environment": -0.10319046452133694,
+      "decolonization": 0.3074288631282814
+    },
+    "votingHistory": {
+      "totalVotes": 2575,
+      "yesRate": 0.5645996686163358,
+      "noRate": 0.14100140384188886,
+      "abstainRate": 0.2685213040312568,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 17619.057249421963,
+    "population": 965124095.6806284,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.08
+  },
+  {
+    "iso3": "ESP",
+    "name": "Spain",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.42,
+    "policyDimensions": {
+      "sovereignty": -0.2737249346284021,
+      "humanRights": 0.4905609308638519,
+      "development": -0.14118766177356887,
+      "security": 0.0852816228138473,
+      "environment": 0.3079717135529434,
+      "decolonization": -0.2501295481494464
+    },
+    "votingHistory": {
+      "totalVotes": 3284,
+      "yesRate": 0.5272996482770657,
+      "noRate": 0.16881009206148098,
+      "abstainRate": 0.3472831951948541,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 76637.40325990072,
+    "population": 831602936.097503,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.84
+  },
+  {
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.1544068486847465,
+      "humanRights": -0.13479034754209926,
+      "development": 0.18212109562175371,
+      "security": -0.09588303893010203,
+      "environment": -0.062287854668052825,
+      "decolonization": 0.22407904897096545
+    },
+    "votingHistory": {
+      "totalVotes": 2587,
+      "yesRate": 0.585189120671756,
+      "noRate": 0.11983868818959191,
+      "abstainRate": 0.2492583661047411,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 30827.588244766834,
+    "population": 1140997475.5034194,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.42
+  },
+  {
+    "iso3": "SDN",
+    "name": "Sudan",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.55,
+    "policyDimensions": {
+      "sovereignty": 0.40929092654476196,
+      "humanRights": -0.39012136459702657,
+      "development": 0.545998564047273,
+      "security": 0.1403488016199201,
+      "environment": -0.18513786797065704,
+      "decolonization": 0.43070507607322767
+    },
+    "votingHistory": {
+      "totalVotes": 1343,
+      "yesRate": 0.644035575278461,
+      "noRate": 0.1110116645632106,
+      "abstainRate": 0.23525524029630585,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 66042.71207029064,
+    "population": 685508040.5367208,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.08
+  },
+  {
+    "iso3": "SUR",
+    "name": "Suriname",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.11876648888428845,
+      "humanRights": -0.09968695678391656,
+      "development": 0.07862088185004446,
+      "security": -0.032478901832941665,
+      "environment": -0.11164931546935097,
+      "decolonization": 0.28356371161261656
+    },
+    "votingHistory": {
+      "totalVotes": 3749,
+      "yesRate": 0.5995701398146502,
+      "noRate": 0.12402886124596205,
+      "abstainRate": 0.2895643656117759,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 60932.81056637243,
+    "population": 6528531.241062687,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.58
+  },
+  {
+    "iso3": "SWE",
+    "name": "Sweden",
+    "region": "WEOG",
+    "blocs": [
+      "EU"
+    ],
+    "scStatus": "none",
+    "idealPoint": -0.35,
+    "policyDimensions": {
+      "sovereignty": -0.19060285556842638,
+      "humanRights": 0.4521950128318731,
+      "development": -0.1359012498021827,
+      "security": -0.13492200302074708,
+      "environment": 0.21686821964496472,
+      "decolonization": -0.17629955750920334
+    },
+    "votingHistory": {
+      "totalVotes": 3588,
+      "yesRate": 0.5451230783848147,
+      "noRate": 0.1815587233563556,
+      "abstainRate": 0.3432829991782277,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 74596.22282758268,
+    "population": 904082456.1074452,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.94
+  },
+  {
+    "iso3": "CHE",
+    "name": "Switzerland",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.3,
+    "policyDimensions": {
+      "sovereignty": -0.22562710207435932,
+      "humanRights": 0.3633068628581955,
+      "development": -0.1087133631072271,
+      "security": 0.04927814316453368,
+      "environment": 0.22599705329653738,
+      "decolonization": -0.19947502472774942
+    },
+    "votingHistory": {
+      "totalVotes": 2697,
+      "yesRate": 0.47079444569437634,
+      "noRate": 0.17666005396206397,
+      "abstainRate": 0.34311039551815725,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 29621.583326864424,
+    "population": 1397626153.5571833,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.91
+  },
+  {
+    "iso3": "SYR",
+    "name": "Syria",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.8,
+    "policyDimensions": {
+      "sovereignty": 0.5468164248442781,
+      "humanRights": -0.4350498391105909,
+      "development": 0.35191815256302206,
+      "security": -0.0034105440493231998,
+      "environment": -0.22253505944915464,
+      "decolonization": 0.4455447567558253
+    },
+    "votingHistory": {
+      "totalVotes": 2732,
+      "yesRate": 0.6978473977413605,
+      "noRate": 0.11665103267683903,
+      "abstainRate": 0.2419575477291265,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 39270.43917921149,
+    "population": 728844203.2629611,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.05
+  },
+  {
+    "iso3": "TJK",
+    "name": "Tajikistan",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.24514989247432672,
+      "humanRights": -0.2748480998677779,
+      "development": 0.12697384849353083,
+      "security": 0.011126873190777098,
+      "environment": -0.14032208748169292,
+      "decolonization": 0.1977293537633329
+    },
+    "votingHistory": {
+      "totalVotes": 2059,
+      "yesRate": 0.6035116584019298,
+      "noRate": 0.1096442498085425,
+      "abstainRate": 0.2592151318232564,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 47550.49224536644,
+    "population": 1347062024.2673466,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.1
+  },
+  {
+    "iso3": "TZA",
+    "name": "United Republic of Tanzania",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.19067857815317776,
+      "humanRights": -0.23431096421771472,
+      "development": 0.27768768623999496,
+      "security": -0.137304436063232,
+      "environment": -0.08781133977761756,
+      "decolonization": 0.3950369424349714
+    },
+    "votingHistory": {
+      "totalVotes": 3339,
+      "yesRate": 0.6333846426821279,
+      "noRate": 0.14546650620071835,
+      "abstainRate": 0.2930234042271094,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 30929.4663662858,
+    "population": 767900658.2434872,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.35
+  },
+  {
+    "iso3": "THA",
+    "name": "Thailand",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.1450475343316904,
+      "humanRights": -0.13753736969375455,
+      "development": 0.09509842935253364,
+      "security": 0.09700211038510365,
+      "environment": -0.005743284856607966,
+      "decolonization": 0.11413415680619286
+    },
+    "votingHistory": {
+      "totalVotes": 2154,
+      "yesRate": 0.5686177358540283,
+      "noRate": 0.12018212858708158,
+      "abstainRate": 0.29938780229408,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 30439.599558114915,
+    "population": 145798744.14730555,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.35
+  },
+  {
+    "iso3": "TLS",
+    "name": "Timor-Leste",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.17625285843416416,
+      "humanRights": -0.09544779325845831,
+      "development": 0.09729807889608157,
+      "security": 0.14031335364335992,
+      "environment": -0.03215945302675466,
+      "decolonization": 0.14182098105475793
+    },
+    "votingHistory": {
+      "totalVotes": 2377,
+      "yesRate": 0.536877101493738,
+      "noRate": 0.13048399808012973,
+      "abstainRate": 0.2687017257310686,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 43912.953003056566,
+    "population": 384458842.11668956,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.5739401344847725
+  },
+  {
+    "iso3": "TGO",
+    "name": "Togo",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.11906249809988366,
+      "humanRights": -0.13494748290626973,
+      "development": 0.2513907372489085,
+      "security": -0.14534220748938204,
+      "environment": -0.058551338456699464,
+      "decolonization": 0.34373011711722473
+    },
+    "votingHistory": {
+      "totalVotes": 2471,
+      "yesRate": 0.5914923103419115,
+      "noRate": 0.14947887131408294,
+      "abstainRate": 0.2675631413393568,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 80415.17585874889,
+    "population": 77941524.75956164,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.6023629903566006
+  },
+  {
+    "iso3": "TON",
+    "name": "Tonga",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.1,
+    "policyDimensions": {
+      "sovereignty": 0.04916191890932664,
+      "humanRights": -0.13153824772605166,
+      "development": 0.08361264820178335,
+      "security": 0.05723235253413029,
+      "environment": -0.0038290241334654855,
+      "decolonization": 0.08897523024677653
+    },
+    "votingHistory": {
+      "totalVotes": 909,
+      "yesRate": 0.5195986024207898,
+      "noRate": 0.12614974011111765,
+      "abstainRate": 0.2729594734143371,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 7856.501532452298,
+    "population": 649231500.5077937,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.33449010980187216
+  },
+  {
+    "iso3": "TTO",
+    "name": "Trinidad and Tobago",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.2,
+    "policyDimensions": {
+      "sovereignty": 0.1043617470258292,
+      "humanRights": -0.047636890405005974,
+      "development": 0.04035169241608859,
+      "security": -0.027553727588978064,
+      "environment": -0.10882105310070819,
+      "decolonization": 0.2919875939416205
+    },
+    "votingHistory": {
+      "totalVotes": 2003,
+      "yesRate": 0.5923231765493573,
+      "noRate": 0.11951423126610791,
+      "abstainRate": 0.2675998674455563,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 10853.328524588916,
+    "population": 184570184.01225102,
+    "governmentType": "Electoral Democracy",
+    "democracyIndex": 0.65
+  },
+  {
+    "iso3": "TUN",
+    "name": "Tunisia",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.2624696403363416,
+      "humanRights": -0.16655835620862391,
+      "development": 0.3375077604112466,
+      "security": -0.019430997611356665,
+      "environment": -0.09526462695101849,
+      "decolonization": 0.2622075257560256
+    },
+    "votingHistory": {
+      "totalVotes": 3644,
+      "yesRate": 0.5941240482426072,
+      "noRate": 0.12499439241946544,
+      "abstainRate": 0.2478395982465798,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 71517.89849775794,
+    "population": 417514057.3601853,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.45
+  },
+  {
+    "iso3": "TUR",
+    "name": "Turkey",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": 0.25,
+    "policyDimensions": {
+      "sovereignty": 0.19540116094178547,
+      "humanRights": -0.02221015156181763,
+      "development": 0.15788068020666965,
+      "security": -0.10082121336618931,
+      "environment": 0.09531148812857257,
+      "decolonization": 0.21515047003984228
+    },
+    "votingHistory": {
+      "totalVotes": 2729,
+      "yesRate": 0.6362370411629642,
+      "noRate": 0.16100515725521955,
+      "abstainRate": 0.2586648446993588,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 20877.185136982516,
+    "population": 183237728.51098043,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.28
+  },
+  {
+    "iso3": "TKM",
+    "name": "Turkmenistan",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.4,
+    "policyDimensions": {
+      "sovereignty": 0.29973827575443734,
+      "humanRights": -0.30117636523818975,
+      "development": 0.24605674072426204,
+      "security": 0.06343466472193472,
+      "environment": -0.09198302339459373,
+      "decolonization": 0.2333543853155231
+    },
+    "votingHistory": {
+      "totalVotes": 2172,
+      "yesRate": 0.5989398032424367,
+      "noRate": 0.1547919114073254,
+      "abstainRate": 0.2781193799812158,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 77399.87364327532,
+    "population": 1374358280.5011208,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.05
+  },
+  {
+    "iso3": "TUV",
+    "name": "Tuvalu",
+    "region": "APG",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.05,
+    "policyDimensions": {
+      "sovereignty": 0.054201887281192906,
+      "humanRights": 0.026800415409216745,
+      "development": 0.021818142889956513,
+      "security": -0.09064746500007982,
+      "environment": 0.034559065914843014,
+      "decolonization": 0.01955382684118902
+    },
+    "votingHistory": {
+      "totalVotes": 1680,
+      "yesRate": 0.5842152330318269,
+      "noRate": 0.14591968385116655,
+      "abstainRate": 0.28105668529892736,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 66434.09688059104,
+    "population": 1207029278.5232372,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.36301819245866923
+  },
+  {
+    "iso3": "UGA",
+    "name": "Uganda",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.2757440663643051,
+      "humanRights": -0.152579304791889,
+      "development": 0.36806178353565316,
+      "security": -0.048772374447149304,
+      "environment": -0.12289774017359542,
+      "decolonization": 0.40443142519319225
+    },
+    "votingHistory": {
+      "totalVotes": 3367,
+      "yesRate": 0.6173150247177843,
+      "noRate": 0.15504857064342326,
+      "abstainRate": 0.2788361840657507,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 58715.72684350324,
+    "population": 159076913.3353203,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.28
+  },
+  {
+    "iso3": "UKR",
+    "name": "Ukraine",
+    "region": "EEG",
+    "blocs": [],
+    "scStatus": "none",
+    "idealPoint": -0.45,
+    "policyDimensions": {
+      "sovereignty": -0.2824978923267913,
+      "humanRights": 0.22614328097578684,
+      "development": -0.29483565220023406,
+      "security": -0.10714080018390454,
+      "environment": 0.20018883401066737,
+      "decolonization": -0.29071252849318846
+    },
+    "votingHistory": {
+      "totalVotes": 1577,
+      "yesRate": 0.4638102942265827,
+      "noRate": 0.19304608274380353,
+      "abstainRate": 0.32516487670949773,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 46130.0379366451,
+    "population": 267177730.89928734,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.45
+  },
+  {
+    "iso3": "ARE",
+    "name": "United Arab Emirates",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.2896428684796306,
+      "humanRights": -0.253980114748464,
+      "development": 0.20989648709304082,
+      "security": -0.07890770184549217,
+      "environment": -0.04081076396182429,
+      "decolonization": 0.2834726972408762
+    },
+    "votingHistory": {
+      "totalVotes": 834,
+      "yesRate": 0.581166971560723,
+      "noRate": 0.11471639981661375,
+      "abstainRate": 0.2797053508995346,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 18590.493750197464,
+    "population": 1321092940.6541033,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "P5",
+    "idealPoint": -0.7,
+    "policyDimensions": {
+      "sovereignty": -0.4867026292629778,
+      "humanRights": 0.5614058933189152,
+      "development": -0.3200194947875616,
+      "security": -0.02838351092729333,
+      "environment": 0.31362350308071435,
+      "decolonization": -0.4231354710641632
+    },
+    "votingHistory": {
+      "totalVotes": 3608,
+      "yesRate": 0.4435096933665941,
+      "noRate": 0.17046951362175622,
+      "abstainRate": 0.3739605949490704,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 74759.64237231752,
+    "population": 1182641094.1191463,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.87
+  },
+  {
+    "iso3": "USA",
+    "name": "United States",
+    "region": "WEOG",
+    "blocs": [],
+    "scStatus": "P5",
+    "idealPoint": -0.9,
+    "policyDimensions": {
+      "sovereignty": -0.6009669087771249,
+      "humanRights": 0.6815376337865688,
+      "development": -0.4347176248230314,
+      "security": 0.06183330093320302,
+      "environment": 0.4429870675825484,
+      "decolonization": -0.5559599378451147
+    },
+    "votingHistory": {
+      "totalVotes": 3696,
+      "yesRate": 0.4205268322479741,
+      "noRate": 0.18201641839277383,
+      "abstainRate": 0.4,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 51028.608490253944,
+    "population": 847282558.7289484,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.78
+  },
+  {
+    "iso3": "URY",
+    "name": "Uruguay",
+    "region": "GRULAC",
+    "blocs": [
+      "G77"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.1,
+    "policyDimensions": {
+      "sovereignty": 0.049105548340386135,
+      "humanRights": -0.0617594915527756,
+      "development": 0.11770492760527528,
+      "security": -0.14004587775330196,
+      "environment": 0.02307460961120078,
+      "decolonization": 0.25992364430216225
+    },
+    "votingHistory": {
+      "totalVotes": 1087,
+      "yesRate": 0.5408481823200938,
+      "noRate": 0.15463656693572098,
+      "abstainRate": 0.3083686561401394,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 39637.210698481,
+    "population": 1085196177.2073867,
+    "governmentType": "Liberal Democracy",
+    "democracyIndex": 0.82
+  },
+  {
+    "iso3": "UZB",
+    "name": "Uzbekistan",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.35,
+    "policyDimensions": {
+      "sovereignty": 0.3061454360504042,
+      "humanRights": -0.2177007685049206,
+      "development": 0.1886884610142299,
+      "security": -0.05810892889464948,
+      "environment": -0.15204179358017672,
+      "decolonization": 0.2539403170181765
+    },
+    "votingHistory": {
+      "totalVotes": 1130,
+      "yesRate": 0.5820828010257294,
+      "noRate": 0.12523634227405683,
+      "abstainRate": 0.28692024933102545,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 64684.703610764045,
+    "population": 2473114.6561035686,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.12
+  },
+  {
+    "iso3": "VUT",
+    "name": "Vanuatu",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.15,
+    "policyDimensions": {
+      "sovereignty": 0.03552142822545054,
+      "humanRights": -0.0742749758179474,
+      "development": 0.10625166633544761,
+      "security": -0.06944794243188761,
+      "environment": -0.02779363197688797,
+      "decolonization": 0.15510813171977833
+    },
+    "votingHistory": {
+      "totalVotes": 3266,
+      "yesRate": 0.6033345900105394,
+      "noRate": 0.1272563812881141,
+      "abstainRate": 0.2623632156435315,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 70314.45117791054,
+    "population": 974896011.9997258,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.37583347821511176
+  },
+  {
+    "iso3": "VEN",
+    "name": "Venezuela",
+    "region": "GRULAC",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.7,
+    "policyDimensions": {
+      "sovereignty": 0.5530258430698946,
+      "humanRights": -0.49320737990043295,
+      "development": 0.3713807330109134,
+      "security": -0.10002433200134532,
+      "environment": -0.2752117578173549,
+      "decolonization": 0.6042254697832338
+    },
+    "votingHistory": {
+      "totalVotes": 1009,
+      "yesRate": 0.6875457923306492,
+      "noRate": 0.1192769901406199,
+      "abstainRate": 0.24880586765329488,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 38827.23563672678,
+    "population": 1369757507.7727687,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.18
+  },
+  {
+    "iso3": "VNM",
+    "name": "Viet Nam",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.6,
+    "policyDimensions": {
+      "sovereignty": 0.3577864067588901,
+      "humanRights": -0.30588441787541015,
+      "development": 0.27469608979292587,
+      "security": -0.011492987876174277,
+      "environment": -0.12743893789649915,
+      "decolonization": 0.2972585890610373
+    },
+    "votingHistory": {
+      "totalVotes": 3067,
+      "yesRate": 0.633265111661345,
+      "noRate": 0.1367890650666759,
+      "abstainRate": 0.22031731189818057,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 17621.851124014203,
+    "population": 1148420925.6044521,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.15
+  },
+  {
+    "iso3": "YEM",
+    "name": "Yemen",
+    "region": "APG",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.5,
+    "policyDimensions": {
+      "sovereignty": 0.3869634134606373,
+      "humanRights": -0.2888426284337981,
+      "development": 0.20928303761973116,
+      "security": -0.03281821503369562,
+      "environment": -0.13430199219363323,
+      "decolonization": 0.36181893838495455
+    },
+    "votingHistory": {
+      "totalVotes": 1375,
+      "yesRate": 0.637943314589314,
+      "noRate": 0.12214959067575391,
+      "abstainRate": 0.23421437379652968,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 28749.593879037908,
+    "population": 1253508307.416518,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.1
+  },
+  {
+    "iso3": "ZMB",
+    "name": "Zambia",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.3,
+    "policyDimensions": {
+      "sovereignty": 0.13705305648316934,
+      "humanRights": -0.15574795228446553,
+      "development": 0.3750954305869749,
+      "security": 0.013938376345657354,
+      "environment": -0.0666781937451284,
+      "decolonization": 0.39492848127147373
+    },
+    "votingHistory": {
+      "totalVotes": 1612,
+      "yesRate": 0.6444127136886616,
+      "noRate": 0.14541044448162674,
+      "abstainRate": 0.276890454965618,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 35148.29577183078,
+    "population": 1240656678.9386344,
+    "governmentType": "Electoral Autocracy",
+    "democracyIndex": 0.42
+  },
+  {
+    "iso3": "ZWE",
+    "name": "Zimbabwe",
+    "region": "AFRICAN",
+    "blocs": [
+      "G77",
+      "NAM"
+    ],
+    "scStatus": "none",
+    "idealPoint": 0.5,
+    "policyDimensions": {
+      "sovereignty": 0.29238657417413466,
+      "humanRights": -0.35221934078196515,
+      "development": 0.43718626671754435,
+      "security": 0.11198823206638642,
+      "environment": -0.20865042021815905,
+      "decolonization": 0.4946902283978858
+    },
+    "votingHistory": {
+      "totalVotes": 3055,
+      "yesRate": 0.6411837984030563,
+      "noRate": 0.10530899743440304,
+      "abstainRate": 0.24575584086607113,
+      "byTopic": {}
+    },
+    "treaties": [],
+    "gdpPerCapita": 45500.72276510781,
+    "population": 427553694.5071779,
+    "governmentType": "Closed Autocracy",
+    "democracyIndex": 0.18
+  }
+]

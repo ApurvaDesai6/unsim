@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2026-05-22T04:28:46.300Z",
+  "totalPredictions": 172502,
+  "baseline": {
+    "accuracy": 0.701302013889694,
+    "perClass": {
+      "yes": {
+        "f1": 0.8326003789910257,
+        "tp": 116435,
+        "fp": 23903,
+        "fn": 22917
+      },
+      "no": {
+        "f1": 0.18731640951114686,
+        "tp": 3029,
+        "fp": 15925,
+        "fn": 10358
+      },
+      "abstain": {
+        "f1": 0.09171140023655718,
+        "tp": 1512,
+        "fp": 11698,
+        "fn": 18251
+      }
+    }
+  },
+  "enhanced": {
+    "accuracy": 0.8139383891201262,
+    "perClass": {
+      "yes": {
+        "f1": 0.8984193963435779,
+        "tp": 138605,
+        "fp": 30596,
+        "fn": 747
+      },
+      "no": {
+        "f1": 0.2033554922443811,
+        "tp": 1606,
+        "fp": 802,
+        "fn": 11781
+      },
+      "abstain": {
+        "f1": 0.018880712625871418,
+        "tp": 195,
+        "fp": 698,
+        "fn": 19568
+      }
+    },
+    "byIssue": {
+      "Human rights": {
+        "total": 40715,
+        "correct": 27668
+      },
+      "Economic development": {
+        "total": 28462,
+        "correct": 24194
+      },
+      "Palestinian conflict": {
+        "total": 20864,
+        "correct": 18982
+      },
+      "Colonialism": {
+        "total": 24663,
+        "correct": 21139
+      },
+      "Arms control and disarmament": {
+        "total": 44981,
+        "correct": 37304
+      },
+      "Nuclear weapons and nuclear material": {
+        "total": 12817,
+        "correct": 11119
+      }
+    },
+    "byRegion": {
+      "WEOG": {
+        "total": 31000,
+        "correct": 19329
+      },
+      "GRULAC": {
+        "total": 28797,
+        "correct": 26483
+      },
+      "EEG": {
+        "total": 22219,
+        "correct": 14354
+      },
+      "APG": {
+        "total": 46774,
+        "correct": 40267
+      },
+      "AFRICAN": {
+        "total": 43712,
+        "correct": 39973
+      }
+    }
+  }
+}
