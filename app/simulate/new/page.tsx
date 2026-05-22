@@ -21,7 +21,7 @@ function SimulationView() {
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
-  const [resolution, setResolution] = useState<{ title: string; clauses: string[] } | null>(null);
+  const [resolution, setResolution] = useState<{ title: string; preamble?: { id: string; text: string }[]; clauses: { id: string; text: string; strength: number; topics: string[] }[] } | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const rafRef = useRef<number | null>(null);
@@ -51,7 +51,7 @@ function SimulationView() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             resolution: data.analyzedResolution,
-            committee,
+            committee: data.analyzedResolution.committee || committee,
           }),
         });
 
@@ -175,13 +175,27 @@ function SimulationView() {
             </h2>
             {resolution?.clauses.map((clause, i) => (
               <div
-                key={i}
+                key={clause.id || i}
                 className="p-3 rounded-lg border border-[var(--color-border)] bg-white text-sm leading-relaxed"
               >
-                <span className="text-xs font-medium text-[var(--color-muted)] block mb-1">
-                  Operative Clause {i + 1}
-                </span>
-                {clause}
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-xs font-medium text-[var(--color-muted)]">
+                    Operative Clause {i + 1}
+                  </span>
+                  <span className="text-[10px] px-1.5 py-0.5 rounded bg-[var(--color-bg)] text-[var(--color-muted)]" style={{ fontFamily: "var(--font-mono)" }}>
+                    strength: {(clause.strength * 100).toFixed(0)}%
+                  </span>
+                </div>
+                <p>{clause.text}</p>
+                {clause.topics.length > 0 && (
+                  <div className="flex gap-1 mt-2 flex-wrap">
+                    {clause.topics.map((t) => (
+                      <span key={t} className="text-[10px] px-1.5 py-0.5 rounded-full border border-[var(--color-border)] text-[var(--color-muted)]">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>
