@@ -1,0 +1,106 @@
+{
+  "lastUpdated": "2026-05-22T00:00:00.000Z",
+  "events": [
+    {
+      "id": "seed-1",
+      "title": "Security Council fails to adopt resolution on Gaza ceasefire amid US veto",
+      "date": "2024-12-20",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
+      "countries": ["USA", "ISR", "GBR", "FRA", "CHN", "RUS"],
+      "type": "vote",
+      "relevance": 0.95
+    },
+    {
+      "id": "seed-2",
+      "title": "General Assembly overwhelmingly adopts resolution demanding immediate ceasefire in Gaza (153-10-23)",
+      "date": "2024-12-12",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
+      "countries": ["ISR", "USA"],
+      "type": "vote",
+      "relevance": 0.9
+    },
+    {
+      "id": "seed-3",
+      "title": "BRICS expansion: Egypt, Ethiopia, Iran, Saudi Arabia, UAE officially join",
+      "date": "2024-01-01",
+      "source": "GDELT",
+      "sourceUrl": "https://gdeltproject.org",
+      "countries": ["EGY", "ETH", "IRN", "SAU", "ARE", "CHN", "RUS", "IND", "BRA", "ZAF"],
+      "type": "diplomatic",
+      "relevance": 0.85
+    },
+    {
+      "id": "seed-4",
+      "title": "ICJ advisory opinion on climate change obligations requested by General Assembly (132-0-12)",
+      "date": "2023-03-29",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
+      "countries": ["VUT", "AUS"],
+      "type": "vote",
+      "relevance": 0.8
+    },
+    {
+      "id": "seed-5",
+      "title": "Russia vetoes Security Council resolution marking two years of Ukraine conflict",
+      "date": "2024-02-24",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
+      "countries": ["RUS", "UKR", "USA", "GBR", "FRA", "CHN"],
+      "type": "vote",
+      "relevance": 0.9
+    },
+    {
+      "id": "seed-6",
+      "title": "First Committee adopts nuclear disarmament package: 126-48-12 over NATO objection",
+      "date": "2024-11-04",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
+      "countries": ["USA", "GBR", "FRA", "RUS", "CHN", "IND", "PAK"],
+      "type": "vote",
+      "relevance": 0.85
+    },
+    {
+      "id": "seed-7",
+      "title": "Seoul AI Safety Summit: 28 countries agree on Frontier AI testing framework",
+      "date": "2024-11-21",
+      "source": "GDELT",
+      "sourceUrl": "https://gdeltproject.org",
+      "countries": ["GBR", "USA", "CHN", "FRA", "KOR", "JPN", "IND"],
+      "type": "agreement",
+      "relevance": 0.75
+    },
+    {
+      "id": "seed-8",
+      "title": "Sudan crisis: 10 million displaced as humanitarian catastrophe deepens",
+      "date": "2024-06-15",
+      "source": "ReliefWeb",
+      "sourceUrl": "https://reliefweb.int",
+      "countries": ["SDN", "TCD", "EGY", "ETH"],
+      "type": "crisis",
+      "relevance": 0.7
+    },
+    {
+      "id": "seed-9",
+      "title": "South Africa files genocide case against Israel at ICJ, hearings begin",
+      "date": "2024-01-11",
+      "source": "GDELT",
+      "sourceUrl": "https://gdeltproject.org",
+      "countries": ["ZAF", "ISR"],
+      "type": "diplomatic",
+      "relevance": 0.85
+    },
+    {
+      "id": "seed-10",
+      "title": "General Assembly grants Palestine enhanced observer status (143-9-25)",
+      "date": "2024-05-10",
+      "source": "UN News",
+      "sourceUrl": "https://news.un.org",
+      "countries": ["ISR", "USA"],
+      "type": "vote",
+      "relevance": 0.8
+    }
+  ],
+  "sources": ["GDELT Project (gdeltproject.org)", "UN News (news.un.org)", "ReliefWeb API (reliefweb.int)"]
+}

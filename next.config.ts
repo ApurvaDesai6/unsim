@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
     "/api/kg/query": ["./data/**/*.json"],
     "/api/kg/explore": ["./data/**/*.json"],
     "/api/debate": ["./data/**/*.json"],
+    "/api/events": ["./data/**/*.json"],
   },
 };
 
