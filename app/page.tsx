@@ -13,36 +13,84 @@ const PRESETS = [
     title: "Global Climate Accountability Treaty",
     description: "Binding emissions targets with financial penalties for non-compliance",
     committee: "GA_PLENARY" as Committee,
+    tags: ["environment", "development"],
   },
   {
     id: "ai-governance",
     title: "International AI Governance Framework",
     description: "Establishing a UN body to regulate frontier AI development",
     committee: "GA_PLENARY" as Committee,
+    tags: ["technology", "sovereignty"],
   },
   {
     id: "nuclear-ban",
     title: "Universal Nuclear Disarmament Resolution",
     description: "Complete elimination of nuclear weapons with verification regime",
     committee: "FIRST_COMMITTEE" as Committee,
+    tags: ["security", "disarmament"],
   },
   {
     id: "sc-reform",
     title: "Security Council Expansion",
     description: "Adding 6 permanent members with modified veto rights",
     committee: "GA_PLENARY" as Committee,
+    tags: ["sovereignty", "reform"],
   },
   {
     id: "cyber-norms",
     title: "Binding Cyber Warfare Norms",
     description: "Prohibiting state-sponsored cyberattacks on civilian infrastructure",
     committee: "SECURITY_COUNCIL" as Committee,
+    tags: ["security", "technology"],
   },
   {
     id: "water-rights",
     title: "Universal Right to Clean Water",
     description: "Declaring clean water access a binding human right with enforcement mechanisms",
     committee: "THIRD_COMMITTEE" as Committee,
+    tags: ["development", "human-rights"],
+  },
+  {
+    id: "palestine-statehood",
+    title: "Full UN Membership for Palestine",
+    description: "Granting Palestine full member state status and all associated rights",
+    committee: "GA_PLENARY" as Committee,
+    tags: ["decolonization", "sovereignty"],
+  },
+  {
+    id: "debt-relief",
+    title: "Sovereign Debt Restructuring Mechanism",
+    description: "Binding framework for orderly debt restructuring with creditor haircuts and IMF reform",
+    committee: "SECOND_COMMITTEE" as Committee,
+    tags: ["development", "trade"],
+  },
+  {
+    id: "autonomous-weapons",
+    title: "Ban on Lethal Autonomous Weapons",
+    description: "Prohibition on weapons systems that select and engage targets without human control",
+    committee: "FIRST_COMMITTEE" as Committee,
+    tags: ["security", "technology"],
+  },
+  {
+    id: "digital-rights",
+    title: "International Digital Rights Charter",
+    description: "Codifying right to privacy, access, and protection from mass surveillance online",
+    committee: "THIRD_COMMITTEE" as Committee,
+    tags: ["human-rights", "technology"],
+  },
+  {
+    id: "climate-reparations",
+    title: "Climate Reparations and Loss & Damage Fund",
+    description: "Mandatory payments from historical emitters to climate-vulnerable nations",
+    committee: "GA_PLENARY" as Committee,
+    tags: ["environment", "development"],
+  },
+  {
+    id: "space-governance",
+    title: "Outer Space Arms Control Treaty",
+    description: "Preventing weaponization of space with verification and debris liability",
+    committee: "FIRST_COMMITTEE" as Committee,
+    tags: ["security", "technology"],
   },
 ];
 
@@ -106,7 +154,7 @@ export default function LandingPage() {
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-[var(--color-muted)] max-w-2xl mx-auto leading-relaxed">
             Submit a policy idea, watch AI-powered delegates debate across committees,
-            and see how 193 member states would vote — grounded in real voting records
+            and see how 193 member states would vote, grounded in real voting records
             and diplomatic history.
           </p>
 
@@ -227,7 +275,7 @@ export default function LandingPage() {
                 >
                   {COMMITTEE_LIST.map((c) => (
                     <option key={c.id} value={c.id}>
-                      {c.name} — {c.description.slice(0, 60)}...
+                      {c.name} -{c.description.slice(0, 60)}...
                     </option>
                   ))}
                 </select>
@@ -329,7 +377,7 @@ export default function LandingPage() {
                 );
               })}
             </div>
-            <p className="text-[10px] text-[var(--color-muted)] mt-4 italic">Sources: GDELT Project · UN News · ReliefWeb API — updated every 6 hours via GitHub Action</p>
+            <p className="text-[10px] text-[var(--color-muted)] mt-4 italic">Sources: GDELT Project · UN News · ReliefWeb API -updated every 6 hours via GitHub Action</p>
           </div>
         </section>
       )}
@@ -371,7 +419,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-[var(--color-border)] bg-[var(--color-bg)]">
         <div className="max-w-4xl mx-auto px-6 py-8 flex items-center justify-between text-xs text-[var(--color-muted)]">
-          <span>UNSim — Educational Simulation Platform</span>
+          <span>UNSim -Educational Simulation Platform</span>
           <div className="flex gap-4">
             <a href="/explore" className="hover:text-[var(--color-ink)] transition-colors">Explorer</a>
             <a href="/methodology" className="hover:text-[var(--color-ink)] transition-colors">Methodology</a>

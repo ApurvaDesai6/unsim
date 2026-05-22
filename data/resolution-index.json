@@ -1,0 +1,632 @@
+{
+  "presetMatches": {
+    "climate-treaty": [
+      {
+        "rcid": "5587",
+        "unres": "A/RES/72/229",
+        "title": "Culture and sustainable development : resolution / adopted by the General Assembly",
+        "date": "2017-12-20",
+        "session": 72,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 185,
+          "no": 2,
+          "abstain": 0
+        },
+        "similarity": 0.85,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      },
+      {
+        "rcid": "6140",
+        "unres": "R/73/195",
+        "title": "Global Compact for Safe, Orderly and Regular Migration : resolution / adopted by the General Assembly",
+        "date": "2018-12-19",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 152,
+          "no": 5,
+          "abstain": 12
+        },
+        "similarity": 0.77,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-consensus resolution with only 5 No votes"
+      },
+      {
+        "rcid": "6110",
+        "unres": "R/73/104",
+        "title": "Economic and other activities which affect the interests of the peoples of the Non-Self-Governing Territories : resolution / adopted by the General Assembly",
+        "date": "2018-12-07",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 175,
+          "no": 2,
+          "abstain": 3
+        },
+        "similarity": 0.76,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-unanimous resolution with 97% support"
+      },
+      {
+        "rcid": "6148",
+        "unres": "R/73/241",
+        "title": "International migration and development : resolution / adopted by the General Assembly",
+        "date": "2018-12-20",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 182,
+          "no": 3,
+          "abstain": 2
+        },
+        "similarity": 0.76,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-unanimous resolution with 97% support"
+      },
+      {
+        "rcid": "9128",
+        "unres": "A/RES/74/32",
+        "title": "Prevention of an arms race in outer space",
+        "date": "2019-12-12",
+        "session": 74,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 183,
+          "no": 2,
+          "abstain": 0
+        },
+        "similarity": 0.76,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      }
+    ],
+    "ai-governance": [
+      {
+        "rcid": "5483",
+        "unres": "A/RES/71/192",
+        "title": "The right to development : resolution / adopted by the General Assembly",
+        "date": "2016-12-19",
+        "session": 71,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 145,
+          "no": 3,
+          "abstain": 39
+        },
+        "similarity": 0.74,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "IL"
+        ],
+        "insight": "Passed with supermajority (145-3-39)"
+      },
+      {
+        "rcid": "9115",
+        "unres": "A/RES/74/55",
+        "title": "Promotion of multilateralism in the area of disarmament and non-proliferation",
+        "date": "2019-12-12",
+        "session": 74,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 127,
+          "no": 5,
+          "abstain": 51
+        },
+        "similarity": 0.73,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "IL"
+        ],
+        "insight": "Passed with supermajority (127-5-51)"
+      },
+      {
+        "rcid": "6073",
+        "unres": "R/73/27",
+        "title": "Developments in the field of information and telecommunications in the context of international security : resolution / adopted by the General Assembly",
+        "date": "2018-12-05",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 119,
+          "no": 46,
+          "abstain": 14
+        },
+        "similarity": 0.7,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "FR",
+          "IL",
+          "AU",
+          "CA",
+          "DE",
+          "JP"
+        ],
+        "insight": "Contested resolution passing with simple majority (119-46-14)"
+      },
+      {
+        "rcid": "5374",
+        "unres": "R/69/181",
+        "title": "",
+        "date": "2014-12-18",
+        "session": 69,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 156,
+          "no": 5,
+          "abstain": 26
+        },
+        "similarity": 0.69,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "IL",
+          "CA"
+        ],
+        "insight": "Passed with supermajority (156-5-26)"
+      },
+      {
+        "rcid": "5296",
+        "unres": "R/68/158",
+        "title": "HUMAN RIGHTS ADVANCEMENT",
+        "date": "2013-12-18",
+        "session": 68,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 158,
+          "no": 4,
+          "abstain": 28
+        },
+        "similarity": 0.68,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "IL",
+          "CA"
+        ],
+        "insight": "Passed with supermajority (158-4-28)"
+      }
+    ],
+    "nuclear-ban": [
+      {
+        "rcid": "5517",
+        "unres": "A/RES/71/54",
+        "title": "Towards a nuclear-weapon-free world: accelerating the implementation of nuclear disarmament commitments : resolution / adopted by the General Assembly",
+        "date": "2016-12-05",
+        "session": 71,
+        "issue": "Arms control and disarmament",
+        "voteSplit": {
+          "yes": 136,
+          "no": 25,
+          "abstain": 19
+        },
+        "similarity": 0.88,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "FR",
+          "RU",
+          "IN",
+          "IL",
+          "DE"
+        ],
+        "insight": "Passed with supermajority (136-25-19)"
+      },
+      {
+        "rcid": "9077",
+        "unres": "A/RES/74/46",
+        "title": "Towards a nuclear-weapon-free world",
+        "date": "2019-12-12",
+        "session": 74,
+        "issue": "Nuclear weapons and nuclear material",
+        "voteSplit": {
+          "yes": 137,
+          "no": 33,
+          "abstain": 16
+        },
+        "similarity": 0.87,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "FR",
+          "RU",
+          "CN",
+          "IN",
+          "IL",
+          "DE"
+        ],
+        "insight": "Passed with supermajority (137-33-16)"
+      },
+      {
+        "rcid": "5420",
+        "unres": "R/70/51",
+        "title": "",
+        "date": "2015-12-07",
+        "session": 70,
+        "issue": "Arms control and disarmament",
+        "voteSplit": {
+          "yes": 142,
+          "no": 7,
+          "abstain": 36
+        },
+        "similarity": 0.87,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "FR",
+          "RU",
+          "IN",
+          "IL"
+        ],
+        "insight": "Passed with supermajority (142-7-36)"
+      },
+      {
+        "rcid": "6091",
+        "unres": "R/73/70",
+        "title": "Towards a nuclear-weapon-free world : accelerating the implementation of nuclear disarmament commitments : resolution / adopted by the General Assembly",
+        "date": "2018-12-05",
+        "session": 73,
+        "issue": "Nuclear weapons and nuclear material",
+        "voteSplit": {
+          "yes": 139,
+          "no": 32,
+          "abstain": 17
+        },
+        "similarity": 0.87,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "FR",
+          "RU",
+          "CN",
+          "IN",
+          "IL",
+          "DE"
+        ],
+        "insight": "Passed with supermajority (139-32-17)"
+      },
+      {
+        "rcid": "5596",
+        "unres": "A/RES/72/39",
+        "title": "Towards a nuclear-weapon-free world : accelerating the implementation of nuclear disarmament commitments : resolution / adopted by the General Assembly",
+        "date": "2017-12-04",
+        "session": 72,
+        "issue": "Arms control and disarmament",
+        "voteSplit": {
+          "yes": 137,
+          "no": 31,
+          "abstain": 16
+        },
+        "similarity": 0.86,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "FR",
+          "RU",
+          "CN",
+          "IN",
+          "IL",
+          "DE"
+        ],
+        "insight": "Passed with supermajority (137-31-16)"
+      }
+    ],
+    "sc-reform": [
+      {
+        "rcid": "6150",
+        "unres": "R/73/247",
+        "title": "Industrial development cooperation : resolution / adopted by the General Assembly",
+        "date": "2018-12-20",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 183,
+          "no": 2,
+          "abstain": 0
+        },
+        "similarity": 0.74,
+        "keyNoVoters": [
+          "US"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      },
+      {
+        "rcid": "6144",
+        "unres": "R/73/253",
+        "title": "Agriculture development, food security and nutrition : resolution / adopted by the General Assembly",
+        "date": "2018-12-20",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 185,
+          "no": 1,
+          "abstain": 1
+        },
+        "similarity": 0.74,
+        "keyNoVoters": [
+          "US"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      },
+      {
+        "rcid": "6146",
+        "unres": "R/73/220",
+        "title": "International financial system and development : resolution / adopted by the General Assembly",
+        "date": "2018-12-20",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 184,
+          "no": 1,
+          "abstain": 0
+        },
+        "similarity": 0.74,
+        "keyNoVoters": [
+          "US"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      },
+      {
+        "rcid": "6151",
+        "unres": "R/73/219",
+        "title": "International trade and development : resolution / adopted by the General Assembly",
+        "date": "2018-12-20",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 184,
+          "no": 1,
+          "abstain": 0
+        },
+        "similarity": 0.74,
+        "keyNoVoters": [
+          "US"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      },
+      {
+        "rcid": "5581",
+        "unres": "A/RES/72/238",
+        "title": "Agriculture development, food security and nutrition : resolution / adopted by the General Assembly",
+        "date": "2017-12-20",
+        "session": 72,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 185,
+          "no": 1,
+          "abstain": 0
+        },
+        "similarity": 0.74,
+        "keyNoVoters": [
+          "US"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      }
+    ],
+    "cyber-norms": [
+      {
+        "rcid": "6073",
+        "unres": "R/73/27",
+        "title": "Developments in the field of information and telecommunications in the context of international security : resolution / adopted by the General Assembly",
+        "date": "2018-12-05",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 119,
+          "no": 46,
+          "abstain": 14
+        },
+        "similarity": 0.75,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "FR",
+          "IL",
+          "AU",
+          "CA",
+          "DE",
+          "JP"
+        ],
+        "insight": "Contested resolution passing with simple majority (119-46-14)"
+      },
+      {
+        "rcid": "9092",
+        "unres": "A/RES/74/34",
+        "title": "Further practical measures for the prevention of an arms race in outer space",
+        "date": "2019-12-12",
+        "session": 74,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 131,
+          "no": 6,
+          "abstain": 45
+        },
+        "similarity": 0.69,
+        "keyNoVoters": [
+          "US",
+          "GB",
+          "IL",
+          "AU",
+          "CA"
+        ],
+        "insight": "Passed with supermajority (131-6-45)"
+      },
+      {
+        "rcid": "6156",
+        "unres": "R/73/266",
+        "title": "Advancing responsible State behaviour in cyberspace in the context of international security : resolution / adopted by the General Assembly",
+        "date": "2018-12-22",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 138,
+          "no": 12,
+          "abstain": 16
+        },
+        "similarity": 0.65,
+        "keyNoVoters": [
+          "RU",
+          "CN",
+          "IR"
+        ],
+        "insight": "Passed with supermajority (138-12-16)"
+      },
+      {
+        "rcid": "4864",
+        "unres": "R/63/37",
+        "title": "INFORMATION, INTERNATIONAL SECURITY",
+        "date": "2008-12-02",
+        "session": 63,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 178,
+          "no": 1,
+          "abstain": 0
+        },
+        "similarity": 0.62,
+        "keyNoVoters": [
+          "US"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      },
+      {
+        "rcid": "4770",
+        "unres": "R/62/17",
+        "title": "INFORMATION, INTERNATIONAL SECURITY",
+        "date": "2007-12-05",
+        "session": 62,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 179,
+          "no": 1,
+          "abstain": 0
+        },
+        "similarity": 0.62,
+        "keyNoVoters": [
+          "US"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      }
+    ],
+    "water-rights": [
+      {
+        "rcid": "4539",
+        "unres": "R/59/185",
+        "title": "The right to development : resolution / adopted by the Gener",
+        "date": "2004-12-20",
+        "session": 59,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 181,
+          "no": 2,
+          "abstain": 4
+        },
+        "similarity": 0.89,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-unanimous resolution with 97% support"
+      },
+      {
+        "rcid": "4469",
+        "unres": "R/58/172",
+        "title": "The right to development : resolution / adopted by the Gener",
+        "date": "2003-12-22",
+        "session": 58,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 173,
+          "no": 3,
+          "abstain": 5
+        },
+        "similarity": 0.89,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-unanimous resolution with 96% support"
+      },
+      {
+        "rcid": "6140",
+        "unres": "R/73/195",
+        "title": "Global Compact for Safe, Orderly and Regular Migration : resolution / adopted by the General Assembly",
+        "date": "2018-12-19",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 152,
+          "no": 5,
+          "abstain": 12
+        },
+        "similarity": 0.87,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-consensus resolution with only 5 No votes"
+      },
+      {
+        "rcid": "6110",
+        "unres": "R/73/104",
+        "title": "Economic and other activities which affect the interests of the peoples of the Non-Self-Governing Territories : resolution / adopted by the General Assembly",
+        "date": "2018-12-07",
+        "session": 73,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 175,
+          "no": 2,
+          "abstain": 3
+        },
+        "similarity": 0.85,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-unanimous resolution with 97% support"
+      },
+      {
+        "rcid": "9128",
+        "unres": "A/RES/74/32",
+        "title": "Prevention of an arms race in outer space",
+        "date": "2019-12-12",
+        "session": 74,
+        "issue": "Economic development",
+        "voteSplit": {
+          "yes": 183,
+          "no": 2,
+          "abstain": 0
+        },
+        "similarity": 0.85,
+        "keyNoVoters": [
+          "US",
+          "IL"
+        ],
+        "insight": "Near-unanimous resolution with 99% support"
+      }
+    ]
+  },
+  "meta": {
+    "resolutionsIndexed": 1857,
+    "similarityPairsComputed": 127395
+  }
+}
