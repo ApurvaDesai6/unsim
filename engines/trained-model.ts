@@ -1,35 +1,37 @@
 /**
  * Trained Model Inference Engine
  *
- * Loads pre-trained multinomial logistic regression weights and provides
- * a lightweight prediction function that can run client-side.
+ * Loads pre-trained class-weighted multinomial logistic regression and provides
+ * lightweight prediction that runs server-side in Vercel functions.
  *
- * The model was trained on UN General Assembly voting data (sessions 60-72)
- * using country profiles, issue categories, topic history, and peer signals.
+ * Model: 29 features, 3 classes (No/Abstain/Yes)
+ * Trained on sessions 60-72 (152K examples), tested on 73-74 (20K examples)
+ * Cross-validated accuracy: 65.1%, Macro F1: 49.8%
+ * Key improvement: No-vote F1 = 40.4% (vs 0% in unweighted baseline)
  *
- * Forward pass: softmax(W * x + b) where:
- *   W = 3 x 23 weight matrix (3 classes, 23 features)
- *   b = 3-element bias vector
- *   x = 23-element feature vector
- *
- * Classes: 0=no, 1=abstain, 2=yes
+ * Technique: Class-weighted loss (4.39× for No, 2.96× for Abstain, 0.41× for Yes)
+ * with interaction features and mini-batch SGD.
  */
 
 import { readFileSync } from "fs";
 import path from "path";
 
-// ─── Types ───────────────────────────────────────────────────────────────
-
 export interface ModelWeights {
   featureNames: string[];
-  weights: number[][]; // 3 classes x num_features
-  bias: number[];      // 3 elements
+  weights: number[][];
+  bias: number[];
   metadata: {
     trainSessions: string;
     testSessions: string;
     accuracy: number;
+    macroF1: number;
     f1PerClass: { no: number; abstain: number; yes: number };
+    classWeights: number[];
     trainedAt: string;
+    numFeatures: number;
+    numTrainExamples: number;
+    numTestExamples: number;
+    technique: string;
   };
 }
 
@@ -39,19 +41,14 @@ export interface VotePrediction {
   abstain: number;
 }
 
-// ─── Model Loading ───────────────────────────────────────────────────────
-
 let _model: ModelWeights | null = null;
 
 function getModel(): ModelWeights {
   if (!_model) {
-    const weightsPath = path.join(__dirname, "../data/model-weights.json");
-    _model = JSON.parse(readFileSync(weightsPath, "utf-8")) as ModelWeights;
+    _model = JSON.parse(readFileSync(path.join(process.cwd(), "data", "model-weights.json"), "utf-8")) as ModelWeights;
   }
   return _model;
 }
-
-// ─── Softmax ─────────────────────────────────────────────────────────────
 
 function softmax(logits: number[]): number[] {
   const max = Math.max(...logits);
@@ -60,55 +57,23 @@ function softmax(logits: number[]): number[] {
   return exps.map((e) => e / sum);
 }
 
-// ─── Prediction ──────────────────────────────────────────────────────────
-
-/**
- * Predict vote probabilities given a feature vector.
- *
- * @param features - Array of 23 features in the order specified by featureNames:
- *   [idealPoint, democracyIndex, dim_sovereignty, dim_humanRights, dim_development,
- *    dim_security, dim_environment, dim_decolonization, region_AFRICAN, region_APG,
- *    region_EEG, region_GRULAC, region_WEOG, issue_arms_control, issue_colonialism,
- *    issue_economic_dev, issue_human_rights, issue_nuclear, issue_palestinian,
- *    topic_yesRate, topic_noRate, topic_abstainRate, peerSignal]
- *
- * @returns Probabilities for each vote outcome (summing to 1.0)
- */
 export function predictWithModel(features: number[]): VotePrediction {
   const model = getModel();
-
-  if (features.length !== model.featureNames.length) {
-    throw new Error(
-      `Feature vector length mismatch: expected ${model.featureNames.length}, got ${features.length}`,
-    );
-  }
-
-  // Forward pass: logits = W * x + b
   const numClasses = model.weights.length;
-  const numFeatures = model.featureNames.length;
   const logits: number[] = [];
 
   for (let c = 0; c < numClasses; c++) {
     let val = model.bias[c];
-    for (let f = 0; f < numFeatures; f++) {
-      val += model.weights[c][f] * features[f];
+    for (let f = 0; f < features.length; f++) {
+      val += model.weights[c][f] * (features[f] || 0);
     }
     logits.push(val);
   }
 
-  // Softmax to get probabilities
   const probs = softmax(logits);
-
-  return {
-    no: probs[0],
-    abstain: probs[1],
-    yes: probs[2],
-  };
+  return { no: probs[0], abstain: probs[1], yes: probs[2] };
 }
 
-/**
- * Get the most likely vote as a string.
- */
 export function predictVote(features: number[]): "yes" | "no" | "abstain" {
   const probs = predictWithModel(features);
   if (probs.yes >= probs.no && probs.yes >= probs.abstain) return "yes";
@@ -116,21 +81,11 @@ export function predictVote(features: number[]): "yes" | "no" | "abstain" {
   return "abstain";
 }
 
-/**
- * Get model metadata (accuracy, training info).
- */
-export function getModelMetadata(): ModelWeights["metadata"] {
+export function getModelMetadata() {
   return getModel().metadata;
 }
 
-/**
- * Get the feature names the model expects.
- */
-export function getFeatureNames(): string[] {
-  return getModel().featureNames;
-}
-
-// ─── Feature Construction Helpers ────────────────────────────────────────
+// ─── Feature Construction ─────────────────────────────────────────────
 
 const REGIONS = ["AFRICAN", "APG", "EEG", "GRULAC", "WEOG"] as const;
 const ISSUES = [
@@ -142,13 +97,6 @@ const ISSUES = [
   "Palestinian conflict",
 ] as const;
 
-export type Region = typeof REGIONS[number];
-export type Issue = typeof ISSUES[number];
-
-/**
- * Build a feature vector from structured inputs.
- * This is the convenience function for callers who have country profile data.
- */
 export function buildFeatureVector(params: {
   idealPoint: number;
   democracyIndex: number;
@@ -165,25 +113,31 @@ export function buildFeatureVector(params: {
   topicYesRate: number;
   topicNoRate: number;
   topicAbstainRate: number;
+  sampleSize: number;
   peerSignal: number;
 }): number[] {
-  const regionOneHot = REGIONS.map((r) => (r === params.region ? 1 : 0));
-  const issueOneHot = ISSUES.map((iss) => (iss === params.issue ? 1 : 0));
+  const hasHistory = params.sampleSize > 20 ? 1 : 0;
+  const logSampleSize = Math.log1p(params.sampleSize) / 6;
+
+  const regionOneHot = REGIONS.map((r) => r === params.region ? 1 : 0);
+  const issueOneHot = ISSUES.map((i) => i === params.issue ? 1 : 0);
+
+  // Interaction features
+  const idealXyes = params.idealPoint * params.topicYesRate;
+  const idealXno = params.idealPoint * params.topicNoRate;
+  const democXabstain = params.democracyIndex * params.topicAbstainRate;
+  const peerXideal = params.peerSignal * params.idealPoint;
 
   return [
-    params.idealPoint,
-    params.democracyIndex,
-    params.policyDimensions.sovereignty,
-    params.policyDimensions.humanRights,
-    params.policyDimensions.development,
-    params.policyDimensions.security,
-    params.policyDimensions.environment,
-    params.policyDimensions.decolonization,
+    params.topicYesRate, params.topicNoRate, params.topicAbstainRate,
+    hasHistory, logSampleSize,
+    params.idealPoint, params.democracyIndex,
+    params.policyDimensions.sovereignty, params.policyDimensions.humanRights,
+    params.policyDimensions.development, params.policyDimensions.security,
+    params.policyDimensions.environment, params.policyDimensions.decolonization,
+    params.peerSignal,
+    idealXyes, idealXno, democXabstain, peerXideal,
     ...regionOneHot,
     ...issueOneHot,
-    params.topicYesRate,
-    params.topicNoRate,
-    params.topicAbstainRate,
-    params.peerSignal,
   ];
 }

@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "generatedAt": "2026-05-22T05:52:57.460Z",
+    "model": "Multinomial Logistic Regression",
+    "features": 23,
+    "regularization": "L2 (λ=0.001)",
+    "cvStrategy": "Leave-one-session-out (temporal, no future data leakage)",
+    "sessions": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "totalExamples": 172505,
+    "totalPredictions": 172505,
+    "dataSources": {
+      "votingData": {
+        "name": "Erik Voeten UNGA Voting Data",
+        "doi": "10.7910/DVN/LEJUQZ",
+        "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LEJUQZ"
+      },
+      "democracyScores": {
+        "name": "V-Dem v14",
+        "url": "https://www.v-dem.net/data/the-v-dem-dataset/"
+      },
+      "derivedData": {
+        "name": "UNSim processed datasets",
+        "url": "https://github.com/ApurvaDesai6/unsim/tree/main/data"
+      }
+    },
+    "reproducibility": "npx tsx scripts/cross-validate.ts (requires data/raw/ CSVs from TidyTuesday)"
+  },
+  "overall": {
+    "accuracy": 0.8082780209269297,
+    "macroF1": 0.30193969483227373
+  },
+  "perClass": [
+    {
+      "class": "No",
+      "precision": 0.8888888888888888,
+      "recall": 0.00597460791635549,
+      "f1": 0.011869436201780416,
+      "support": 13390
+    },
+    {
+      "class": "Abstain",
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "support": 19763
+    },
+    {
+      "class": "Yes",
+      "precision": 0.8082359423484036,
+      "recall": 1,
+      "f1": 0.8939496482950409,
+      "support": 139352
+    }
+  ],
+  "confusionMatrix": {
+    "labels": [
+      "No",
+      "Abstain",
+      "Yes"
+    ],
+    "matrix": [
+      [
+        80,
+        0,
+        13310
+      ],
+      [
+        10,
+        0,
+        19753
+      ],
+      [
+        0,
+        0,
+        139352
+      ]
+    ]
+  },
+  "perSession": [
+    {
+      "testSession": 60,
+      "trainSize": 161557,
+      "testSize": 10948,
+      "accuracy": 0.8110157106320789,
+      "perClass": [
+        {
+          "precision": 0.9,
+          "recall": 0.011873350923482849,
+          "f1": 0.023437499999999997
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8109343572865241,
+          "recall": 1,
+          "f1": 0.8955977382875606
+        }
+      ]
+    },
+    {
+      "testSession": 61,
+      "trainSize": 158929,
+      "testSize": 13576,
+      "accuracy": 0.8134207424867413,
+      "perClass": [
+        {
+          "precision": 0.8461538461538461,
+          "recall": 0.01282051282051282,
+          "f1": 0.025258323765786454
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8133893681338937,
+          "recall": 1,
+          "f1": 0.8970929050620045
+        }
+      ]
+    },
+    {
+      "testSession": 62,
+      "trainSize": 160496,
+      "testSize": 12009,
+      "accuracy": 0.8095594970438837,
+      "perClass": [
+        {
+          "precision": 0.8888888888888888,
+          "recall": 0.008056394763343404,
+          "f1": 0.015968063872255488
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8095,
+          "recall": 1,
+          "f1": 0.8947222989776181
+        }
+      ]
+    },
+    {
+      "testSession": 63,
+      "trainSize": 160573,
+      "testSize": 11932,
+      "accuracy": 0.8316292323164599,
+      "perClass": [
+        {
+          "precision": 0.875,
+          "recall": 0.00878293601003764,
+          "f1": 0.017391304347826084
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.83160013418316,
+          "recall": 1,
+          "f1": 0.908058608058608
+        }
+      ]
+    },
+    {
+      "testSession": 64,
+      "trainSize": 160831,
+      "testSize": 11674,
+      "accuracy": 0.8070926845982526,
+      "perClass": [
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8070926845982526,
+          "recall": 1,
+          "f1": 0.8932499051952977
+        }
+      ]
+    },
+    {
+      "testSession": 65,
+      "trainSize": 161126,
+      "testSize": 11379,
+      "accuracy": 0.8235345812461552,
+      "perClass": [
+        {
+          "precision": 0.8571428571428571,
+          "recall": 0.006818181818181818,
+          "f1": 0.013528748590755355
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8235138937741822,
+          "recall": 1,
+          "f1": 0.9032164729710179
+        }
+      ]
+    },
+    {
+      "testSession": 66,
+      "trainSize": 161776,
+      "testSize": 10729,
+      "accuracy": 0.8110727933637804,
+      "perClass": [
+        {
+          "precision": 0.8571428571428571,
+          "recall": 0.007058823529411765,
+          "f1": 0.014002333722287048
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8110427159112106,
+          "recall": 1,
+          "f1": 0.8956638170769389
+        }
+      ]
+    },
+    {
+      "testSession": 67,
+      "trainSize": 160930,
+      "testSize": 11575,
+      "accuracy": 0.8185745140388769,
+      "perClass": [
+        {
+          "precision": 0.875,
+          "recall": 0.009433962264150943,
+          "f1": 0.018666666666666668
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8185354888908101,
+          "recall": 1,
+          "f1": 0.9002139291656762
+        }
+      ]
+    },
+    {
+      "testSession": 68,
+      "trainSize": 163059,
+      "testSize": 9446,
+      "accuracy": 0.8066906627143765,
+      "perClass": [
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8066906627143765,
+          "recall": 1,
+          "f1": 0.8930036329544123
+        }
+      ]
+    },
+    {
+      "testSession": 69,
+      "trainSize": 162100,
+      "testSize": 10405,
+      "accuracy": 0.8172032676597789,
+      "perClass": [
+        {
+          "precision": 0.8888888888888888,
+          "recall": 0.011283497884344146,
+          "f1": 0.022284122562674095
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8171412081569834,
+          "recall": 1,
+          "f1": 0.8993700704038959
+        }
+      ]
+    },
+    {
+      "testSession": 70,
+      "trainSize": 162224,
+      "testSize": 10281,
+      "accuracy": 0.8026456570372532,
+      "perClass": [
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8026456570372532,
+          "recall": 1,
+          "f1": 0.8905196136621163
+        }
+      ]
+    },
+    {
+      "testSession": 71,
+      "trainSize": 159117,
+      "testSize": 13388,
+      "accuracy": 0.7954138034060353,
+      "perClass": [
+        {
+          "precision": 0.8888888888888888,
+          "recall": 0.006462035541195477,
+          "f1": 0.012830793905372897
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.7953509230884221,
+          "recall": 1,
+          "f1": 0.8860116569525396
+        }
+      ]
+    },
+    {
+      "testSession": 72,
+      "trainSize": 157252,
+      "testSize": 15253,
+      "accuracy": 0.8081033239362748,
+      "perClass": [
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.8081033239362748,
+          "recall": 1,
+          "f1": 0.8938685231516734
+        }
+      ]
+    },
+    {
+      "testSession": 73,
+      "trainSize": 160755,
+      "testSize": 11750,
+      "accuracy": 0.7946382978723404,
+      "perClass": [
+        {
+          "precision": 1,
+          "recall": 0.00992063492063492,
+          "f1": 0.019646365422396856
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.7944633730834753,
+          "recall": 1,
+          "f1": 0.8854606730906157
+        }
+      ]
+    },
+    {
+      "testSession": 74,
+      "trainSize": 164345,
+      "testSize": 8160,
+      "accuracy": 0.7607843137254902,
+      "perClass": [
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        {
+          "precision": 0.7607843137254902,
+          "recall": 1,
+          "f1": 0.8641425389755011
+        }
+      ]
+    }
+  ],
+  "perIssue": [
+    {
+      "issue": "Arms control and disarmament",
+      "accuracy": 0.8253378979192602,
+      "total": 44984
+    },
+    {
+      "issue": "Human rights",
+      "accuracy": 0.6777109173523271,
+      "total": 40715
+    },
+    {
+      "issue": "Economic development",
+      "accuracy": 0.8454430468695102,
+      "total": 28462
+    },
+    {
+      "issue": "Colonialism",
+      "accuracy": 0.8499371528200138,
+      "total": 24663
+    },
+    {
+      "issue": "Palestinian conflict",
+      "accuracy": 0.8902415644171779,
+      "total": 20864
+    },
+    {
+      "issue": "Nuclear weapons and nuclear material",
+      "accuracy": 0.8670515721307638,
+      "total": 12817
+    }
+  ],
+  "perCountry": {
+    "mostPredictable": [
+      {
+        "country": "Seychelles",
+        "accuracy": 0.9772209567198178,
+        "total": 439
+      },
+      {
+        "country": "Belize",
+        "accuracy": 0.9744094488188977,
+        "total": 1016
+      },
+      {
+        "country": "Timor-Leste",
+        "accuracy": 0.9641304347826087,
+        "total": 920
+      },
+      {
+        "country": "Maldives",
+        "accuracy": 0.9639126305792972,
+        "total": 1053
+      },
+      {
+        "country": "Guinea-Bissau",
+        "accuracy": 0.9608294930875576,
+        "total": 868
+      },
+      {
+        "country": "Cambodia",
+        "accuracy": 0.958984375,
+        "total": 1024
+      },
+      {
+        "country": "Afghanistan",
+        "accuracy": 0.9580487804878048,
+        "total": 1025
+      },
+      {
+        "country": "Gabon",
+        "accuracy": 0.9571984435797666,
+        "total": 771
+      },
+      {
+        "country": "Turkmenistan",
+        "accuracy": 0.9564164648910412,
+        "total": 826
+      },
+      {
+        "country": "Barbados",
+        "accuracy": 0.9555555555555556,
+        "total": 1035
+      },
+      {
+        "country": "Sierra Leone",
+        "accuracy": 0.9543773119605425,
+        "total": 811
+      },
+      {
+        "country": "Bahamas",
+        "accuracy": 0.9520613614573347,
+        "total": 1043
+      },
+      {
+        "country": "Madagascar",
+        "accuracy": 0.9515738498789347,
+        "total": 826
+      },
+      {
+        "country": "Chile",
+        "accuracy": 0.9497206703910615,
+        "total": 1074
+      },
+      {
+        "country": "Dominica",
+        "accuracy": 0.9484375,
+        "total": 640
+      },
+      {
+        "country": "Senegal",
+        "accuracy": 0.946257197696737,
+        "total": 1042
+      },
+      {
+        "country": "Costa Rica",
+        "accuracy": 0.9459962756052142,
+        "total": 1074
+      },
+      {
+        "country": "Dominican Republic",
+        "accuracy": 0.9457436856875585,
+        "total": 1069
+      },
+      {
+        "country": "Gambia",
+        "accuracy": 0.9450072358900145,
+        "total": 691
+      },
+      {
+        "country": "Tunisia",
+        "accuracy": 0.944603629417383,
+        "total": 1047
+      }
+    ],
+    "leastPredictable": [
+      {
+        "country": "Netherlands",
+        "accuracy": 0.6098696461824954,
+        "total": 1074
+      },
+      {
+        "country": "Albania",
+        "accuracy": 0.6092278719397364,
+        "total": 1062
+      },
+      {
+        "country": "Romania",
+        "accuracy": 0.6076421248835042,
+        "total": 1073
+      },
+      {
+        "country": "Monaco",
+        "accuracy": 0.6067864271457086,
+        "total": 1002
+      },
+      {
+        "country": "Georgia",
+        "accuracy": 0.6066212268743915,
+        "total": 1027
+      },
+      {
+        "country": "Poland",
+        "accuracy": 0.6059479553903345,
+        "total": 1076
+      },
+      {
+        "country": "Hungary",
+        "accuracy": 0.6035447761194029,
+        "total": 1072
+      },
+      {
+        "country": "Latvia",
+        "accuracy": 0.6026119402985075,
+        "total": 1072
+      },
+      {
+        "country": "Lithuania",
+        "accuracy": 0.6022304832713755,
+        "total": 1076
+      },
+      {
+        "country": "Czechia",
+        "accuracy": 0.6018604651162791,
+        "total": 1075
+      },
+      {
+        "country": "South Sudan",
+        "accuracy": 0.5819397993311036,
+        "total": 299
+      },
+      {
+        "country": "Nauru",
+        "accuracy": 0.562152133580705,
+        "total": 539
+      },
+      {
+        "country": "United Kingdom",
+        "accuracy": 0.5116713352007469,
+        "total": 1071
+      },
+      {
+        "country": "Australia",
+        "accuracy": 0.5074349442379182,
+        "total": 1076
+      },
+      {
+        "country": "France",
+        "accuracy": 0.5069767441860465,
+        "total": 1075
+      },
+      {
+        "country": "Marshall Islands",
+        "accuracy": 0.47261009667024706,
+        "total": 931
+      },
+      {
+        "country": "Canada",
+        "accuracy": 0.46921641791044777,
+        "total": 1072
+      },
+      {
+        "country": "Palau",
+        "accuracy": 0.42637362637362636,
+        "total": 910
+      },
+      {
+        "country": "United States",
+        "accuracy": 0.271455223880597,
+        "total": 1072
+      },
+      {
+        "country": "Israel",
+        "accuracy": 0.20566037735849058,
+        "total": 1060
+      }
+    ]
+  },
+  "featureAblation": [
+    {
+      "featureSet": "Ideal Point (feature 0)",
+      "accuracy": 0.7802611752887996,
+      "delta": -0.0022099447513812542
+    },
+    {
+      "featureSet": "Democracy Index (feature 1)",
+      "accuracy": 0.7826720241084882,
+      "delta": 0.00020090406830741703
+    },
+    {
+      "featureSet": "Policy Dimensions (features 2-7)",
+      "accuracy": 0.7802611752887996,
+      "delta": -0.0022099447513812542
+    },
+    {
+      "featureSet": "Region one-hot (features 8-12)",
+      "accuracy": 0.7813661476644902,
+      "delta": -0.0011049723756906271
+    },
+    {
+      "featureSet": "Issue one-hot (features 13-18)",
+      "accuracy": 0.7826720241084882,
+      "delta": 0.00020090406830741703
+    },
+    {
+      "featureSet": "Topic History (features 19-21)",
+      "accuracy": 0.7825715720743345,
+      "delta": 0.000100452034153653
+    },
+    {
+      "featureSet": "Peer Signal (feature 22)",
+      "accuracy": 0.7802611752887996,
+      "delta": -0.0022099447513812542
+    }
+  ],
+  "baselines": {
+    "random": 0.3333333333333333,
+    "majorityClass": 0.7802611752887996,
+    "idealPointOnly": 0.7802611752887996,
+    "fullModel": 0.7824711200401808
+  },
+  "calibration": [
+    {
+      "bucketMin": 0,
+      "bucketMax": 10,
+      "avgConfidence": 0.372852074855892,
+      "actualAccuracy": 0.15818181818181817,
+      "count": 550
+    },
+    {
+      "bucketMin": 10,
+      "bucketMax": 20,
+      "avgConfidence": 0.4621361037522746,
+      "actualAccuracy": 0.2667509481668774,
+      "count": 1582
+    },
+    {
+      "bucketMin": 20,
+      "bucketMax": 30,
+      "avgConfidence": 0.5860732151202315,
+      "actualAccuracy": 0.41171534071836186,
+      "count": 5958
+    },
+    {
+      "bucketMin": 30,
+      "bucketMax": 40,
+      "avgConfidence": 0.6556997654160833,
+      "actualAccuracy": 0.547105418387124,
+      "count": 23734
+    },
+    {
+      "bucketMin": 40,
+      "bucketMax": 50,
+      "avgConfidence": 0.7364603252488076,
+      "actualAccuracy": 0.7318290301583857,
+      "count": 23045
+    },
+    {
+      "bucketMin": 50,
+      "bucketMax": 60,
+      "avgConfidence": 0.8589629106703246,
+      "actualAccuracy": 0.9063551973885545,
+      "count": 117636
+    }
+  ]
+}
