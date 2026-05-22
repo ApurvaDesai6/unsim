@@ -24,10 +24,11 @@ interface ResolutionData {
 }
 
 interface CountryRelationships {
+  country?: Record<string, unknown>;
   allies: { iso3: string; name: string; strength: number }[];
   rivals: { iso3: string; name: string; intensity: number }[];
   blocs: { id: string; name: string; cohesion: number }[];
-  positions: { issue: string; stance: number; confidence: number }[];
+  positions: { issue: string; issueName?: string; stance: number; yesRate?: number; noRate?: number; abstainRate?: number; sampleSize?: number; confidence?: number }[];
 }
 
 function SimulationView() {
@@ -676,6 +677,40 @@ function SimulationView() {
                 <div className="text-[10px] text-[var(--color-muted)]">Prediction Confidence</div>
               </div>
 
+              {/* Grounded Reasoning — WHY this vote */}
+              {countryRelationships && (
+                <div className="p-3 rounded-lg border border-[var(--color-un-blue)]/20 bg-[var(--color-un-blue)]/5">
+                  <h4 className="text-[10px] font-semibold text-[var(--color-un-blue)] uppercase tracking-wide mb-1.5">Why This Vote (Graph-Grounded)</h4>
+                  <p className="text-[11px] text-[var(--color-ink)] leading-relaxed">
+                    {(() => {
+                      const reasons: string[] = [];
+                      const matchedPos = countryRelationships.positions.find((p) =>
+                        selectedVote.factors.some((f) => f.description.includes(p.issueName || p.issue))
+                      ) || countryRelationships.positions[0];
+
+                      if (matchedPos?.yesRate && matchedPos.yesRate > 0.7) {
+                        reasons.push(`Historically votes Yes ${(matchedPos.yesRate * 100).toFixed(0)}% of the time on ${matchedPos.issueName || matchedPos.issue} resolutions (n=${matchedPos.sampleSize}).`);
+                      } else if (matchedPos?.noRate && matchedPos.noRate > 0.5) {
+                        reasons.push(`Historically votes No ${(matchedPos.noRate * 100).toFixed(0)}% of the time on ${matchedPos.issueName || matchedPos.issue} resolutions (n=${matchedPos.sampleSize}).`);
+                      } else if (matchedPos?.abstainRate && matchedPos.abstainRate > 0.25) {
+                        reasons.push(`Frequently abstains (${(matchedPos.abstainRate * 100).toFixed(0)}%) on ${matchedPos.issueName || matchedPos.issue} issues, indicating cross-pressure.`);
+                      }
+
+                      if (countryRelationships.allies.length > 0) {
+                        const topAlly = countryRelationships.allies[0];
+                        reasons.push(`Closest voting partner: ${topAlly.name} (${(topAlly.strength * 100).toFixed(0)}% alignment).`);
+                      }
+
+                      if (countryRelationships.blocs.length > 0) {
+                        reasons.push(`Member of ${countryRelationships.blocs.map((b) => b.name).join(", ")}.`);
+                      }
+
+                      return reasons.join(" ") || "Insufficient historical data for this issue area.";
+                    })()}
+                  </p>
+                </div>
+              )}
+
               {/* KG Relationships */}
               {countryRelationships && (
                 <>
@@ -707,31 +742,31 @@ function SimulationView() {
                   )}
                   {countryRelationships.positions.length > 0 && (
                     <div>
-                      <h4 className="text-[10px] font-semibold text-[var(--color-muted)] uppercase tracking-wide mb-2">Issue Positions (Historical)</h4>
-                      <div className="space-y-1.5">
+                      <h4 className="text-[10px] font-semibold text-[var(--color-muted)] uppercase tracking-wide mb-2">Empirical Voting Record (Evidence)</h4>
+                      <div className="space-y-2.5">
                         {countryRelationships.positions.map((p) => (
-                          <div key={p.issue} className="space-y-0.5">
+                          <div key={p.issue} className="p-2 rounded-lg bg-[var(--color-bg)]/70 space-y-1">
                             <div className="flex justify-between text-[10px]">
-                              <span className="text-[var(--color-muted)] truncate">{p.issue}</span>
-                              <span style={{ fontFamily: "var(--font-mono)", color: p.stance > 0 ? "var(--color-vote-yes)" : "var(--color-vote-no)" }}>
-                                {p.stance > 0 ? "+" : ""}{(p.stance * 100).toFixed(0)}%
-                              </span>
+                              <span className="font-medium text-[var(--color-ink)]">{p.issueName || p.issue}</span>
+                              {p.sampleSize && <span className="text-[var(--color-muted)]" style={{ fontFamily: "var(--font-mono)" }}>n={p.sampleSize}</span>}
                             </div>
-                            <div className="h-1 rounded-full bg-[var(--color-bg)] overflow-hidden relative">
-                              <div className="absolute top-0 bottom-0 left-1/2 w-px bg-[var(--color-border)]" />
-                              <div
-                                className="absolute top-0 h-full rounded-full"
-                                style={{
-                                  left: p.stance >= 0 ? "50%" : `${50 + p.stance * 50}%`,
-                                  width: `${Math.abs(p.stance) * 50}%`,
-                                  background: p.stance > 0 ? "var(--color-vote-yes)" : "var(--color-vote-no)",
-                                  opacity: p.confidence,
-                                }}
-                              />
+                            {/* Evidence bars — show actual rates */}
+                            <div className="flex gap-0.5 h-3 rounded overflow-hidden">
+                              <div style={{ width: `${(p.yesRate || 0) * 100}%`, background: "var(--color-vote-yes)" }} title={`Yes: ${((p.yesRate || 0) * 100).toFixed(0)}%`} />
+                              <div style={{ width: `${(p.abstainRate || 0) * 100}%`, background: "var(--color-vote-abstain)" }} title={`Abstain: ${((p.abstainRate || 0) * 100).toFixed(0)}%`} />
+                              <div style={{ width: `${(p.noRate || 0) * 100}%`, background: "var(--color-vote-no)" }} title={`No: ${((p.noRate || 0) * 100).toFixed(0)}%`} />
+                            </div>
+                            <div className="flex justify-between text-[9px] text-[var(--color-muted)]">
+                              <span>Yes {((p.yesRate || 0) * 100).toFixed(0)}%</span>
+                              <span>Abstain {((p.abstainRate || 0) * 100).toFixed(0)}%</span>
+                              <span>No {((p.noRate || 0) * 100).toFixed(0)}%</span>
                             </div>
                           </div>
                         ))}
                       </div>
+                      <p className="text-[8px] text-[var(--color-muted)] mt-2 italic">
+                        Source: Voeten UNGA Voting Data (Harvard Dataverse doi:10.7910/DVN/LEJUQZ)
+                      </p>
                     </div>
                   )}
                   {countryRelationships.blocs.length > 0 && (
